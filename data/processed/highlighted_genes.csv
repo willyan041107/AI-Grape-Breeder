@@ -1,0 +1,6 @@
+gene_id,short_name,biological_role,why_highlighted
+Vitvi000748,PP2C,"Protein phosphatase involved in stress-signaling regulation","The paper discusses PP2C-type phosphatases as regulators of stress-activated kinase cascades and notes previous links to herbivore defense."
+Vitvi008234,ACO,"Enzyme involved in ethylene biosynthesis","Ethylene is an important phytohormone in plant stress and defense signaling, and this gene was highlighted from the binary-trait GWAS results."
+Vitvi022534,TT15,"Gene associated with flavonoid-related biology","Flavonoids can contribute to plant defense chemistry, and this gene was highlighted from the binary-trait analysis."
+Vitvi031045,CRK3,"Calcium/calmodulin-related protein kinase signaling","The paper highlights CRK3 as a strong defense-related candidate connected to calcium signaling and herbivore-responsive pathways."
+Vitvi021951,ACA12,"Plasma-membrane calcium-transporting ATPase","The paper links the ACA12 region to calcium homeostasis and herbivore defense responses."

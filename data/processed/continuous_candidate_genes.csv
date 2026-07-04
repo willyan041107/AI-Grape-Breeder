@@ -1,0 +1,86 @@
+row_number,gene_id,chromosome,qtl_region,trait_type,annotation_raw
+1,Vitvi000746,1,C1,Continuous phenotype,PF00657 GDSL-like Lipase/Acylhydrolase IPR001087 GDSL lipase/esterase GO:0016788 Q9LIN2 At3g26430 F20C19.19
+2,Vitvi000747,1,C1,Continuous phenotype,"PF05910 Plant protein of unknown function (DUF868)IPR008586 Protein of unknown function DUF868, plant - - -"
+3,Vitvi000748,1,C1,Continuous phenotype,PF00481 Protein phosphatase 2C IPR001932 PPM-type phosphatase domain GO:0016791 Q9FXE4 At1g67820 F12A21.5
+4,Vitvi000749,1,C1,Continuous phenotype,Coil Coil - - - F4HVG8 CSK At1g67840 F12A21.3
+5,Vitvi000767,1,C3,Continuous phenotype,PF01554 MatE IPR002528 Multi antimicrobial extrusion protein GO:0015297|GOQ:030819650620|GOD:T0X042299 A10t3|Gg2O6:509005 5M08F5E16.12
+6,Vitvi000768,1,C3,Continuous phenotype,PF01554 MatE IPR002528 Multi antimicrobial extrusion protein GO:0015297|GOQ:030819650620|GOD:T0X042299 A10t3|Gg2O6:509005 5M08F5E16.12
+7,Vitvi000861,1,C4,Continuous phenotype,PF01398 JAB1/Mov34/MPN/PAD-1 ubiquitin proteasIePR000555 JAB1/MPN/MOV34 metalloenzyme domain GO:0005515|GOQ:060N7K01P292|GOA:M01S4H024 9A2t1g10600 F20B24.2 T10O24.25
+8,Vitvi000862,1,C4,Continuous phenotype,PF00484 Carbonic anhydrase IPR001765 Carbonic anhydrase GO:0004089|GOP:020701842170 -
+9,Vitvi002384,2,C5,Continuous phenotype,PF00575 S1 RNA binding domain IPR003029 S1 domain GO:0003676 - -
+10,Vitvi002385,2,C5,Continuous phenotype,"PF00412 LIM domain IPR001781 Zinc finger, LIM-type - O04193 WLIN2A WLIM2 At2g39900 T28M21.6"
+11,Vitvi002392,2,C6,Continuous phenotype,PF01429 Methyl-CpG binding domain IPR001739 Methyl-CpG DNA binding GO:0003677 Q9LTJ8 MBD13 At5g52230 F17P19.13
+12,Vitvi002393,2,C6,Continuous phenotype,- - - - - P10978 -
+13,Vitvi002441,2,C7,Continuous phenotype,PF01554 MatE IPR002528 Multi antimicrobial extrusion protein GO:0015297|GOO:080217650220|GOD:T0X044299 N10IC|G1O A:0t40g5253008350 F7H19.220
+14,Vitvi002442,2,C7,Continuous phenotype,PF00847 AP2 domain IPR001471 AP2/ERF domain GO:0003700|GOQ:090C0A63N595 ERF026 At1g63040 F16M19.1 F16P17.21
+15,Vitvi002475,2,C8,Continuous phenotype,Coil Coil - - - Q9FLI1 BHLH36 EN6 At5g51780 MIO24.9
+16,Vitvi002476,2,C8,Continuous phenotype,PF04146 YT521-B-like domain IPR007275 YTH domain GO:0003723 Q0DA50 Os06g0677700 LOC_Os06g46400 B1153E06.24 P0710B08.18
+17,Vitvi002477,2,C8,Continuous phenotype,PF13966 zinc-binding in reverse transcriptase IPR026960 Reverse transcriptase zinc-binding domain - - -
+18,Vitvi002478,2,C8,Continuous phenotype,PF00078 Reverse transcriptase (RNA-dependent DNAI PpRol0y0m0e4r7as7e)Reverse transcriptase domain - P92555 AtMg01250; At2g07697
+19,Vitvi002479,2,C8,Continuous phenotype,PF00078 Reverse transcriptase (RNA-dependent DNAI PpRol0y0m0e4r7as7e)Reverse transcriptase domain - P14381 -
+20,Vitvi002480,2,C8,Continuous phenotype,- - - - - - -
+21,Vitvi002481,2,C8,Continuous phenotype,PF14111 Domain of unknown function (DUF4283) IPR025558 Domain of unknown function DUF4283 - - -
+22,Vitvi002503,2,C9,Continuous phenotype,"PF00155 Aminotransferase class I and II IPR004839 Aminotransferase, class I/classII GO:0009058|GOQ:090L3Q011700 ACS10 At1g62960 F16P17.11"
+23,Vitvi002504,2,C9,Continuous phenotype,PF13855 Leucine rich repeat IPR001611 Leucine-rich repeat GO:0005515 C0LGE4 At1g12460 F5O11.21 T12C24.1
+24,Vitvi002505,2,C9,Continuous phenotype,PF09335 SNARE associated Golgi protein IPR032816 SNARE associated Golgi protein - - -
+25,Vitvi002522,2,C10,Continuous phenotype,PF04116 Fatty acid hydroxylase superfamily IPR006694 Fatty acid hydroxylase GO:0005506|GOQ:080L078W6150|GOSM:0O0116-149 A1t4g12110 F16J13.180
+26,Vitvi002523,2,C10,Continuous phenotype,- - - - - - -
+27,Vitvi002560,2,C11,Continuous phenotype,PF14368 Probable lipid transfer IPR016140 Bifunctional inhibitor/plant lipid transfer protein/seed storage helical domain - Q7EB72 LTPG15 XYLP11 XYP7 At2g48130 F11L15.3
+28,Vitvi002561,2,C11,Continuous phenotype,- - - - - - -
+29,Vitvi002562,2,C11,Continuous phenotype,PF04043 Plant invertase/pectin methylesterase inhibitoIrPR006501 Pectinesterase inhibitor domain GO:0004857 Q9SI72 PMEI9 At1g62770 F23N19.14
+30,Vitvi002563,2,C11,Continuous phenotype,PF04043 Plant invertase/pectin methylesterase inhibitoIrPR006501 Pectinesterase inhibitor domain GO:0004857 P17407 -
+31,Vitvi004218,3,C12,Continuous phenotype,"PF09333 Autophagy-related protein C terminal domainIPR015412 Autophagy-related, C-terminal - F8S296 ATG2 APG2 PEUP1 At3g19190 MVI11.10/MVI11.11"
+32,Vitvi004651,3,C13,Continuous phenotype,- - - - - - -
+33,Vitvi004652,3,C13,Continuous phenotype,PF00118 TCP-1/cpn60 chaperonin family IPR002423 Chaperonin Cpn60/GroEL/TCP-1 family GO:0005524|GOQ:08041W68V817 CCT3 At5g26360 F9D12.18
+34,Vitvi008421,5,C15,Continuous phenotype,PF03109 ABC1 atypical kinase-like domain IPR004147 ABC1 atypical kinase-like domain - Q55680 sll0005
+35,Vitvi010601,6,C16,Continuous phenotype,PF03732 Retrotransposon gag protein IPR005162 Retrotransposon gag domain - - -
+36,Vitvi010602,6,C16,Continuous phenotype,PF14111 Domain of unknown function (DUF4283) IPR025558 Domain of unknown function DUF4283 - - -
+37,Vitvi010603,6,C16,Continuous phenotype,Coil Coil - - - P14381 -
+38,Vitvi010614,6,C17,Continuous phenotype,PF12776 Myb/SANT-like DNA-binding domain IPR024752 Myb/SANT-like domain - - -
+39,Vitvi010615,6,C17,Continuous phenotype,"PF03953 Tubulin C-terminal domain IPR018316 Tubulin/FtsZ, 2-layer sandwich domain - P45960 TUBB4 OSTB-16 R1623 RTUB-1 TUB4 Os01g0805900 LOC_Os01g59150 P0034E02.62"
+40,Vitvi011215,7,C18,Continuous phenotype,PF01257 Thioredoxin-like [2Fe-2S] ferredoxin - - - O22769 At4g02580 T10P11.14
+41,Vitvi011217,7,C18,Continuous phenotype,"PF00010 Helix-loop-helix DNA-binding domain IPR011598 Myc-type, basic helix-loop-helix (bHLH) domain GO:0046983 O22768 UNE12 BHLH59 EN93 At4g02590 T10P11.13"
+42,Vitvi011218,7,C18,Continuous phenotype,"PF00290 Tryptophan synthase alpha chain IPR002028 Tryptophan synthase, alpha chain GO:0004834|GOQ:040205625968 TSA1 TRP3 TSA2 At3g54640 T14E10.210"
+43,Vitvi012725,7,C19,Continuous phenotype,PF05739 SNARE domain IPR000727 Target SNARE coiled-coil homology domain - Q9SA23 SYP51 At1g16240 F3O9.4
+44,Vitvi012726,7,C19,Continuous phenotype,PF13966 zinc-binding in reverse transcriptase IPR026960 Reverse transcriptase zinc-binding domain - - -
+45,Vitvi012749,7,C20,Continuous phenotype,Coil Coil - - - - -
+46,Vitvi015004,8,C21,Continuous phenotype,- - - - - - -
+47,Vitvi015005,8,C21,Continuous phenotype,- - - - - - -
+48,Vitvi015008,8,C22,Continuous phenotype,- - - - - - -
+49,Vitvi017348,9,C23,Continuous phenotype,"PF08263 Leucine rich repeat N-terminal domain IPR013210 Leucine-rich repeat-containing N-terminal, plant-type - Q9LJY0 PRK4 PRKA At3g20190 MAL21.21"
+50,Vitvi017349,9,C23,Continuous phenotype,PF12708 Pectate lyase superfamily protein IPR024535 Pectate lyase superfamily protein - O49432 QRT3 At4g20050 F18F4.150
+51,Vitvi017350,9,C23,Continuous phenotype,"PF13249 Squalene-hopene cyclase N-terminal domainIPR032697 Squalene cyclase, N-terminal - Q8W3Z4 CASBPX1"
+52,Vitvi017414,9,C24,Continuous phenotype,PF17921 Integrase zinc binding domain IPR041588 Integrase zinc-binding domain - P0CT42 Tf2-7 SPAC13D1.01c
+53,Vitvi017415,9,C24,Continuous phenotype,- - - - - - -
+54,Vitvi017416,9,C24,Continuous phenotype,- - - - - - -
+55,Vitvi021811,12,C25,Continuous phenotype,PF08387 FBD IPR006566 FBD domain - Q9ZR09 At4g03220 F4C21.15
+56,Vitvi021812,12,C25,Continuous phenotype,PF03321 GH3 auxin-responsive promoter IPR004993 GH3 family - Q9LSQ4 GH3.6 DFL1 At5g54510 F24B18.13
+57,Vitvi021813,12,C25,Continuous phenotype,PF13833 EF-hand domain pair IPR002048 EF-hand domain GO:0005509 O81831 KRP1 At4g27280 M4I22.90
+58,Vitvi021951,12,C26,Continuous phenotype,"PF00689 Cation transporting ATPase, C-terminus IPR006068 Cation-transporting P-type ATPase, C-terminal - Q9LY77 ACA12 At3g63380 MAA21_10"
+59,Vitvi021952,12,C26,Continuous phenotype,"PF00689 Cation transporting ATPase, C-terminus IPR006068 Cation-transporting P-type ATPase, C-terminal - Q9LY77 ACA12 At3g63380 MAA21_10"
+60,Vitvi021953,12,C26,Continuous phenotype,"PF00689 Cation transporting ATPase, C-terminus IPR006068 Cation-transporting P-type ATPase, C-terminal - Q9LY77 ACA12 At3g63380 MAA21_10"
+61,Vitvi021954,12,C26,Continuous phenotype,PF00560 Leucine Rich Repeat IPR001611 Leucine-rich repeat GO:0005515 Q9C637 RLP6 At1g45616 F2G19.6
+62,Vitvi021955,12,C26,Continuous phenotype,PF14223 gag-polypeptide of LTR copia-type - - - Q94HW2 RE1 RF12 RF28 At1g58889 R18I; RE1 At1g59265 T4M14.18
+63,Vitvi024368,13,C27,Continuous phenotype,PF00078 Reverse transcriptase (RNA-dependent DNAI PpRol0y0m0e4r7as7e)Reverse transcriptase domain - P92555 AtMg01250; At2g07697
+64,Vitvi024369,13,C27,Continuous phenotype,"PF10453 Nuclear fragile X mental retardation-interactIiPngR 0p1ro9t4e9in6 1 (NNuUcFleIPar1 )fragile X mental retardation-interacting protein 1, conserved domain - - -"
+65,Vitvi028358,15,C28,Continuous phenotype,"PF04570 zinc-finger of the FCS-type, C2-C2 IPR007650 Zf-FLZ domain - O80506 FLZ3 DUF581-9 At2g44670 F16B22.16"
+66,Vitvi028769,15,C29,Continuous phenotype,PF00847 AP2 domain IPR001471 AP2/ERF domain GO:0003700|GOP:090209663655 RS41 RSP41 At5g52040 MSG15.12
+67,Vitvi028770,15,C29,Continuous phenotype,Coil Coil - - - - -
+68,Vitvi028771,15,C29,Continuous phenotype,PF05648 Peroxisomal biogenesis factor 11 (PEX11) IPR008733 Peroxisomal biogenesis factor 11 GO:0005779|GOQ:090L1Q657539 PEX11C PEX11-1 At1g01820 T1N6.24
+69,Vitvi029126,15,C30,Continuous phenotype,Coil Coil - - - Q0WWX5 PRD3 At1g01690 T1N6.6
+70,Vitvi029127,15,C30,Continuous phenotype,Coil Coil - - - F4HSD5 TRM32 At1g07620 F24B9.32
+71,Vitvi031037,16,C31,Continuous phenotype,"PF00076 RNA recognition motif. (a.k.a. RRM, RBD, IoPr RR0N0P0 5d0o4maiRn)NA recognition motif domain GO:0003723 Q9M1S3 ARP1 At3g54770 T5N23.130"
+72,Vitvi031038,16,C31,Continuous phenotype,PF14009 PADRE domain IPR025322 PADRE domain - - -
+73,Vitvi031039,16,C31,Continuous phenotype,PF00011 Hsp20/alpha crystallin family IPR002068 Alpha crystallin/Hsp20 domain - Q95661 HSP21 TOM111
+74,Vitvi031040,16,C31,Continuous phenotype,PF13178 Protein of unknown function (DUF4005) IPR025064 Domain of unknown function DUF4005 - Q9MAM4 IQD18 At1g01110 T25K16.10
+75,Vitvi031041,16,C31,Continuous phenotype,PF08879 WRC IPR014977 WRC domain - Q9FJB8 GRF7 At5g53660 MNC6.20
+76,Vitvi031043,16,C32,Continuous phenotype,"PF05030 SSXT protein (N-terminal region) IPR007726 SS18, N-terminal - Q9MAL9 GIF2 At1g01160 F6F3_1 T25K16.15"
+77,Vitvi031044,16,C32,Continuous phenotype,Coil Coil - - - - -
+78,Vitvi031045,16,C32,Continuous phenotype,PF00069 Protein kinase domain IPR000719 Protein kinase domain GO:0004672|GOQ:090Z0U55Z224|GOC:R0K0036 C46aM8K4 CK At2g46700 T3A4.8
+79,Vitvi031046,16,C32,Continuous phenotype,PF02519 Auxin responsive protein IPR003676 Small auxin-up RNA GO:0009733 Q9ZUZ3 SAUR32 AAM1 At2g46690
+80,Vitvi031047,16,C33,Continuous phenotype,- - - - - - -
+81,Vitvi033967,18,C34,Continuous phenotype,PF00657 GDSL-like Lipase/Acylhydrolase IPR001087 GDSL lipase/esterase GO:0016788 Q94CH6 EXL3 At1g75900 T4O12.13
+82,Vitvi034002,18,C35,Continuous phenotype,"PF00438 S-adenosylmethionine synthetase, N-terminalI PdRom02a2in628 S-adenosylmethionine synthetase, N-terminal GO:0004478|GOQ:090F0P6L5656 METK2"
+83,Vitvi034003,18,C35,Continuous phenotype,"PF00438 S-adenosylmethionine synthetase, N-terminalI PdRom02a2in628 S-adenosylmethionine synthetase, N-terminal GO:0004478|GOA:070Q006V5546 METK5 GSVIVT00028192001 LOC100243560"
+84,Vitvi034004,18,C35,Continuous phenotype,Coil Coil - - - - -
+85,Vitvi034587,18,C36,Continuous phenotype,PF00847 AP2 domain IPR001471 AP2/ERF domain GO:0003700|GOQ:07000I6I3355 ERF110 At5g50080 MPF21.9

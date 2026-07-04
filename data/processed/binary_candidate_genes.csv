@@ -1,0 +1,68 @@
+row_number,gene_id,chromosome,qtl_region,trait_type,annotation_raw
+1,Vitvi000648,1,B1,Binary phenotype,PF00248 Aldo/keto reductase familyIPR023210 NADP-dependent oxidoreductase domain - Q9SQ64 COR2
+2,Vitvi000649,1,B1,Binary phenotype,PF02519 Auxin responsive protein IPR003676 Small auxin-up RNA GO:0009733 Q9SGU2 SAUR71 At1g56150 F14G9.23 T6H22.5
+3,Vitvi000650,1,B1,Binary phenotype,PF00248 Aldo/keto reductase familyIPR023210 NADP-dependent oxidoreductase domain - Q9SQ64 COR2
+4,Vitvi000651,1,B1,Binary phenotype,PF00248 Aldo/keto reductase familyIPR023210 NADP-dependent oxidoreductase domain - Q9SQ64 COR2
+5,Vitvi000729,1,B2,Binary phenotype,"PF15862 Coilin N-terminus IPR031722 Coilin, N-terminal domain - Q8RWK8 COIL At1g13030 F3F19.5"
+6,Vitvi000730,1,B2,Binary phenotype,PF01165 Ribosomal protein S21 IPR001911 Ribosomal protein S21 GO:0003735|GO:0-005840|GO:00-06412
+7,Vitvi000731,1,B2,Binary phenotype,PF10250 GDP-fucose protein O-fucosIPyRltr0a1n9s3fe7r8ase GDP-fucose protein O-fucosyltransferase - Q9LIN9 PAGR OFUT26 At3g26370 F20C19.9
+8,Vitvi000732,1,B2,Binary phenotype,PF13966 zinc-binding in reverse transIcPrRip0t2as6e960 Reverse transcriptase zinc-binding domain - - -
+9,Vitvi002506,2,B3,Binary phenotype,PF01758 Sodium Bile acid symporterI fPaRm0i0ly2657 Bile acid:sodium symporter/arsenical resistance protein Acr3 GO:0016020 B8BDK4 BASS5 OsI_32074
+10,Vitvi002507,2,B3,Binary phenotype,Coil Coil - - - Q55720 sll0608
+11,Vitvi002508,2,B3,Binary phenotype,PF00078 Reverse transcriptase (RNAI-PdRep0e0n0d4e7n7t DNRAe vpeorlsyem terraanssec)riptase domain - P92555 AtMg01250; At2g07697
+12,Vitvi002509,2,B3,Binary phenotype,Coil Coil - - - F4IG60 ZPR1 At2g45450 F4L23.4
+13,Vitvi002510,2,B3,Binary phenotype,"PF01428 AN1-like Zinc finger IPR000058 Zinc finger, AN1-type GO:0008270 Q6NNI8 SAP1 At1g12440 F5O11.17"
+14,Vitvi004218,3,B4,Binary phenotype,Coil Coil - - - F8S296 ATG2 APG2 PEUP1 At3g19190 MVI11.10/MVI11.11
+15,Vitvi004651,3,B5,Binary phenotype,- - - - - - -
+16,Vitvi004652,3,B5,Binary phenotype,PF00118 TCP-1/cpn60 chaperonin faImPiRly002423 Chaperonin Cpn60/GroEL/TCP-1 family GO:0005524|GO:0Q018648W8V71 CCT3 At5g26360 F9D12.18
+17,Vitvi007599,5,B6,Binary phenotype,PF00481 Protein phosphatase 2C IPR001932 PPM-type phosphatase domain GO:0016791 Q9LUS8 At3g16560 MDC8.3
+18,Vitvi007600,5,B6,Binary phenotype,"PF01411 tRNA synthetases class II (AIP)R018164 Alanyl-tRNA synthetase, class IIc, N-terminal GO:0000166|GO:0O00547871334|GO:00al0a5X5L2 4P|GHO19:060906419"
+19,Vitvi007601,5,B6,Binary phenotype,PF01249 Ribosomal protein S21e IPR001931 Ribosomal protein S21e GO:0003735|GO:0Q0035E894002|GO:00R0P6S42112C At5g27700 T1G16.30
+20,Vitvi007602,5,B6,Binary phenotype,PF05498 Rapid ALkalinization FactoIrP (RR0A0L8F8)01 Rapid ALkalinization Factor - Q8L9P8 RALFL33 At4g15800 dl3940c FCAALL.206
+21,Vitvi008234,5,B7,Binary phenotype,Coil Coil - - - Q84MB3 At1g06620 F12K11.24 F12K11.6
+22,Vitvi008307,5,B8,Binary phenotype,"PF00320 GATA zinc finger IPR000679 Zinc finger, GATA-type GO:0006355|GO:0Q0483L5A6U59 GATA1 At3g24050 F14O13.24"
+23,Vitvi008310,5,B10,Binary phenotype,PF05938 Plant self-incompatibility prIoPtRei0n1 S01264 Plant self-incompatibility S1 - - -
+24,Vitvi008311,5,B11,Binary phenotype,PF14868 Domain of unknown functioInP R(D0U27F9404287) Protein of unknown function DUF4487 - - -
+25,Vitvi008319,5,B12,Binary phenotype,PF14008 Iron/zinc purple acid phosphIPatRas0e2-5li7k3e3 proteIrionn C/zinc purple acid phosphatase-like C-terminal domain - Q6TPH1 PAP23 AT3 At4g13700 F18A5.90
+26,Vitvi008320,5,B12,Binary phenotype,PF00248 Aldo/keto reductase familyIPR023210 NADP-dependent oxidoreductase domain - O23016 KAB1 KV-BETA1 At1g04690 T1G11.6
+27,Vitvi008419,5,B13,Binary phenotype,PF14111 Domain of unknown functioInP R(D0U25F5452883) Domain of unknown function DUF4283 - - -
+28,Vitvi008420,5,B13,Binary phenotype,PF01494 FAD binding domain IPR002938 FAD-binding domain GO:0071949 P25535 ubiI visC b2906 JW2874
+29,Vitvi012987,7,B14,Binary phenotype,"PF02183 Homeobox associated leucinIeP Rzi0p0p3e1r06 Leucine zipper, homeobox-associated GO:0006355|GO:0P04463656685 ATHB-6 At2g22430 F14M13.17"
+30,Vitvi016011,9,B15,Binary phenotype,Coil Coil - - - Q8S3D2 BHLH87 EN121 At3g21330 MHC9.1
+31,Vitvi016012,9,B15,Binary phenotype,PF00069 Protein kinase domain IPR000719 Protein kinase domain GO:0004672|GO:0O00655592244|GO:00A0t624g1698210 F27F23.1
+32,Vitvi016013,9,B15,Binary phenotype,PF12819 Malectin-like domain IPR024788 Malectin-like domain - O65924 At2g19210 F27F23.1
+33,Vitvi017361,9,B16,Binary phenotype,"PF13249 Squalene-hopene cyclase N-ItPerRm0i3n2a6l 9d7omaiSnqualene cyclase, N-terminal - O82140 OSCPNY1 bAS beta-AS PNY1"
+34,Vitvi022404,12,B17,Binary phenotype,- - - - - - -
+35,Vitvi022534,12,B18,Binary phenotype,- - - - - Q9XIG1 UGT80B1 TT15 At1g43620 T10P12.7
+36,Vitvi022542,12,B19,Binary phenotype,PF04842 Plant protein of unknown fuInPcRti0o0n6 (9D2U7F63P9r)otein of unknown function DUF639 - - -
+37,Vitvi022547,12,B19,Binary phenotype,PF00314 Thaumatin family IPR001938 Thaumatin family - Q5DWG1
+38,Vitvi022548,12,B19,Binary phenotype,PF01151 GNS1/SUR4 family IPR002076 ELO family GO:0009922|GO:0Q018660JM215 DDB_G0272012
+39,Vitvi024368,13,B20,Binary phenotype,PF00078 Reverse transcriptase (RNAI-PdRep0e0n0d4e7n7t DNRAe vpeorlsyem terraanssec)riptase domain - P92555 AtMg01250; At2g07697
+40,Vitvi024369,13,B20,Binary phenotype,"PF10453 Nuclear fragile X mental retIaPrdRa0t1io9n4-9in6teracNtiuncgl eparro ftreaing i1le (XN UmFeInPta1l) retardation-interacting protein 1, conserved domai-n - -"
+41,Vitvi028358,15,B21,Binary phenotype,"PF04570 zinc-finger of the FCS-type,I PCR20-C027650 Zf-FLZ domain - O80506 FLZ3 DUF581-9 At2g44670 F16B22.16"
+42,Vitvi028613,15,B22,Binary phenotype,- - - - - - -
+43,Vitvi028614,15,B22,Binary phenotype,Coil Coil - - - F4KGE8 GIL1 At5g58960 K19M22.15
+44,Vitvi028615,15,B22,Binary phenotype,PF04043 Plant invertase/pectin methyIlPeRst0er0a6s5e0 i1nhibiPtoerctinesterase inhibitor domain GO:0004857 P17407
+45,Vitvi028616,15,B22,Binary phenotype,"PF12612 Tubulin folding cofactor D CIP tRer0m22in5a7l7 Tubulin-specific chaperone D, C-terminal - Q8L5R3 TFCD CHO EMB133 TBCD TTN1 At3g60740 T4C21.150"
+46,Vitvi028769,15,B23,Binary phenotype,PF00847 AP2 domain IPR001471 AP2/ERF domain GO:0003700|GO:0P09026936565 RS41 RSP41 At5g52040 MSG15.12
+47,Vitvi028770,15,B23,Binary phenotype,Coil Coil - - - - -
+48,Vitvi028771,15,B23,Binary phenotype,PF05648 Peroxisomal biogenesis factIoPrR 1010 (8P7E3X311)Peroxisomal biogenesis factor 11 GO:0005779|GO:0Q0196L5Q5793 PEX11C PEX11-1 At1g01820 T1N6.24
+49,Vitvi029743,16,B24,Binary phenotype,Coil Coil - - - P93604 LRK10
+50,Vitvi029746,16,B25,Binary phenotype,"PF05057 Putative serine esterase (DUIFP6R7060)7751 Domain of unknown function DUF676, lipase-like - P53118 ROG1 YGL144C"
+51,Vitvi029837,16,B26,Binary phenotype,PF04506 Rft protein IPR007594 RFT1 GO:0006488|GO:0Q015640IV217 rft1 DDB_G0288491
+52,Vitvi029838,16,B26,Binary phenotype,PF14111 Domain of unknown functioInP R(D0U25F5452883) Domain of unknown function DUF4283 - - -
+53,Vitvi029839,16,B26,Binary phenotype,PF13966 zinc-binding in reverse transIcPrRip0t2as6e960 Reverse transcriptase zinc-binding domain - - -
+54,Vitvi029840,16,B26,Binary phenotype,PF00078 Reverse transcriptase (RNAI-PdRep0e0n0d4e7n7t DNRAe vpeorlsyem terraanssec)riptase domain - P92555 AtMg01250; At2g07697
+55,Vitvi029841,16,B26,Binary phenotype,PF00827 Ribosomal L15 IPR000439 Ribosomal protein L15e GO:0003735|GO:0Q0085V8Y4F01|GO:00R0P6L41152B At4g17390 dl4730c FCAALL.32
+56,Vitvi031015,16,B27,Binary phenotype,PF14226 non-haem dioxygenase in mIoPrRph0i2n6e9 s9y2nthesNiso Nn--htaeremmi ndaiolxygenase N-terminal domain - Q9FLV0 DMR6 At5g24530 K18P6.6
+57,Vitvi031016,16,B27,Binary phenotype,Coil Coil - - - Q9XGN1 TTG1 At5g24520 K18P6_4 T31K7.8
+58,Vitvi031045,16,B28,Binary phenotype,PF00069 Protein kinase domain IPR000719 Protein kinase domain GO:0004672|GO:0Q0095Z5U2Z42|GO:00C0R6K436 8CaMK4 CK At2g46700 T3A4.8
+59,Vitvi031046,16,B28,Binary phenotype,PF02519 Auxin responsive protein IPR003676 Small auxin-up RNA GO:0009733 Q9ZUZ3 SAUR32 AAM1 At2g46690
+60,Vitvi031047,16,B28,Binary phenotype,- - - - - - -
+61,Vitvi033812,18,B29,Binary phenotype,PF08246 Cathepsin propeptide inhibiItPorR d0o1m32ai0n1 (I29C)athepsin propeptide inhibitor domain (I29) - Q9FMH8 RD21B At5g43060 MMG4.7
+62,Vitvi033813,18,B29,Binary phenotype,PF10607 CTLH/CRA C-terminal to LIPisRH0 m24o9ti6f4 domCaiTnLH/CRA C-terminal to LisH motif domain - - -
+63,Vitvi034331,18,B30,Binary phenotype,"PF07731 Multicopper oxidase IPR011706 Multicopper oxidase, C-terminal GO:0005507|GO:0Q0196F4Y9719 LAC14 At5g09360 T5E8.160"
+64,Vitvi034332,18,B30,Binary phenotype,Coil Coil - - - - -
+65,Vitvi034587,18,B31,Binary phenotype,PF00847 AP2 domain IPR001471 AP2/ERF domain GO:0003700|GO:0Q007603II535 ERF110 At5g50080 MPF21.9
+66,Vitvi036990,19,B32,Binary phenotype,PF00646 F-box domain IPR001810 F-box domain GO:0005515 Q94B46 At4g14096 dl3085w
+67,Vitvi037434,19,B33,Binary phenotype,"PF00083 Sugar (and other) transporteIrPR005828 Major facilitator, sugar transporter-like GO:0016021|GO:0Q0292S8A5378|GO:00O5C5T0835 3-Oct At1g16390 F3O9.19"

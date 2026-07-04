@@ -1,0 +1,4001 @@
+cv_fold,snp_count,model,score
+1,10,Ridge,0.69
+1,10,Lasso,0.69
+1,10,ElasticNet,0.69
+1,10,Random Forest,0.61
+1,10,SVR,0.68
+1,52,Ridge,0.75
+1,52,Lasso,0.69
+1,52,ElasticNet,0.75
+1,52,Random Forest,0.65
+1,52,SVR,0.77
+1,100,Ridge,0.77
+1,100,Lasso,0.67
+1,100,ElasticNet,0.76
+1,100,Random Forest,0.69
+1,100,SVR,0.77
+1,500,Ridge,0.78
+1,500,Lasso,0.63
+1,500,ElasticNet,0.77
+1,500,Random Forest,0.76
+1,500,SVR,0.83
+1,2000,Ridge,0.73
+1,2000,Lasso,0.61
+1,2000,ElasticNet,0.86
+1,2000,Random Forest,0.72
+1,2000,SVR,0.86
+1,5000,Ridge,0.79
+1,5000,Lasso,0.59
+1,5000,ElasticNet,0.83
+1,5000,Random Forest,0.73
+1,5000,SVR,0.85
+1,10000,Ridge,0.84
+1,10000,Lasso,0.55
+1,10000,ElasticNet,0.85
+1,10000,Random Forest,0.73
+1,10000,SVR,0.87
+1,All,Ridge,0.44
+1,All,Lasso,0.49
+1,All,ElasticNet,0.49
+1,All,Random Forest,0.49
+1,All,SVR,0.53
+2,10,Ridge,0.64
+2,10,Lasso,0.64
+2,10,ElasticNet,0.64
+2,10,Random Forest,0.61
+2,10,SVR,0.64
+2,52,Ridge,0.82
+2,52,Lasso,0.71
+2,52,ElasticNet,0.81
+2,52,Random Forest,0.74
+2,52,SVR,0.8
+2,100,Ridge,0.82
+2,100,Lasso,0.72
+2,100,ElasticNet,0.82
+2,100,Random Forest,0.78
+2,100,SVR,0.8
+2,500,Ridge,0.76
+2,500,Lasso,0.73
+2,500,ElasticNet,0.87
+2,500,Random Forest,0.77
+2,500,SVR,0.88
+2,2000,Ridge,0.73
+2,2000,Lasso,0.68
+2,2000,ElasticNet,0.85
+2,2000,Random Forest,0.76
+2,2000,SVR,0.88
+2,5000,Ridge,0.85
+2,5000,Lasso,0.63
+2,5000,ElasticNet,0.86
+2,5000,Random Forest,0.78
+2,5000,SVR,0.91
+2,10000,Ridge,0.91
+2,10000,Lasso,0.64
+2,10000,ElasticNet,0.9
+2,10000,Random Forest,0.75
+2,10000,SVR,0.93
+2,All,Ridge,0.49
+2,All,Lasso,0.49
+2,All,ElasticNet,0.63
+2,All,Random Forest,0.56
+2,All,SVR,0.49
+3,10,Ridge,0.71
+3,10,Lasso,0.72
+3,10,ElasticNet,0.72
+3,10,Random Forest,0.68
+3,10,SVR,0.73
+3,52,Ridge,0.81
+3,52,Lasso,0.72
+3,52,ElasticNet,0.82
+3,52,Random Forest,0.7
+3,52,SVR,0.77
+3,100,Ridge,0.78
+3,100,Lasso,0.72
+3,100,ElasticNet,0.83
+3,100,Random Forest,0.74
+3,100,SVR,0.74
+3,500,Ridge,0.84
+3,500,Lasso,0.68
+3,500,ElasticNet,0.88
+3,500,Random Forest,0.72
+3,500,SVR,0.86
+3,2000,Ridge,0.64
+3,2000,Lasso,0.7
+3,2000,ElasticNet,0.88
+3,2000,Random Forest,0.76
+3,2000,SVR,0.9
+3,5000,Ridge,0.88
+3,5000,Lasso,0.61
+3,5000,ElasticNet,0.87
+3,5000,Random Forest,0.74
+3,5000,SVR,0.89
+3,10000,Ridge,0.9
+3,10000,Lasso,0.66
+3,10000,ElasticNet,0.88
+3,10000,Random Forest,0.74
+3,10000,SVR,0.92
+3,All,Ridge,0.51
+3,All,Lasso,0.56
+3,All,ElasticNet,0.5
+3,All,Random Forest,0.55
+3,All,SVR,0.55
+4,10,Ridge,0.76
+4,10,Lasso,0.76
+4,10,ElasticNet,0.76
+4,10,Random Forest,0.72
+4,10,SVR,0.78
+4,52,Ridge,0.83
+4,52,Lasso,0.76
+4,52,ElasticNet,0.84
+4,52,Random Forest,0.77
+4,52,SVR,0.77
+4,100,Ridge,0.8
+4,100,Lasso,0.77
+4,100,ElasticNet,0.83
+4,100,Random Forest,0.8
+4,100,SVR,0.78
+4,500,Ridge,0.82
+4,500,Lasso,0.78
+4,500,ElasticNet,0.85
+4,500,Random Forest,0.8
+4,500,SVR,0.85
+4,2000,Ridge,0.61
+4,2000,Lasso,0.75
+4,2000,ElasticNet,0.87
+4,2000,Random Forest,0.79
+4,2000,SVR,0.88
+4,5000,Ridge,0.82
+4,5000,Lasso,0.67
+4,5000,ElasticNet,0.87
+4,5000,Random Forest,0.83
+4,5000,SVR,0.89
+4,10000,Ridge,0.91
+4,10000,Lasso,0.73
+4,10000,ElasticNet,0.91
+4,10000,Random Forest,0.82
+4,10000,SVR,0.92
+4,All,Ridge,0.49
+4,All,Lasso,0.51
+4,All,ElasticNet,0.74
+4,All,Random Forest,0.66
+4,All,SVR,0.6
+5,10,Ridge,0.79
+5,10,Lasso,0.79
+5,10,ElasticNet,0.79
+5,10,Random Forest,0.72
+5,10,SVR,0.78
+5,52,Ridge,0.86
+5,52,Lasso,0.78
+5,52,ElasticNet,0.86
+5,52,Random Forest,0.8
+5,52,SVR,0.81
+5,100,Ridge,0.87
+5,100,Lasso,0.77
+5,100,ElasticNet,0.86
+5,100,Random Forest,0.83
+5,100,SVR,0.88
+5,500,Ridge,0.87
+5,500,Lasso,0.81
+5,500,ElasticNet,0.91
+5,500,Random Forest,0.86
+5,500,SVR,0.91
+5,2000,Ridge,0.71
+5,2000,Lasso,0.76
+5,2000,ElasticNet,0.92
+5,2000,Random Forest,0.83
+5,2000,SVR,0.92
+5,5000,Ridge,0.91
+5,5000,Lasso,0.69
+5,5000,ElasticNet,0.91
+5,5000,Random Forest,0.81
+5,5000,SVR,0.93
+5,10000,Ridge,0.91
+5,10000,Lasso,0.68
+5,10000,ElasticNet,0.9
+5,10000,Random Forest,0.8
+5,10000,SVR,0.94
+5,All,Ridge,0.43
+5,All,Lasso,0.39
+5,All,ElasticNet,0.51
+5,All,Random Forest,0.55
+5,All,SVR,0.51
+6,10,Ridge,0.76
+6,10,Lasso,0.76
+6,10,ElasticNet,0.76
+6,10,Random Forest,0.77
+6,10,SVR,0.77
+6,52,Ridge,0.71
+6,52,Lasso,0.67
+6,52,ElasticNet,0.71
+6,52,Random Forest,0.7
+6,52,SVR,0.65
+6,100,Ridge,0.79
+6,100,Lasso,0.68
+6,100,ElasticNet,0.8
+6,100,Random Forest,0.79
+6,100,SVR,0.77
+6,500,Ridge,0.82
+6,500,Lasso,0.73
+6,500,ElasticNet,0.87
+6,500,Random Forest,0.82
+6,500,SVR,0.88
+6,2000,Ridge,0.7
+6,2000,Lasso,0.71
+6,2000,ElasticNet,0.91
+6,2000,Random Forest,0.78
+6,2000,SVR,0.92
+6,5000,Ridge,0.9
+6,5000,Lasso,0.57
+6,5000,ElasticNet,0.91
+6,5000,Random Forest,0.79
+6,5000,SVR,0.91
+6,10000,Ridge,0.91
+6,10000,Lasso,0.67
+6,10000,ElasticNet,0.89
+6,10000,Random Forest,0.76
+6,10000,SVR,0.93
+6,All,Ridge,0.45
+6,All,Lasso,0.43
+6,All,ElasticNet,0.6
+6,All,Random Forest,0.42
+6,All,SVR,0.49
+7,10,Ridge,0.81
+7,10,Lasso,0.81
+7,10,ElasticNet,0.81
+7,10,Random Forest,0.76
+7,10,SVR,0.81
+7,52,Ridge,0.84
+7,52,Lasso,0.75
+7,52,ElasticNet,0.85
+7,52,Random Forest,0.78
+7,52,SVR,0.83
+7,100,Ridge,0.86
+7,100,Lasso,0.73
+7,100,ElasticNet,0.87
+7,100,Random Forest,0.83
+7,100,SVR,0.83
+7,500,Ridge,0.87
+7,500,Lasso,0.77
+7,500,ElasticNet,0.9
+7,500,Random Forest,0.84
+7,500,SVR,0.87
+7,2000,Ridge,0.6
+7,2000,Lasso,0.8
+7,2000,ElasticNet,0.9
+7,2000,Random Forest,0.82
+7,2000,SVR,0.93
+7,5000,Ridge,0.9
+7,5000,Lasso,0.73
+7,5000,ElasticNet,0.93
+7,5000,Random Forest,0.85
+7,5000,SVR,0.94
+7,10000,Ridge,0.91
+7,10000,Lasso,0.73
+7,10000,ElasticNet,0.91
+7,10000,Random Forest,0.85
+7,10000,SVR,0.93
+7,All,Ridge,0.61
+7,All,Lasso,0.57
+7,All,ElasticNet,0.49
+7,All,Random Forest,0.59
+7,All,SVR,0.61
+8,10,Ridge,0.67
+8,10,Lasso,0.64
+8,10,ElasticNet,0.68
+8,10,Random Forest,0.61
+8,10,SVR,0.67
+8,52,Ridge,0.79
+8,52,Lasso,0.74
+8,52,ElasticNet,0.81
+8,52,Random Forest,0.72
+8,52,SVR,0.77
+8,100,Ridge,0.83
+8,100,Lasso,0.74
+8,100,ElasticNet,0.84
+8,100,Random Forest,0.75
+8,100,SVR,0.81
+8,500,Ridge,0.76
+8,500,Lasso,0.73
+8,500,ElasticNet,0.85
+8,500,Random Forest,0.76
+8,500,SVR,0.84
+8,2000,Ridge,0.82
+8,2000,Lasso,0.68
+8,2000,ElasticNet,0.88
+8,2000,Random Forest,0.73
+8,2000,SVR,0.89
+8,5000,Ridge,0.87
+8,5000,Lasso,0.59
+8,5000,ElasticNet,0.86
+8,5000,Random Forest,0.77
+8,5000,SVR,0.89
+8,10000,Ridge,0.87
+8,10000,Lasso,0.54
+8,10000,ElasticNet,0.88
+8,10000,Random Forest,0.72
+8,10000,SVR,0.89
+8,All,Ridge,0.35
+8,All,Lasso,0.45
+8,All,ElasticNet,0.45
+8,All,Random Forest,0.46
+8,All,SVR,0.38
+9,10,Ridge,0.64
+9,10,Lasso,0.59
+9,10,ElasticNet,0.63
+9,10,Random Forest,0.6
+9,10,SVR,0.65
+9,52,Ridge,0.78
+9,52,Lasso,0.61
+9,52,ElasticNet,0.77
+9,52,Random Forest,0.66
+9,52,SVR,0.81
+9,100,Ridge,0.78
+9,100,Lasso,0.63
+9,100,ElasticNet,0.77
+9,100,Random Forest,0.63
+9,100,SVR,0.77
+9,500,Ridge,0.82
+9,500,Lasso,0.56
+9,500,ElasticNet,0.81
+9,500,Random Forest,0.64
+9,500,SVR,0.85
+9,2000,Ridge,0.66
+9,2000,Lasso,0.58
+9,2000,ElasticNet,0.82
+9,2000,Random Forest,0.56
+9,2000,SVR,0.86
+9,5000,Ridge,0.85
+9,5000,Lasso,0.51
+9,5000,ElasticNet,0.8
+9,5000,Random Forest,0.51
+9,5000,SVR,0.87
+9,10000,Ridge,0.86
+9,10000,Lasso,0.5
+9,10000,ElasticNet,0.84
+9,10000,Random Forest,0.54
+9,10000,SVR,0.88
+9,All,Ridge,0.29
+9,All,Lasso,0.27
+9,All,ElasticNet,0.5
+9,All,Random Forest,0.27
+9,All,SVR,0.34
+10,10,Ridge,0.72
+10,10,Lasso,0.74
+10,10,ElasticNet,0.74
+10,10,Random Forest,0.64
+10,10,SVR,0.72
+10,52,Ridge,0.76
+10,52,Lasso,0.68
+10,52,ElasticNet,0.79
+10,52,Random Forest,0.75
+10,52,SVR,0.76
+10,100,Ridge,0.77
+10,100,Lasso,0.68
+10,100,ElasticNet,0.81
+10,100,Random Forest,0.78
+10,100,SVR,0.76
+10,500,Ridge,0.82
+10,500,Lasso,0.69
+10,500,ElasticNet,0.9
+10,500,Random Forest,0.84
+10,500,SVR,0.87
+10,2000,Ridge,0.61
+10,2000,Lasso,0.67
+10,2000,ElasticNet,0.89
+10,2000,Random Forest,0.83
+10,2000,SVR,0.91
+10,5000,Ridge,0.9
+10,5000,Lasso,0.68
+10,5000,ElasticNet,0.92
+10,5000,Random Forest,0.82
+10,5000,SVR,0.93
+10,10000,Ridge,0.9
+10,10000,Lasso,0.65
+10,10000,ElasticNet,0.88
+10,10000,Random Forest,0.82
+10,10000,SVR,0.93
+10,All,Ridge,0.55
+10,All,Lasso,0.48
+10,All,ElasticNet,0.57
+10,All,Random Forest,0.61
+10,All,SVR,0.58
+11,10,Ridge,0.61
+11,10,Lasso,0.62
+11,10,ElasticNet,0.61
+11,10,Random Forest,0.61
+11,10,SVR,0.59
+11,52,Ridge,0.76
+11,52,Lasso,0.61
+11,52,ElasticNet,0.75
+11,52,Random Forest,0.68
+11,52,SVR,0.74
+11,100,Ridge,0.79
+11,100,Lasso,0.6
+11,100,ElasticNet,0.78
+11,100,Random Forest,0.72
+11,100,SVR,0.74
+11,500,Ridge,0.79
+11,500,Lasso,0.66
+11,500,ElasticNet,0.85
+11,500,Random Forest,0.74
+11,500,SVR,0.86
+11,2000,Ridge,0.71
+11,2000,Lasso,0.72
+11,2000,ElasticNet,0.9
+11,2000,Random Forest,0.75
+11,2000,SVR,0.92
+11,5000,Ridge,0.91
+11,5000,Lasso,0.55
+11,5000,ElasticNet,0.88
+11,5000,Random Forest,0.77
+11,5000,SVR,0.92
+11,10000,Ridge,0.9
+11,10000,Lasso,0.6
+11,10000,ElasticNet,0.88
+11,10000,Random Forest,0.74
+11,10000,SVR,0.93
+11,All,Ridge,0.41
+11,All,Lasso,0.39
+11,All,ElasticNet,0.44
+11,All,Random Forest,0.44
+11,All,SVR,0.42
+12,10,Ridge,0.83
+12,10,Lasso,0.82
+12,10,ElasticNet,0.83
+12,10,Random Forest,0.83
+12,10,SVR,0.83
+12,52,Ridge,0.84
+12,52,Lasso,0.76
+12,52,ElasticNet,0.87
+12,52,Random Forest,0.83
+12,52,SVR,0.82
+12,100,Ridge,0.86
+12,100,Lasso,0.75
+12,100,ElasticNet,0.89
+12,100,Random Forest,0.85
+12,100,SVR,0.83
+12,500,Ridge,0.68
+12,500,Lasso,0.8
+12,500,ElasticNet,0.89
+12,500,Random Forest,0.9
+12,500,SVR,0.86
+12,2000,Ridge,0.77
+12,2000,Lasso,0.82
+12,2000,ElasticNet,0.95
+12,2000,Random Forest,0.88
+12,2000,SVR,0.95
+12,5000,Ridge,0.92
+12,5000,Lasso,0.76
+12,5000,ElasticNet,0.92
+12,5000,Random Forest,0.89
+12,5000,SVR,0.95
+12,10000,Ridge,0.92
+12,10000,Lasso,0.75
+12,10000,ElasticNet,0.91
+12,10000,Random Forest,0.88
+12,10000,SVR,0.95
+12,All,Ridge,0.62
+12,All,Lasso,0.6
+12,All,ElasticNet,0.5
+12,All,Random Forest,0.73
+12,All,SVR,0.63
+13,10,Ridge,0.75
+13,10,Lasso,0.71
+13,10,ElasticNet,0.75
+13,10,Random Forest,0.68
+13,10,SVR,0.72
+13,52,Ridge,0.88
+13,52,Lasso,0.83
+13,52,ElasticNet,0.88
+13,52,Random Forest,0.78
+13,52,SVR,0.87
+13,100,Ridge,0.89
+13,100,Lasso,0.83
+13,100,ElasticNet,0.89
+13,100,Random Forest,0.81
+13,100,SVR,0.88
+13,500,Ridge,0.82
+13,500,Lasso,0.78
+13,500,ElasticNet,0.87
+13,500,Random Forest,0.82
+13,500,SVR,0.87
+13,2000,Ridge,0.62
+13,2000,Lasso,0.78
+13,2000,ElasticNet,0.88
+13,2000,Random Forest,0.8
+13,2000,SVR,0.9
+13,5000,Ridge,0.85
+13,5000,Lasso,0.74
+13,5000,ElasticNet,0.86
+13,5000,Random Forest,0.81
+13,5000,SVR,0.91
+13,10000,Ridge,0.88
+13,10000,Lasso,0.73
+13,10000,ElasticNet,0.89
+13,10000,Random Forest,0.82
+13,10000,SVR,0.92
+13,All,Ridge,0.53
+13,All,Lasso,0.52
+13,All,ElasticNet,0.39
+13,All,Random Forest,0.57
+13,All,SVR,0.56
+14,10,Ridge,0.66
+14,10,Lasso,0.66
+14,10,ElasticNet,0.66
+14,10,Random Forest,0.54
+14,10,SVR,0.66
+14,52,Ridge,0.7
+14,52,Lasso,0.7
+14,52,ElasticNet,0.7
+14,52,Random Forest,0.62
+14,52,SVR,0.71
+14,100,Ridge,0.76
+14,100,Lasso,0.71
+14,100,ElasticNet,0.77
+14,100,Random Forest,0.72
+14,100,SVR,0.7
+14,500,Ridge,0.75
+14,500,Lasso,0.67
+14,500,ElasticNet,0.84
+14,500,Random Forest,0.77
+14,500,SVR,0.83
+14,2000,Ridge,0.66
+14,2000,Lasso,0.67
+14,2000,ElasticNet,0.84
+14,2000,Random Forest,0.73
+14,2000,SVR,0.86
+14,5000,Ridge,0.83
+14,5000,Lasso,0.58
+14,5000,ElasticNet,0.82
+14,5000,Random Forest,0.72
+14,5000,SVR,0.88
+14,10000,Ridge,0.88
+14,10000,Lasso,0.6
+14,10000,ElasticNet,0.89
+14,10000,Random Forest,0.77
+14,10000,SVR,0.9
+14,All,Ridge,0.42
+14,All,Lasso,0.48
+14,All,ElasticNet,0.66
+14,All,Random Forest,0.47
+14,All,SVR,0.48
+15,10,Ridge,0.73
+15,10,Lasso,0.72
+15,10,ElasticNet,0.73
+15,10,Random Forest,0.71
+15,10,SVR,0.71
+15,52,Ridge,0.86
+15,52,Lasso,0.79
+15,52,ElasticNet,0.85
+15,52,Random Forest,0.8
+15,52,SVR,0.85
+15,100,Ridge,0.89
+15,100,Lasso,0.79
+15,100,ElasticNet,0.88
+15,100,Random Forest,0.81
+15,100,SVR,0.89
+15,500,Ridge,0.8
+15,500,Lasso,0.76
+15,500,ElasticNet,0.86
+15,500,Random Forest,0.84
+15,500,SVR,0.87
+15,2000,Ridge,0.64
+15,2000,Lasso,0.71
+15,2000,ElasticNet,0.9
+15,2000,Random Forest,0.81
+15,2000,SVR,0.9
+15,5000,Ridge,0.85
+15,5000,Lasso,0.63
+15,5000,ElasticNet,0.9
+15,5000,Random Forest,0.81
+15,5000,SVR,0.91
+15,10000,Ridge,0.89
+15,10000,Lasso,0.65
+15,10000,ElasticNet,0.88
+15,10000,Random Forest,0.83
+15,10000,SVR,0.92
+15,All,Ridge,0.6
+15,All,Lasso,0.56
+15,All,ElasticNet,0.45
+15,All,Random Forest,0.63
+15,All,SVR,0.6
+16,10,Ridge,0.81
+16,10,Lasso,0.8
+16,10,ElasticNet,0.81
+16,10,Random Forest,0.76
+16,10,SVR,0.8
+16,52,Ridge,0.83
+16,52,Lasso,0.82
+16,52,ElasticNet,0.86
+16,52,Random Forest,0.8
+16,52,SVR,0.8
+16,100,Ridge,0.85
+16,100,Lasso,0.83
+16,100,ElasticNet,0.86
+16,100,Random Forest,0.83
+16,100,SVR,0.84
+16,500,Ridge,0.88
+16,500,Lasso,0.79
+16,500,ElasticNet,0.9
+16,500,Random Forest,0.85
+16,500,SVR,0.89
+16,2000,Ridge,0.75
+16,2000,Lasso,0.77
+16,2000,ElasticNet,0.88
+16,2000,Random Forest,0.84
+16,2000,SVR,0.92
+16,5000,Ridge,0.89
+16,5000,Lasso,0.69
+16,5000,ElasticNet,0.9
+16,5000,Random Forest,0.86
+16,5000,SVR,0.93
+16,10000,Ridge,0.89
+16,10000,Lasso,0.68
+16,10000,ElasticNet,0.9
+16,10000,Random Forest,0.83
+16,10000,SVR,0.93
+16,All,Ridge,0.56
+16,All,Lasso,0.61
+16,All,ElasticNet,0.32
+16,All,Random Forest,0.62
+16,All,SVR,0.57
+17,10,Ridge,0.74
+17,10,Lasso,0.72
+17,10,ElasticNet,0.74
+17,10,Random Forest,0.7
+17,10,SVR,0.73
+17,52,Ridge,0.81
+17,52,Lasso,0.74
+17,52,ElasticNet,0.81
+17,52,Random Forest,0.73
+17,52,SVR,0.83
+17,100,Ridge,0.81
+17,100,Lasso,0.74
+17,100,ElasticNet,0.82
+17,100,Random Forest,0.76
+17,100,SVR,0.79
+17,500,Ridge,0.75
+17,500,Lasso,0.69
+17,500,ElasticNet,0.83
+17,500,Random Forest,0.81
+17,500,SVR,0.84
+17,2000,Ridge,0.64
+17,2000,Lasso,0.67
+17,2000,ElasticNet,0.88
+17,2000,Random Forest,0.8
+17,2000,SVR,0.91
+17,5000,Ridge,0.84
+17,5000,Lasso,0.62
+17,5000,ElasticNet,0.83
+17,5000,Random Forest,0.79
+17,5000,SVR,0.88
+17,10000,Ridge,0.88
+17,10000,Lasso,0.61
+17,10000,ElasticNet,0.85
+17,10000,Random Forest,0.76
+17,10000,SVR,0.9
+17,All,Ridge,0.38
+17,All,Lasso,0.47
+17,All,ElasticNet,0.58
+17,All,Random Forest,0.52
+17,All,SVR,0.47
+18,10,Ridge,0.7
+18,10,Lasso,0.7
+18,10,ElasticNet,0.7
+18,10,Random Forest,0.66
+18,10,SVR,0.69
+18,52,Ridge,0.68
+18,52,Lasso,0.65
+18,52,ElasticNet,0.68
+18,52,Random Forest,0.65
+18,52,SVR,0.65
+18,100,Ridge,0.73
+18,100,Lasso,0.66
+18,100,ElasticNet,0.74
+18,100,Random Forest,0.71
+18,100,SVR,0.67
+18,500,Ridge,0.79
+18,500,Lasso,0.64
+18,500,ElasticNet,0.8
+18,500,Random Forest,0.74
+18,500,SVR,0.75
+18,2000,Ridge,0.6
+18,2000,Lasso,0.66
+18,2000,ElasticNet,0.85
+18,2000,Random Forest,0.74
+18,2000,SVR,0.88
+18,5000,Ridge,0.84
+18,5000,Lasso,0.61
+18,5000,ElasticNet,0.87
+18,5000,Random Forest,0.71
+18,5000,SVR,0.89
+18,10000,Ridge,0.83
+18,10000,Lasso,0.55
+18,10000,ElasticNet,0.8
+18,10000,Random Forest,0.7
+18,10000,SVR,0.88
+18,All,Ridge,0.42
+18,All,Lasso,0.44
+18,All,ElasticNet,0.65
+18,All,Random Forest,0.52
+18,All,SVR,0.44
+19,10,Ridge,0.59
+19,10,Lasso,0.6
+19,10,ElasticNet,0.59
+19,10,Random Forest,0.49
+19,10,SVR,0.62
+19,52,Ridge,0.72
+19,52,Lasso,0.6
+19,52,ElasticNet,0.72
+19,52,Random Forest,0.64
+19,52,SVR,0.68
+19,100,Ridge,0.76
+19,100,Lasso,0.59
+19,100,ElasticNet,0.75
+19,100,Random Forest,0.64
+19,100,SVR,0.75
+19,500,Ridge,0.83
+19,500,Lasso,0.63
+19,500,ElasticNet,0.84
+19,500,Random Forest,0.66
+19,500,SVR,0.83
+19,2000,Ridge,0.79
+19,2000,Lasso,0.63
+19,2000,ElasticNet,0.83
+19,2000,Random Forest,0.62
+19,2000,SVR,0.89
+19,5000,Ridge,0.85
+19,5000,Lasso,0.55
+19,5000,ElasticNet,0.82
+19,5000,Random Forest,0.66
+19,5000,SVR,0.88
+19,10000,Ridge,0.89
+19,10000,Lasso,0.55
+19,10000,ElasticNet,0.85
+19,10000,Random Forest,0.67
+19,10000,SVR,0.89
+19,All,Ridge,0.36
+19,All,Lasso,0.36
+19,All,ElasticNet,0.64
+19,All,Random Forest,0.33
+19,All,SVR,0.34
+20,10,Ridge,0.72
+20,10,Lasso,0.74
+20,10,ElasticNet,0.74
+20,10,Random Forest,0.63
+20,10,SVR,0.69
+20,52,Ridge,0.84
+20,52,Lasso,0.73
+20,52,ElasticNet,0.84
+20,52,Random Forest,0.84
+20,52,SVR,0.82
+20,100,Ridge,0.85
+20,100,Lasso,0.73
+20,100,ElasticNet,0.85
+20,100,Random Forest,0.85
+20,100,SVR,0.83
+20,500,Ridge,0.77
+20,500,Lasso,0.7
+20,500,ElasticNet,0.85
+20,500,Random Forest,0.84
+20,500,SVR,0.86
+20,2000,Ridge,0.77
+20,2000,Lasso,0.72
+20,2000,ElasticNet,0.9
+20,2000,Random Forest,0.82
+20,2000,SVR,0.93
+20,5000,Ridge,0.88
+20,5000,Lasso,0.68
+20,5000,ElasticNet,0.9
+20,5000,Random Forest,0.82
+20,5000,SVR,0.92
+20,10000,Ridge,0.91
+20,10000,Lasso,0.68
+20,10000,ElasticNet,0.91
+20,10000,Random Forest,0.82
+20,10000,SVR,0.94
+20,All,Ridge,0.53
+20,All,Lasso,0.58
+20,All,ElasticNet,0.7
+20,All,Random Forest,0.55
+20,All,SVR,0.59
+21,10,Ridge,0.79
+21,10,Lasso,0.8
+21,10,ElasticNet,0.79
+21,10,Random Forest,0.76
+21,10,SVR,0.75
+21,52,Ridge,0.73
+21,52,Lasso,0.75
+21,52,ElasticNet,0.75
+21,52,Random Forest,0.66
+21,52,SVR,0.72
+21,100,Ridge,0.78
+21,100,Lasso,0.74
+21,100,ElasticNet,0.79
+21,100,Random Forest,0.72
+21,100,SVR,0.77
+21,500,Ridge,0.8
+21,500,Lasso,0.77
+21,500,ElasticNet,0.87
+21,500,Random Forest,0.79
+21,500,SVR,0.84
+21,2000,Ridge,0.68
+21,2000,Lasso,0.73
+21,2000,ElasticNet,0.82
+21,2000,Random Forest,0.77
+21,2000,SVR,0.85
+21,5000,Ridge,0.88
+21,5000,Lasso,0.69
+21,5000,ElasticNet,0.83
+21,5000,Random Forest,0.77
+21,5000,SVR,0.87
+21,10000,Ridge,0.9
+21,10000,Lasso,0.7
+21,10000,ElasticNet,0.9
+21,10000,Random Forest,0.77
+21,10000,SVR,0.9
+21,All,Ridge,0.51
+21,All,Lasso,0.59
+21,All,ElasticNet,0.37
+21,All,Random Forest,0.63
+21,All,SVR,0.54
+22,10,Ridge,0.78
+22,10,Lasso,0.79
+22,10,ElasticNet,0.79
+22,10,Random Forest,0.69
+22,10,SVR,0.78
+22,52,Ridge,0.82
+22,52,Lasso,0.79
+22,52,ElasticNet,0.83
+22,52,Random Forest,0.76
+22,52,SVR,0.8
+22,100,Ridge,0.81
+22,100,Lasso,0.81
+22,100,ElasticNet,0.84
+22,100,Random Forest,0.79
+22,100,SVR,0.8
+22,500,Ridge,0.88
+22,500,Lasso,0.73
+22,500,ElasticNet,0.89
+22,500,Random Forest,0.8
+22,500,SVR,0.91
+22,2000,Ridge,0.73
+22,2000,Lasso,0.72
+22,2000,ElasticNet,0.88
+22,2000,Random Forest,0.79
+22,2000,SVR,0.9
+22,5000,Ridge,0.88
+22,5000,Lasso,0.71
+22,5000,ElasticNet,0.87
+22,5000,Random Forest,0.8
+22,5000,SVR,0.91
+22,10000,Ridge,0.89
+22,10000,Lasso,0.66
+22,10000,ElasticNet,0.87
+22,10000,Random Forest,0.77
+22,10000,SVR,0.91
+22,All,Ridge,0.51
+22,All,Lasso,0.51
+22,All,ElasticNet,0.49
+22,All,Random Forest,0.56
+22,All,SVR,0.55
+23,10,Ridge,0.72
+23,10,Lasso,0.73
+23,10,ElasticNet,0.72
+23,10,Random Forest,0.74
+23,10,SVR,0.72
+23,52,Ridge,0.82
+23,52,Lasso,0.76
+23,52,ElasticNet,0.82
+23,52,Random Forest,0.76
+23,52,SVR,0.81
+23,100,Ridge,0.86
+23,100,Lasso,0.76
+23,100,ElasticNet,0.86
+23,100,Random Forest,0.77
+23,100,SVR,0.83
+23,500,Ridge,0.78
+23,500,Lasso,0.72
+23,500,ElasticNet,0.86
+23,500,Random Forest,0.79
+23,500,SVR,0.81
+23,2000,Ridge,0.63
+23,2000,Lasso,0.69
+23,2000,ElasticNet,0.87
+23,2000,Random Forest,0.79
+23,2000,SVR,0.89
+23,5000,Ridge,0.81
+23,5000,Lasso,0.58
+23,5000,ElasticNet,0.84
+23,5000,Random Forest,0.78
+23,5000,SVR,0.89
+23,10000,Ridge,0.85
+23,10000,Lasso,0.58
+23,10000,ElasticNet,0.88
+23,10000,Random Forest,0.8
+23,10000,SVR,0.91
+23,All,Ridge,0.55
+23,All,Lasso,0.52
+23,All,ElasticNet,0.59
+23,All,Random Forest,0.65
+23,All,SVR,0.58
+24,10,Ridge,0.69
+24,10,Lasso,0.69
+24,10,ElasticNet,0.7
+24,10,Random Forest,0.67
+24,10,SVR,0.7
+24,52,Ridge,0.82
+24,52,Lasso,0.75
+24,52,ElasticNet,0.82
+24,52,Random Forest,0.78
+24,52,SVR,0.79
+24,100,Ridge,0.86
+24,100,Lasso,0.77
+24,100,ElasticNet,0.88
+24,100,Random Forest,0.86
+24,100,SVR,0.84
+24,500,Ridge,0.88
+24,500,Lasso,0.75
+24,500,ElasticNet,0.91
+24,500,Random Forest,0.83
+24,500,SVR,0.93
+24,2000,Ridge,0.67
+24,2000,Lasso,0.71
+24,2000,ElasticNet,0.9
+24,2000,Random Forest,0.84
+24,2000,SVR,0.93
+24,5000,Ridge,0.9
+24,5000,Lasso,0.61
+24,5000,ElasticNet,0.88
+24,5000,Random Forest,0.84
+24,5000,SVR,0.93
+24,10000,Ridge,0.9
+24,10000,Lasso,0.7
+24,10000,ElasticNet,0.89
+24,10000,Random Forest,0.85
+24,10000,SVR,0.93
+24,All,Ridge,0.54
+24,All,Lasso,0.5
+24,All,ElasticNet,0.31
+24,All,Random Forest,0.57
+24,All,SVR,0.6
+25,10,Ridge,0.78
+25,10,Lasso,0.77
+25,10,ElasticNet,0.78
+25,10,Random Forest,0.76
+25,10,SVR,0.78
+25,52,Ridge,0.79
+25,52,Lasso,0.77
+25,52,ElasticNet,0.79
+25,52,Random Forest,0.78
+25,52,SVR,0.8
+25,100,Ridge,0.85
+25,100,Lasso,0.79
+25,100,ElasticNet,0.85
+25,100,Random Forest,0.84
+25,100,SVR,0.85
+25,500,Ridge,0.82
+25,500,Lasso,0.76
+25,500,ElasticNet,0.87
+25,500,Random Forest,0.86
+25,500,SVR,0.86
+25,2000,Ridge,0.71
+25,2000,Lasso,0.74
+25,2000,ElasticNet,0.89
+25,2000,Random Forest,0.81
+25,2000,SVR,0.89
+25,5000,Ridge,0.9
+25,5000,Lasso,0.69
+25,5000,ElasticNet,0.87
+25,5000,Random Forest,0.81
+25,5000,SVR,0.89
+25,10000,Ridge,0.89
+25,10000,Lasso,0.74
+25,10000,ElasticNet,0.88
+25,10000,Random Forest,0.81
+25,10000,SVR,0.89
+25,All,Ridge,0.5
+25,All,Lasso,0.64
+25,All,ElasticNet,0.63
+25,All,Random Forest,0.63
+25,All,SVR,0.57
+26,10,Ridge,0.65
+26,10,Lasso,0.66
+26,10,ElasticNet,0.66
+26,10,Random Forest,0.59
+26,10,SVR,0.69
+26,52,Ridge,0.75
+26,52,Lasso,0.71
+26,52,ElasticNet,0.78
+26,52,Random Forest,0.74
+26,52,SVR,0.69
+26,100,Ridge,0.82
+26,100,Lasso,0.72
+26,100,ElasticNet,0.83
+26,100,Random Forest,0.74
+26,100,SVR,0.77
+26,500,Ridge,0.8
+26,500,Lasso,0.66
+26,500,ElasticNet,0.83
+26,500,Random Forest,0.8
+26,500,SVR,0.88
+26,2000,Ridge,0.73
+26,2000,Lasso,0.67
+26,2000,ElasticNet,0.87
+26,2000,Random Forest,0.81
+26,2000,SVR,0.9
+26,5000,Ridge,0.91
+26,5000,Lasso,0.56
+26,5000,ElasticNet,0.91
+26,5000,Random Forest,0.79
+26,5000,SVR,0.93
+26,10000,Ridge,0.91
+26,10000,Lasso,0.61
+26,10000,ElasticNet,0.91
+26,10000,Random Forest,0.8
+26,10000,SVR,0.93
+26,All,Ridge,0.47
+26,All,Lasso,0.47
+26,All,ElasticNet,0.66
+26,All,Random Forest,0.41
+26,All,SVR,0.47
+27,10,Ridge,0.65
+27,10,Lasso,0.66
+27,10,ElasticNet,0.67
+27,10,Random Forest,0.62
+27,10,SVR,0.66
+27,52,Ridge,0.82
+27,52,Lasso,0.66
+27,52,ElasticNet,0.82
+27,52,Random Forest,0.77
+27,52,SVR,0.79
+27,100,Ridge,0.82
+27,100,Lasso,0.68
+27,100,ElasticNet,0.84
+27,100,Random Forest,0.78
+27,100,SVR,0.84
+27,500,Ridge,0.82
+27,500,Lasso,0.68
+27,500,ElasticNet,0.84
+27,500,Random Forest,0.78
+27,500,SVR,0.86
+27,2000,Ridge,0.83
+27,2000,Lasso,0.6
+27,2000,ElasticNet,0.88
+27,2000,Random Forest,0.8
+27,2000,SVR,0.9
+27,5000,Ridge,0.88
+27,5000,Lasso,0.69
+27,5000,ElasticNet,0.89
+27,5000,Random Forest,0.78
+27,5000,SVR,0.91
+27,10000,Ridge,0.9
+27,10000,Lasso,0.63
+27,10000,ElasticNet,0.86
+27,10000,Random Forest,0.76
+27,10000,SVR,0.92
+27,All,Ridge,0.46
+27,All,Lasso,0.5
+27,All,ElasticNet,0.6
+27,All,Random Forest,0.57
+27,All,SVR,0.52
+28,10,Ridge,0.62
+28,10,Lasso,0.57
+28,10,ElasticNet,0.62
+28,10,Random Forest,0.56
+28,10,SVR,0.59
+28,52,Ridge,0.73
+28,52,Lasso,0.58
+28,52,ElasticNet,0.77
+28,52,Random Forest,0.7
+28,52,SVR,0.7
+28,100,Ridge,0.86
+28,100,Lasso,0.58
+28,100,ElasticNet,0.84
+28,100,Random Forest,0.75
+28,100,SVR,0.85
+28,500,Ridge,0.87
+28,500,Lasso,0.56
+28,500,ElasticNet,0.87
+28,500,Random Forest,0.72
+28,500,SVR,0.89
+28,2000,Ridge,0.82
+28,2000,Lasso,0.55
+28,2000,ElasticNet,0.83
+28,2000,Random Forest,0.72
+28,2000,SVR,0.85
+28,5000,Ridge,0.86
+28,5000,Lasso,0.49
+28,5000,ElasticNet,0.82
+28,5000,Random Forest,0.72
+28,5000,SVR,0.87
+28,10000,Ridge,0.87
+28,10000,Lasso,0.46
+28,10000,ElasticNet,0.84
+28,10000,Random Forest,0.69
+28,10000,SVR,0.86
+28,All,Ridge,0.41
+28,All,Lasso,0.39
+28,All,ElasticNet,0.63
+28,All,Random Forest,0.41
+28,All,SVR,0.42
+29,10,Ridge,0.72
+29,10,Lasso,0.72
+29,10,ElasticNet,0.72
+29,10,Random Forest,0.68
+29,10,SVR,0.73
+29,52,Ridge,0.76
+29,52,Lasso,0.69
+29,52,ElasticNet,0.78
+29,52,Random Forest,0.74
+29,52,SVR,0.73
+29,100,Ridge,0.84
+29,100,Lasso,0.7
+29,100,ElasticNet,0.84
+29,100,Random Forest,0.76
+29,100,SVR,0.85
+29,500,Ridge,0.78
+29,500,Lasso,0.68
+29,500,ElasticNet,0.82
+29,500,Random Forest,0.78
+29,500,SVR,0.83
+29,2000,Ridge,0.77
+29,2000,Lasso,0.65
+29,2000,ElasticNet,0.86
+29,2000,Random Forest,0.77
+29,2000,SVR,0.9
+29,5000,Ridge,0.88
+29,5000,Lasso,0.61
+29,5000,ElasticNet,0.9
+29,5000,Random Forest,0.77
+29,5000,SVR,0.89
+29,10000,Ridge,0.9
+29,10000,Lasso,0.59
+29,10000,ElasticNet,0.91
+29,10000,Random Forest,0.72
+29,10000,SVR,0.92
+29,All,Ridge,0.41
+29,All,Lasso,0.52
+29,All,ElasticNet,0.59
+29,All,Random Forest,0.46
+29,All,SVR,0.48
+30,10,Ridge,0.69
+30,10,Lasso,0.7
+30,10,ElasticNet,0.69
+30,10,Random Forest,0.68
+30,10,SVR,0.69
+30,52,Ridge,0.77
+30,52,Lasso,0.62
+30,52,ElasticNet,0.76
+30,52,Random Forest,0.7
+30,52,SVR,0.73
+30,100,Ridge,0.83
+30,100,Lasso,0.63
+30,100,ElasticNet,0.84
+30,100,Random Forest,0.78
+30,100,SVR,0.8
+30,500,Ridge,0.82
+30,500,Lasso,0.72
+30,500,ElasticNet,0.9
+30,500,Random Forest,0.81
+30,500,SVR,0.88
+30,2000,Ridge,0.74
+30,2000,Lasso,0.75
+30,2000,ElasticNet,0.9
+30,2000,Random Forest,0.81
+30,2000,SVR,0.92
+30,5000,Ridge,0.88
+30,5000,Lasso,0.66
+30,5000,ElasticNet,0.86
+30,5000,Random Forest,0.82
+30,5000,SVR,0.91
+30,10000,Ridge,0.91
+30,10000,Lasso,0.62
+30,10000,ElasticNet,0.9
+30,10000,Random Forest,0.82
+30,10000,SVR,0.92
+30,All,Ridge,0.57
+30,All,Lasso,0.49
+30,All,ElasticNet,0.6
+30,All,Random Forest,0.56
+30,All,SVR,0.6
+31,10,Ridge,0.6
+31,10,Lasso,0.49
+31,10,ElasticNet,0.6
+31,10,Random Forest,0.55
+31,10,SVR,0.55
+31,52,Ridge,0.79
+31,52,Lasso,0.66
+31,52,ElasticNet,0.78
+31,52,Random Forest,0.62
+31,52,SVR,0.74
+31,100,Ridge,0.72
+31,100,Lasso,0.64
+31,100,ElasticNet,0.73
+31,100,Random Forest,0.62
+31,100,SVR,0.72
+31,500,Ridge,0.81
+31,500,Lasso,0.57
+31,500,ElasticNet,0.82
+31,500,Random Forest,0.61
+31,500,SVR,0.8
+31,2000,Ridge,0.66
+31,2000,Lasso,0.59
+31,2000,ElasticNet,0.82
+31,2000,Random Forest,0.7
+31,2000,SVR,0.84
+31,5000,Ridge,0.82
+31,5000,Lasso,0.57
+31,5000,ElasticNet,0.84
+31,5000,Random Forest,0.7
+31,5000,SVR,0.86
+31,10000,Ridge,0.86
+31,10000,Lasso,0.54
+31,10000,ElasticNet,0.87
+31,10000,Random Forest,0.69
+31,10000,SVR,0.88
+31,All,Ridge,0.49
+31,All,Lasso,0.5
+31,All,ElasticNet,0.58
+31,All,Random Forest,0.45
+31,All,SVR,0.5
+32,10,Ridge,0.74
+32,10,Lasso,0.73
+32,10,ElasticNet,0.74
+32,10,Random Forest,0.68
+32,10,SVR,0.75
+32,52,Ridge,0.87
+32,52,Lasso,0.79
+32,52,ElasticNet,0.88
+32,52,Random Forest,0.84
+32,52,SVR,0.81
+32,100,Ridge,0.84
+32,100,Lasso,0.8
+32,100,ElasticNet,0.9
+32,100,Random Forest,0.86
+32,100,SVR,0.81
+32,500,Ridge,0.86
+32,500,Lasso,0.73
+32,500,ElasticNet,0.92
+32,500,Random Forest,0.87
+32,500,SVR,0.91
+32,2000,Ridge,0.74
+32,2000,Lasso,0.75
+32,2000,ElasticNet,0.93
+32,2000,Random Forest,0.84
+32,2000,SVR,0.94
+32,5000,Ridge,0.93
+32,5000,Lasso,0.72
+32,5000,ElasticNet,0.9
+32,5000,Random Forest,0.86
+32,5000,SVR,0.95
+32,10000,Ridge,0.93
+32,10000,Lasso,0.69
+32,10000,ElasticNet,0.9
+32,10000,Random Forest,0.84
+32,10000,SVR,0.96
+32,All,Ridge,0.59
+32,All,Lasso,0.54
+32,All,ElasticNet,0.56
+32,All,Random Forest,0.61
+32,All,SVR,0.64
+33,10,Ridge,0.67
+33,10,Lasso,0.66
+33,10,ElasticNet,0.67
+33,10,Random Forest,0.59
+33,10,SVR,0.65
+33,52,Ridge,0.77
+33,52,Lasso,0.67
+33,52,ElasticNet,0.76
+33,52,Random Forest,0.67
+33,52,SVR,0.75
+33,100,Ridge,0.75
+33,100,Lasso,0.68
+33,100,ElasticNet,0.78
+33,100,Random Forest,0.68
+33,100,SVR,0.73
+33,500,Ridge,0.81
+33,500,Lasso,0.65
+33,500,ElasticNet,0.85
+33,500,Random Forest,0.64
+33,500,SVR,0.84
+33,2000,Ridge,0.7
+33,2000,Lasso,0.64
+33,2000,ElasticNet,0.88
+33,2000,Random Forest,0.64
+33,2000,SVR,0.88
+33,5000,Ridge,0.84
+33,5000,Lasso,0.56
+33,5000,ElasticNet,0.87
+33,5000,Random Forest,0.67
+33,5000,SVR,0.86
+33,10000,Ridge,0.86
+33,10000,Lasso,0.58
+33,10000,ElasticNet,0.87
+33,10000,Random Forest,0.67
+33,10000,SVR,0.88
+33,All,Ridge,0.38
+33,All,Lasso,0.48
+33,All,ElasticNet,0.3
+33,All,Random Forest,0.43
+33,All,SVR,0.43
+34,10,Ridge,0.69
+34,10,Lasso,0.68
+34,10,ElasticNet,0.69
+34,10,Random Forest,0.65
+34,10,SVR,0.69
+34,52,Ridge,0.77
+34,52,Lasso,0.72
+34,52,ElasticNet,0.78
+34,52,Random Forest,0.78
+34,52,SVR,0.73
+34,100,Ridge,0.79
+34,100,Lasso,0.73
+34,100,ElasticNet,0.82
+34,100,Random Forest,0.77
+34,100,SVR,0.76
+34,500,Ridge,0.79
+34,500,Lasso,0.75
+34,500,ElasticNet,0.83
+34,500,Random Forest,0.82
+34,500,SVR,0.86
+34,2000,Ridge,0.64
+34,2000,Lasso,0.66
+34,2000,ElasticNet,0.85
+34,2000,Random Forest,0.81
+34,2000,SVR,0.89
+34,5000,Ridge,0.85
+34,5000,Lasso,0.6
+34,5000,ElasticNet,0.85
+34,5000,Random Forest,0.78
+34,5000,SVR,0.88
+34,10000,Ridge,0.9
+34,10000,Lasso,0.57
+34,10000,ElasticNet,0.88
+34,10000,Random Forest,0.76
+34,10000,SVR,0.91
+34,All,Ridge,0.44
+34,All,Lasso,0.51
+34,All,ElasticNet,0.46
+34,All,Random Forest,0.5
+34,All,SVR,0.49
+35,10,Ridge,0.74
+35,10,Lasso,0.72
+35,10,ElasticNet,0.74
+35,10,Random Forest,0.62
+35,10,SVR,0.74
+35,52,Ridge,0.83
+35,52,Lasso,0.75
+35,52,ElasticNet,0.84
+35,52,Random Forest,0.8
+35,52,SVR,0.82
+35,100,Ridge,0.83
+35,100,Lasso,0.73
+35,100,ElasticNet,0.84
+35,100,Random Forest,0.79
+35,100,SVR,0.79
+35,500,Ridge,0.81
+35,500,Lasso,0.72
+35,500,ElasticNet,0.85
+35,500,Random Forest,0.82
+35,500,SVR,0.86
+35,2000,Ridge,0.71
+35,2000,Lasso,0.76
+35,2000,ElasticNet,0.89
+35,2000,Random Forest,0.8
+35,2000,SVR,0.9
+35,5000,Ridge,0.83
+35,5000,Lasso,0.65
+35,5000,ElasticNet,0.86
+35,5000,Random Forest,0.82
+35,5000,SVR,0.91
+35,10000,Ridge,0.89
+35,10000,Lasso,0.63
+35,10000,ElasticNet,0.87
+35,10000,Random Forest,0.77
+35,10000,SVR,0.93
+35,All,Ridge,0.49
+35,All,Lasso,0.47
+35,All,ElasticNet,0.65
+35,All,Random Forest,0.5
+35,All,SVR,0.5
+36,10,Ridge,0.81
+36,10,Lasso,0.81
+36,10,ElasticNet,0.81
+36,10,Random Forest,0.82
+36,10,SVR,0.81
+36,52,Ridge,0.81
+36,52,Lasso,0.73
+36,52,ElasticNet,0.81
+36,52,Random Forest,0.79
+36,52,SVR,0.81
+36,100,Ridge,0.86
+36,100,Lasso,0.72
+36,100,ElasticNet,0.86
+36,100,Random Forest,0.82
+36,100,SVR,0.85
+36,500,Ridge,0.84
+36,500,Lasso,0.74
+36,500,ElasticNet,0.9
+36,500,Random Forest,0.82
+36,500,SVR,0.9
+36,2000,Ridge,0.67
+36,2000,Lasso,0.69
+36,2000,ElasticNet,0.9
+36,2000,Random Forest,0.8
+36,2000,SVR,0.93
+36,5000,Ridge,0.9
+36,5000,Lasso,0.63
+36,5000,ElasticNet,0.89
+36,5000,Random Forest,0.83
+36,5000,SVR,0.94
+36,10000,Ridge,0.92
+36,10000,Lasso,0.7
+36,10000,ElasticNet,0.94
+36,10000,Random Forest,0.83
+36,10000,SVR,0.96
+36,All,Ridge,0.52
+36,All,Lasso,0.53
+36,All,ElasticNet,0.44
+36,All,Random Forest,0.51
+36,All,SVR,0.53
+37,10,Ridge,0.66
+37,10,Lasso,0.67
+37,10,ElasticNet,0.66
+37,10,Random Forest,0.59
+37,10,SVR,0.68
+37,52,Ridge,0.69
+37,52,Lasso,0.66
+37,52,ElasticNet,0.7
+37,52,Random Forest,0.66
+37,52,SVR,0.69
+37,100,Ridge,0.73
+37,100,Lasso,0.68
+37,100,ElasticNet,0.75
+37,100,Random Forest,0.71
+37,100,SVR,0.7
+37,500,Ridge,0.76
+37,500,Lasso,0.69
+37,500,ElasticNet,0.79
+37,500,Random Forest,0.75
+37,500,SVR,0.8
+37,2000,Ridge,0.66
+37,2000,Lasso,0.71
+37,2000,ElasticNet,0.85
+37,2000,Random Forest,0.75
+37,2000,SVR,0.85
+37,5000,Ridge,0.81
+37,5000,Lasso,0.5
+37,5000,ElasticNet,0.83
+37,5000,Random Forest,0.76
+37,5000,SVR,0.86
+37,10000,Ridge,0.84
+37,10000,Lasso,0.46
+37,10000,ElasticNet,0.83
+37,10000,Random Forest,0.73
+37,10000,SVR,0.88
+37,All,Ridge,0.42
+37,All,Lasso,0.47
+37,All,ElasticNet,0.59
+37,All,Random Forest,0.47
+37,All,SVR,0.49
+38,10,Ridge,0.75
+38,10,Lasso,0.74
+38,10,ElasticNet,0.75
+38,10,Random Forest,0.7
+38,10,SVR,0.76
+38,52,Ridge,0.85
+38,52,Lasso,0.77
+38,52,ElasticNet,0.86
+38,52,Random Forest,0.81
+38,52,SVR,0.83
+38,100,Ridge,0.84
+38,100,Lasso,0.78
+38,100,ElasticNet,0.86
+38,100,Random Forest,0.82
+38,100,SVR,0.81
+38,500,Ridge,0.83
+38,500,Lasso,0.73
+38,500,ElasticNet,0.85
+38,500,Random Forest,0.8
+38,500,SVR,0.86
+38,2000,Ridge,0.73
+38,2000,Lasso,0.69
+38,2000,ElasticNet,0.88
+38,2000,Random Forest,0.8
+38,2000,SVR,0.89
+38,5000,Ridge,0.87
+38,5000,Lasso,0.68
+38,5000,ElasticNet,0.85
+38,5000,Random Forest,0.79
+38,5000,SVR,0.9
+38,10000,Ridge,0.88
+38,10000,Lasso,0.65
+38,10000,ElasticNet,0.88
+38,10000,Random Forest,0.78
+38,10000,SVR,0.91
+38,All,Ridge,0.44
+38,All,Lasso,0.56
+38,All,ElasticNet,0.4
+38,All,Random Forest,0.51
+38,All,SVR,0.52
+39,10,Ridge,0.69
+39,10,Lasso,0.7
+39,10,ElasticNet,0.69
+39,10,Random Forest,0.64
+39,10,SVR,0.69
+39,52,Ridge,0.77
+39,52,Lasso,0.67
+39,52,ElasticNet,0.77
+39,52,Random Forest,0.72
+39,52,SVR,0.75
+39,100,Ridge,0.79
+39,100,Lasso,0.68
+39,100,ElasticNet,0.79
+39,100,Random Forest,0.72
+39,100,SVR,0.78
+39,500,Ridge,0.82
+39,500,Lasso,0.7
+39,500,ElasticNet,0.84
+39,500,Random Forest,0.77
+39,500,SVR,0.83
+39,2000,Ridge,0.73
+39,2000,Lasso,0.68
+39,2000,ElasticNet,0.86
+39,2000,Random Forest,0.78
+39,2000,SVR,0.88
+39,5000,Ridge,0.85
+39,5000,Lasso,0.65
+39,5000,ElasticNet,0.84
+39,5000,Random Forest,0.78
+39,5000,SVR,0.87
+39,10000,Ridge,0.85
+39,10000,Lasso,0.67
+39,10000,ElasticNet,0.81
+39,10000,Random Forest,0.79
+39,10000,SVR,0.89
+39,All,Ridge,0.55
+39,All,Lasso,0.56
+39,All,ElasticNet,0.71
+39,All,Random Forest,0.53
+39,All,SVR,0.57
+40,10,Ridge,0.69
+40,10,Lasso,0.75
+40,10,ElasticNet,0.71
+40,10,Random Forest,0.63
+40,10,SVR,0.65
+40,52,Ridge,0.76
+40,52,Lasso,0.76
+40,52,ElasticNet,0.79
+40,52,Random Forest,0.78
+40,52,SVR,0.74
+40,100,Ridge,0.8
+40,100,Lasso,0.77
+40,100,ElasticNet,0.82
+40,100,Random Forest,0.81
+40,100,SVR,0.79
+40,500,Ridge,0.81
+40,500,Lasso,0.77
+40,500,ElasticNet,0.87
+40,500,Random Forest,0.81
+40,500,SVR,0.88
+40,2000,Ridge,0.78
+40,2000,Lasso,0.74
+40,2000,ElasticNet,0.88
+40,2000,Random Forest,0.82
+40,2000,SVR,0.93
+40,5000,Ridge,0.9
+40,5000,Lasso,0.68
+40,5000,ElasticNet,0.89
+40,5000,Random Forest,0.84
+40,5000,SVR,0.93
+40,10000,Ridge,0.92
+40,10000,Lasso,0.73
+40,10000,ElasticNet,0.92
+40,10000,Random Forest,0.83
+40,10000,SVR,0.95
+40,All,Ridge,0.69
+40,All,Lasso,0.7
+40,All,ElasticNet,0.6
+40,All,Random Forest,0.61
+40,All,SVR,0.69
+41,10,Ridge,0.58
+41,10,Lasso,0.54
+41,10,ElasticNet,0.58
+41,10,Random Forest,0.54
+41,10,SVR,0.57
+41,52,Ridge,0.79
+41,52,Lasso,0.74
+41,52,ElasticNet,0.79
+41,52,Random Forest,0.75
+41,52,SVR,0.78
+41,100,Ridge,0.86
+41,100,Lasso,0.73
+41,100,ElasticNet,0.86
+41,100,Random Forest,0.83
+41,100,SVR,0.84
+41,500,Ridge,0.83
+41,500,Lasso,0.65
+41,500,ElasticNet,0.84
+41,500,Random Forest,0.77
+41,500,SVR,0.87
+41,2000,Ridge,0.78
+41,2000,Lasso,0.69
+41,2000,ElasticNet,0.88
+41,2000,Random Forest,0.8
+41,2000,SVR,0.89
+41,5000,Ridge,0.85
+41,5000,Lasso,0.59
+41,5000,ElasticNet,0.82
+41,5000,Random Forest,0.8
+41,5000,SVR,0.89
+41,10000,Ridge,0.89
+41,10000,Lasso,0.59
+41,10000,ElasticNet,0.89
+41,10000,Random Forest,0.75
+41,10000,SVR,0.91
+41,All,Ridge,0.48
+41,All,Lasso,0.46
+41,All,ElasticNet,0.54
+41,All,Random Forest,0.51
+41,All,SVR,0.5
+42,10,Ridge,0.55
+42,10,Lasso,0.54
+42,10,ElasticNet,0.55
+42,10,Random Forest,0.51
+42,10,SVR,0.57
+42,52,Ridge,0.85
+42,52,Lasso,0.78
+42,52,ElasticNet,0.85
+42,52,Random Forest,0.8
+42,52,SVR,0.82
+42,100,Ridge,0.85
+42,100,Lasso,0.76
+42,100,ElasticNet,0.85
+42,100,Random Forest,0.79
+42,100,SVR,0.82
+42,500,Ridge,0.8
+42,500,Lasso,0.73
+42,500,ElasticNet,0.86
+42,500,Random Forest,0.78
+42,500,SVR,0.88
+42,2000,Ridge,0.61
+42,2000,Lasso,0.7
+42,2000,ElasticNet,0.87
+42,2000,Random Forest,0.8
+42,2000,SVR,0.89
+42,5000,Ridge,0.85
+42,5000,Lasso,0.58
+42,5000,ElasticNet,0.89
+42,5000,Random Forest,0.76
+42,5000,SVR,0.9
+42,10000,Ridge,0.86
+42,10000,Lasso,0.56
+42,10000,ElasticNet,0.86
+42,10000,Random Forest,0.79
+42,10000,SVR,0.91
+42,All,Ridge,0.34
+42,All,Lasso,0.34
+42,All,ElasticNet,0.5
+42,All,Random Forest,0.34
+42,All,SVR,0.4
+43,10,Ridge,0.79
+43,10,Lasso,0.8
+43,10,ElasticNet,0.81
+43,10,Random Forest,0.68
+43,10,SVR,0.76
+43,52,Ridge,0.76
+43,52,Lasso,0.75
+43,52,ElasticNet,0.78
+43,52,Random Forest,0.76
+43,52,SVR,0.71
+43,100,Ridge,0.81
+43,100,Lasso,0.72
+43,100,ElasticNet,0.83
+43,100,Random Forest,0.78
+43,100,SVR,0.76
+43,500,Ridge,0.85
+43,500,Lasso,0.84
+43,500,ElasticNet,0.9
+43,500,Random Forest,0.84
+43,500,SVR,0.88
+43,2000,Ridge,0.65
+43,2000,Lasso,0.8
+43,2000,ElasticNet,0.86
+43,2000,Random Forest,0.8
+43,2000,SVR,0.87
+43,5000,Ridge,0.85
+43,5000,Lasso,0.7
+43,5000,ElasticNet,0.86
+43,5000,Random Forest,0.82
+43,5000,SVR,0.91
+43,10000,Ridge,0.87
+43,10000,Lasso,0.71
+43,10000,ElasticNet,0.83
+43,10000,Random Forest,0.81
+43,10000,SVR,0.91
+43,All,Ridge,0.54
+43,All,Lasso,0.64
+43,All,ElasticNet,0.69
+43,All,Random Forest,0.66
+43,All,SVR,0.65
+44,10,Ridge,0.71
+44,10,Lasso,0.68
+44,10,ElasticNet,0.71
+44,10,Random Forest,0.67
+44,10,SVR,0.71
+44,52,Ridge,0.81
+44,52,Lasso,0.71
+44,52,ElasticNet,0.8
+44,52,Random Forest,0.71
+44,52,SVR,0.83
+44,100,Ridge,0.83
+44,100,Lasso,0.7
+44,100,ElasticNet,0.84
+44,100,Random Forest,0.72
+44,100,SVR,0.81
+44,500,Ridge,0.8
+44,500,Lasso,0.64
+44,500,ElasticNet,0.84
+44,500,Random Forest,0.75
+44,500,SVR,0.85
+44,2000,Ridge,0.69
+44,2000,Lasso,0.7
+44,2000,ElasticNet,0.85
+44,2000,Random Forest,0.8
+44,2000,SVR,0.89
+44,5000,Ridge,0.86
+44,5000,Lasso,0.63
+44,5000,ElasticNet,0.86
+44,5000,Random Forest,0.79
+44,5000,SVR,0.91
+44,10000,Ridge,0.91
+44,10000,Lasso,0.63
+44,10000,ElasticNet,0.89
+44,10000,Random Forest,0.78
+44,10000,SVR,0.93
+44,All,Ridge,0.45
+44,All,Lasso,0.53
+44,All,ElasticNet,0.62
+44,All,Random Forest,0.48
+44,All,SVR,0.53
+45,10,Ridge,0.81
+45,10,Lasso,0.81
+45,10,ElasticNet,0.82
+45,10,Random Forest,0.79
+45,10,SVR,0.82
+45,52,Ridge,0.9
+45,52,Lasso,0.77
+45,52,ElasticNet,0.9
+45,52,Random Forest,0.85
+45,52,SVR,0.9
+45,100,Ridge,0.91
+45,100,Lasso,0.79
+45,100,ElasticNet,0.9
+45,100,Random Forest,0.88
+45,100,SVR,0.9
+45,500,Ridge,0.83
+45,500,Lasso,0.77
+45,500,ElasticNet,0.88
+45,500,Random Forest,0.86
+45,500,SVR,0.89
+45,2000,Ridge,0.71
+45,2000,Lasso,0.77
+45,2000,ElasticNet,0.88
+45,2000,Random Forest,0.85
+45,2000,SVR,0.91
+45,5000,Ridge,0.91
+45,5000,Lasso,0.75
+45,5000,ElasticNet,0.9
+45,5000,Random Forest,0.87
+45,5000,SVR,0.92
+45,10000,Ridge,0.91
+45,10000,Lasso,0.74
+45,10000,ElasticNet,0.9
+45,10000,Random Forest,0.87
+45,10000,SVR,0.94
+45,All,Ridge,0.6
+45,All,Lasso,0.58
+45,All,ElasticNet,0.58
+45,All,Random Forest,0.61
+45,All,SVR,0.67
+46,10,Ridge,0.57
+46,10,Lasso,0.55
+46,10,ElasticNet,0.58
+46,10,Random Forest,0.59
+46,10,SVR,0.57
+46,52,Ridge,0.74
+46,52,Lasso,0.52
+46,52,ElasticNet,0.72
+46,52,Random Forest,0.61
+46,52,SVR,0.75
+46,100,Ridge,0.81
+46,100,Lasso,0.53
+46,100,ElasticNet,0.78
+46,100,Random Forest,0.69
+46,100,SVR,0.81
+46,500,Ridge,0.75
+46,500,Lasso,0.64
+46,500,ElasticNet,0.82
+46,500,Random Forest,0.76
+46,500,SVR,0.82
+46,2000,Ridge,0.72
+46,2000,Lasso,0.63
+46,2000,ElasticNet,0.85
+46,2000,Random Forest,0.76
+46,2000,SVR,0.89
+46,5000,Ridge,0.84
+46,5000,Lasso,0.53
+46,5000,ElasticNet,0.86
+46,5000,Random Forest,0.71
+46,5000,SVR,0.88
+46,10000,Ridge,0.89
+46,10000,Lasso,0.56
+46,10000,ElasticNet,0.85
+46,10000,Random Forest,0.72
+46,10000,SVR,0.91
+46,All,Ridge,0.38
+46,All,Lasso,0.43
+46,All,ElasticNet,0.34
+46,All,Random Forest,0.48
+46,All,SVR,0.46
+47,10,Ridge,0.83
+47,10,Lasso,0.84
+47,10,ElasticNet,0.83
+47,10,Random Forest,0.77
+47,10,SVR,0.84
+47,52,Ridge,0.8
+47,52,Lasso,0.81
+47,52,ElasticNet,0.82
+47,52,Random Forest,0.77
+47,52,SVR,0.77
+47,100,Ridge,0.87
+47,100,Lasso,0.83
+47,100,ElasticNet,0.89
+47,100,Random Forest,0.83
+47,100,SVR,0.86
+47,500,Ridge,0.88
+47,500,Lasso,0.8
+47,500,ElasticNet,0.91
+47,500,Random Forest,0.84
+47,500,SVR,0.9
+47,2000,Ridge,0.64
+47,2000,Lasso,0.75
+47,2000,ElasticNet,0.86
+47,2000,Random Forest,0.84
+47,2000,SVR,0.92
+47,5000,Ridge,0.89
+47,5000,Lasso,0.66
+47,5000,ElasticNet,0.88
+47,5000,Random Forest,0.86
+47,5000,SVR,0.91
+47,10000,Ridge,0.91
+47,10000,Lasso,0.63
+47,10000,ElasticNet,0.88
+47,10000,Random Forest,0.83
+47,10000,SVR,0.92
+47,All,Ridge,0.5
+47,All,Lasso,0.51
+47,All,ElasticNet,0.68
+47,All,Random Forest,0.63
+47,All,SVR,0.59
+48,10,Ridge,0.76
+48,10,Lasso,0.77
+48,10,ElasticNet,0.77
+48,10,Random Forest,0.67
+48,10,SVR,0.76
+48,52,Ridge,0.79
+48,52,Lasso,0.71
+48,52,ElasticNet,0.81
+48,52,Random Forest,0.76
+48,52,SVR,0.78
+48,100,Ridge,0.84
+48,100,Lasso,0.74
+48,100,ElasticNet,0.85
+48,100,Random Forest,0.79
+48,100,SVR,0.81
+48,500,Ridge,0.77
+48,500,Lasso,0.72
+48,500,ElasticNet,0.83
+48,500,Random Forest,0.83
+48,500,SVR,0.85
+48,2000,Ridge,0.69
+48,2000,Lasso,0.66
+48,2000,ElasticNet,0.87
+48,2000,Random Forest,0.85
+48,2000,SVR,0.91
+48,5000,Ridge,0.89
+48,5000,Lasso,0.61
+48,5000,ElasticNet,0.9
+48,5000,Random Forest,0.87
+48,5000,SVR,0.93
+48,10000,Ridge,0.91
+48,10000,Lasso,0.61
+48,10000,ElasticNet,0.89
+48,10000,Random Forest,0.83
+48,10000,SVR,0.94
+48,All,Ridge,0.51
+48,All,Lasso,0.51
+48,All,ElasticNet,0.47
+48,All,Random Forest,0.57
+48,All,SVR,0.55
+49,10,Ridge,0.77
+49,10,Lasso,0.77
+49,10,ElasticNet,0.77
+49,10,Random Forest,0.71
+49,10,SVR,0.77
+49,52,Ridge,0.72
+49,52,Lasso,0.69
+49,52,ElasticNet,0.74
+49,52,Random Forest,0.75
+49,52,SVR,0.68
+49,100,Ridge,0.83
+49,100,Lasso,0.68
+49,100,ElasticNet,0.82
+49,100,Random Forest,0.84
+49,100,SVR,0.8
+49,500,Ridge,0.84
+49,500,Lasso,0.68
+49,500,ElasticNet,0.87
+49,500,Random Forest,0.79
+49,500,SVR,0.87
+49,2000,Ridge,0.74
+49,2000,Lasso,0.77
+49,2000,ElasticNet,0.9
+49,2000,Random Forest,0.8
+49,2000,SVR,0.91
+49,5000,Ridge,0.83
+49,5000,Lasso,0.72
+49,5000,ElasticNet,0.88
+49,5000,Random Forest,0.81
+49,5000,SVR,0.9
+49,10000,Ridge,0.89
+49,10000,Lasso,0.72
+49,10000,ElasticNet,0.88
+49,10000,Random Forest,0.8
+49,10000,SVR,0.92
+49,All,Ridge,0.52
+49,All,Lasso,0.53
+49,All,ElasticNet,0.61
+49,All,Random Forest,0.58
+49,All,SVR,0.57
+50,10,Ridge,0.72
+50,10,Lasso,0.71
+50,10,ElasticNet,0.72
+50,10,Random Forest,0.66
+50,10,SVR,0.72
+50,52,Ridge,0.79
+50,52,Lasso,0.74
+50,52,ElasticNet,0.79
+50,52,Random Forest,0.78
+50,52,SVR,0.77
+50,100,Ridge,0.81
+50,100,Lasso,0.71
+50,100,ElasticNet,0.82
+50,100,Random Forest,0.8
+50,100,SVR,0.78
+50,500,Ridge,0.83
+50,500,Lasso,0.75
+50,500,ElasticNet,0.87
+50,500,Random Forest,0.82
+50,500,SVR,0.88
+50,2000,Ridge,0.73
+50,2000,Lasso,0.71
+50,2000,ElasticNet,0.85
+50,2000,Random Forest,0.79
+50,2000,SVR,0.9
+50,5000,Ridge,0.87
+50,5000,Lasso,0.6
+50,5000,ElasticNet,0.85
+50,5000,Random Forest,0.83
+50,5000,SVR,0.9
+50,10000,Ridge,0.89
+50,10000,Lasso,0.63
+50,10000,ElasticNet,0.87
+50,10000,Random Forest,0.78
+50,10000,SVR,0.91
+50,All,Ridge,0.48
+50,All,Lasso,0.52
+50,All,ElasticNet,0.6
+50,All,Random Forest,0.48
+50,All,SVR,0.52
+51,10,Ridge,0.74
+51,10,Lasso,0.74
+51,10,ElasticNet,0.74
+51,10,Random Forest,0.68
+51,10,SVR,0.72
+51,52,Ridge,0.84
+51,52,Lasso,0.78
+51,52,ElasticNet,0.84
+51,52,Random Forest,0.84
+51,52,SVR,0.84
+51,100,Ridge,0.87
+51,100,Lasso,0.79
+51,100,ElasticNet,0.88
+51,100,Random Forest,0.84
+51,100,SVR,0.85
+51,500,Ridge,0.82
+51,500,Lasso,0.8
+51,500,ElasticNet,0.86
+51,500,Random Forest,0.84
+51,500,SVR,0.87
+51,2000,Ridge,0.67
+51,2000,Lasso,0.66
+51,2000,ElasticNet,0.86
+51,2000,Random Forest,0.83
+51,2000,SVR,0.87
+51,5000,Ridge,0.87
+51,5000,Lasso,0.65
+51,5000,ElasticNet,0.87
+51,5000,Random Forest,0.81
+51,5000,SVR,0.9
+51,10000,Ridge,0.9
+51,10000,Lasso,0.69
+51,10000,ElasticNet,0.91
+51,10000,Random Forest,0.82
+51,10000,SVR,0.92
+51,All,Ridge,0.51
+51,All,Lasso,0.5
+51,All,ElasticNet,0.59
+51,All,Random Forest,0.58
+51,All,SVR,0.58
+52,10,Ridge,0.77
+52,10,Lasso,0.75
+52,10,ElasticNet,0.77
+52,10,Random Forest,0.64
+52,10,SVR,0.77
+52,52,Ridge,0.81
+52,52,Lasso,0.73
+52,52,ElasticNet,0.81
+52,52,Random Forest,0.72
+52,52,SVR,0.8
+52,100,Ridge,0.83
+52,100,Lasso,0.7
+52,100,ElasticNet,0.83
+52,100,Random Forest,0.75
+52,100,SVR,0.8
+52,500,Ridge,0.81
+52,500,Lasso,0.68
+52,500,ElasticNet,0.85
+52,500,Random Forest,0.77
+52,500,SVR,0.89
+52,2000,Ridge,0.76
+52,2000,Lasso,0.7
+52,2000,ElasticNet,0.84
+52,2000,Random Forest,0.78
+52,2000,SVR,0.88
+52,5000,Ridge,0.84
+52,5000,Lasso,0.63
+52,5000,ElasticNet,0.87
+52,5000,Random Forest,0.77
+52,5000,SVR,0.88
+52,10000,Ridge,0.87
+52,10000,Lasso,0.62
+52,10000,ElasticNet,0.88
+52,10000,Random Forest,0.79
+52,10000,SVR,0.9
+52,All,Ridge,0.49
+52,All,Lasso,0.5
+52,All,ElasticNet,0.38
+52,All,Random Forest,0.49
+52,All,SVR,0.53
+53,10,Ridge,0.72
+53,10,Lasso,0.71
+53,10,ElasticNet,0.72
+53,10,Random Forest,0.64
+53,10,SVR,0.71
+53,52,Ridge,0.81
+53,52,Lasso,0.63
+53,52,ElasticNet,0.81
+53,52,Random Forest,0.8
+53,52,SVR,0.83
+53,100,Ridge,0.87
+53,100,Lasso,0.64
+53,100,ElasticNet,0.87
+53,100,Random Forest,0.82
+53,100,SVR,0.86
+53,500,Ridge,0.85
+53,500,Lasso,0.68
+53,500,ElasticNet,0.9
+53,500,Random Forest,0.86
+53,500,SVR,0.89
+53,2000,Ridge,0.79
+53,2000,Lasso,0.74
+53,2000,ElasticNet,0.87
+53,2000,Random Forest,0.85
+53,2000,SVR,0.92
+53,5000,Ridge,0.93
+53,5000,Lasso,0.7
+53,5000,ElasticNet,0.93
+53,5000,Random Forest,0.86
+53,5000,SVR,0.95
+53,10000,Ridge,0.93
+53,10000,Lasso,0.68
+53,10000,ElasticNet,0.92
+53,10000,Random Forest,0.82
+53,10000,SVR,0.96
+53,All,Ridge,0.64
+53,All,Lasso,0.56
+53,All,ElasticNet,0.52
+53,All,Random Forest,0.56
+53,All,SVR,0.62
+54,10,Ridge,0.73
+54,10,Lasso,0.72
+54,10,ElasticNet,0.73
+54,10,Random Forest,0.61
+54,10,SVR,0.73
+54,52,Ridge,0.77
+54,52,Lasso,0.69
+54,52,ElasticNet,0.78
+54,52,Random Forest,0.76
+54,52,SVR,0.78
+54,100,Ridge,0.78
+54,100,Lasso,0.7
+54,100,ElasticNet,0.79
+54,100,Random Forest,0.74
+54,100,SVR,0.78
+54,500,Ridge,0.71
+54,500,Lasso,0.68
+54,500,ElasticNet,0.79
+54,500,Random Forest,0.76
+54,500,SVR,0.8
+54,2000,Ridge,0.66
+54,2000,Lasso,0.68
+54,2000,ElasticNet,0.89
+54,2000,Random Forest,0.78
+54,2000,SVR,0.9
+54,5000,Ridge,0.83
+54,5000,Lasso,0.58
+54,5000,ElasticNet,0.85
+54,5000,Random Forest,0.77
+54,5000,SVR,0.89
+54,10000,Ridge,0.86
+54,10000,Lasso,0.54
+54,10000,ElasticNet,0.85
+54,10000,Random Forest,0.76
+54,10000,SVR,0.91
+54,All,Ridge,0.37
+54,All,Lasso,0.39
+54,All,ElasticNet,0.54
+54,All,Random Forest,0.48
+54,All,SVR,0.44
+55,10,Ridge,0.79
+55,10,Lasso,0.78
+55,10,ElasticNet,0.79
+55,10,Random Forest,0.71
+55,10,SVR,0.79
+55,52,Ridge,0.85
+55,52,Lasso,0.86
+55,52,ElasticNet,0.86
+55,52,Random Forest,0.81
+55,52,SVR,0.8
+55,100,Ridge,0.86
+55,100,Lasso,0.85
+55,100,ElasticNet,0.86
+55,100,Random Forest,0.84
+55,100,SVR,0.83
+55,500,Ridge,0.84
+55,500,Lasso,0.84
+55,500,ElasticNet,0.89
+55,500,Random Forest,0.85
+55,500,SVR,0.89
+55,2000,Ridge,0.75
+55,2000,Lasso,0.82
+55,2000,ElasticNet,0.9
+55,2000,Random Forest,0.85
+55,2000,SVR,0.91
+55,5000,Ridge,0.93
+55,5000,Lasso,0.7
+55,5000,ElasticNet,0.91
+55,5000,Random Forest,0.89
+55,5000,SVR,0.93
+55,10000,Ridge,0.92
+55,10000,Lasso,0.76
+55,10000,ElasticNet,0.93
+55,10000,Random Forest,0.86
+55,10000,SVR,0.94
+55,All,Ridge,0.66
+55,All,Lasso,0.67
+55,All,ElasticNet,0.56
+55,All,Random Forest,0.68
+55,All,SVR,0.68
+56,10,Ridge,0.73
+56,10,Lasso,0.73
+56,10,ElasticNet,0.73
+56,10,Random Forest,0.69
+56,10,SVR,0.73
+56,52,Ridge,0.76
+56,52,Lasso,0.66
+56,52,ElasticNet,0.79
+56,52,Random Forest,0.76
+56,52,SVR,0.72
+56,100,Ridge,0.77
+56,100,Lasso,0.67
+56,100,ElasticNet,0.81
+56,100,Random Forest,0.77
+56,100,SVR,0.77
+56,500,Ridge,0.76
+56,500,Lasso,0.65
+56,500,ElasticNet,0.87
+56,500,Random Forest,0.83
+56,500,SVR,0.84
+56,2000,Ridge,0.71
+56,2000,Lasso,0.66
+56,2000,ElasticNet,0.91
+56,2000,Random Forest,0.81
+56,2000,SVR,0.92
+56,5000,Ridge,0.87
+56,5000,Lasso,0.6
+56,5000,ElasticNet,0.88
+56,5000,Random Forest,0.8
+56,5000,SVR,0.92
+56,10000,Ridge,0.89
+56,10000,Lasso,0.56
+56,10000,ElasticNet,0.88
+56,10000,Random Forest,0.79
+56,10000,SVR,0.92
+56,All,Ridge,0.52
+56,All,Lasso,0.4
+56,All,ElasticNet,0.62
+56,All,Random Forest,0.5
+56,All,SVR,0.52
+57,10,Ridge,0.64
+57,10,Lasso,0.61
+57,10,ElasticNet,0.64
+57,10,Random Forest,0.59
+57,10,SVR,0.63
+57,52,Ridge,0.75
+57,52,Lasso,0.58
+57,52,ElasticNet,0.75
+57,52,Random Forest,0.65
+57,52,SVR,0.76
+57,100,Ridge,0.76
+57,100,Lasso,0.59
+57,100,ElasticNet,0.77
+57,100,Random Forest,0.66
+57,100,SVR,0.72
+57,500,Ridge,0.8
+57,500,Lasso,0.59
+57,500,ElasticNet,0.83
+57,500,Random Forest,0.75
+57,500,SVR,0.85
+57,2000,Ridge,0.68
+57,2000,Lasso,0.63
+57,2000,ElasticNet,0.83
+57,2000,Random Forest,0.75
+57,2000,SVR,0.86
+57,5000,Ridge,0.85
+57,5000,Lasso,0.61
+57,5000,ElasticNet,0.88
+57,5000,Random Forest,0.78
+57,5000,SVR,0.9
+57,10000,Ridge,0.86
+57,10000,Lasso,0.52
+57,10000,ElasticNet,0.86
+57,10000,Random Forest,0.75
+57,10000,SVR,0.89
+57,All,Ridge,0.41
+57,All,Lasso,0.44
+57,All,ElasticNet,0.51
+57,All,Random Forest,0.45
+57,All,SVR,0.44
+58,10,Ridge,0.69
+58,10,Lasso,0.67
+58,10,ElasticNet,0.69
+58,10,Random Forest,0.66
+58,10,SVR,0.68
+58,52,Ridge,0.84
+58,52,Lasso,0.78
+58,52,ElasticNet,0.84
+58,52,Random Forest,0.74
+58,52,SVR,0.84
+58,100,Ridge,0.86
+58,100,Lasso,0.78
+58,100,ElasticNet,0.87
+58,100,Random Forest,0.79
+58,100,SVR,0.84
+58,500,Ridge,0.77
+58,500,Lasso,0.75
+58,500,ElasticNet,0.85
+58,500,Random Forest,0.82
+58,500,SVR,0.84
+58,2000,Ridge,0.66
+58,2000,Lasso,0.75
+58,2000,ElasticNet,0.84
+58,2000,Random Forest,0.82
+58,2000,SVR,0.86
+58,5000,Ridge,0.84
+58,5000,Lasso,0.69
+58,5000,ElasticNet,0.85
+58,5000,Random Forest,0.78
+58,5000,SVR,0.89
+58,10000,Ridge,0.88
+58,10000,Lasso,0.64
+58,10000,ElasticNet,0.87
+58,10000,Random Forest,0.8
+58,10000,SVR,0.9
+58,All,Ridge,0.48
+58,All,Lasso,0.48
+58,All,ElasticNet,0.37
+58,All,Random Forest,0.56
+58,All,SVR,0.52
+59,10,Ridge,0.68
+59,10,Lasso,0.68
+59,10,ElasticNet,0.69
+59,10,Random Forest,0.63
+59,10,SVR,0.68
+59,52,Ridge,0.83
+59,52,Lasso,0.76
+59,52,ElasticNet,0.84
+59,52,Random Forest,0.79
+59,52,SVR,0.8
+59,100,Ridge,0.85
+59,100,Lasso,0.76
+59,100,ElasticNet,0.88
+59,100,Random Forest,0.83
+59,100,SVR,0.83
+59,500,Ridge,0.84
+59,500,Lasso,0.78
+59,500,ElasticNet,0.88
+59,500,Random Forest,0.86
+59,500,SVR,0.88
+59,2000,Ridge,0.69
+59,2000,Lasso,0.77
+59,2000,ElasticNet,0.9
+59,2000,Random Forest,0.83
+59,2000,SVR,0.92
+59,5000,Ridge,0.86
+59,5000,Lasso,0.64
+59,5000,ElasticNet,0.88
+59,5000,Random Forest,0.86
+59,5000,SVR,0.92
+59,10000,Ridge,0.88
+59,10000,Lasso,0.68
+59,10000,ElasticNet,0.86
+59,10000,Random Forest,0.84
+59,10000,SVR,0.93
+59,All,Ridge,0.62
+59,All,Lasso,0.64
+59,All,ElasticNet,0.51
+59,All,Random Forest,0.67
+59,All,SVR,0.65
+60,10,Ridge,0.78
+60,10,Lasso,0.78
+60,10,ElasticNet,0.79
+60,10,Random Forest,0.76
+60,10,SVR,0.77
+60,52,Ridge,0.84
+60,52,Lasso,0.75
+60,52,ElasticNet,0.87
+60,52,Random Forest,0.86
+60,52,SVR,0.86
+60,100,Ridge,0.88
+60,100,Lasso,0.78
+60,100,ElasticNet,0.9
+60,100,Random Forest,0.87
+60,100,SVR,0.86
+60,500,Ridge,0.87
+60,500,Lasso,0.82
+60,500,ElasticNet,0.91
+60,500,Random Forest,0.91
+60,500,SVR,0.92
+60,2000,Ridge,0.78
+60,2000,Lasso,0.8
+60,2000,ElasticNet,0.92
+60,2000,Random Forest,0.9
+60,2000,SVR,0.94
+60,5000,Ridge,0.87
+60,5000,Lasso,0.75
+60,5000,ElasticNet,0.91
+60,5000,Random Forest,0.89
+60,5000,SVR,0.94
+60,10000,Ridge,0.94
+60,10000,Lasso,0.73
+60,10000,ElasticNet,0.92
+60,10000,Random Forest,0.89
+60,10000,SVR,0.96
+60,All,Ridge,0.68
+60,All,Lasso,0.64
+60,All,ElasticNet,0.61
+60,All,Random Forest,0.72
+60,All,SVR,0.71
+61,10,Ridge,0.66
+61,10,Lasso,0.65
+61,10,ElasticNet,0.66
+61,10,Random Forest,0.67
+61,10,SVR,0.66
+61,52,Ridge,0.71
+61,52,Lasso,0.55
+61,52,ElasticNet,0.71
+61,52,Random Forest,0.64
+61,52,SVR,0.71
+61,100,Ridge,0.74
+61,100,Lasso,0.54
+61,100,ElasticNet,0.74
+61,100,Random Forest,0.65
+61,100,SVR,0.7
+61,500,Ridge,0.69
+61,500,Lasso,0.53
+61,500,ElasticNet,0.78
+61,500,Random Forest,0.75
+61,500,SVR,0.79
+61,2000,Ridge,0.69
+61,2000,Lasso,0.59
+61,2000,ElasticNet,0.86
+61,2000,Random Forest,0.72
+61,2000,SVR,0.87
+61,5000,Ridge,0.84
+61,5000,Lasso,0.56
+61,5000,ElasticNet,0.87
+61,5000,Random Forest,0.74
+61,5000,SVR,0.88
+61,10000,Ridge,0.88
+61,10000,Lasso,0.51
+61,10000,ElasticNet,0.86
+61,10000,Random Forest,0.72
+61,10000,SVR,0.91
+61,All,Ridge,0.4
+61,All,Lasso,0.45
+61,All,ElasticNet,0.54
+61,All,Random Forest,0.4
+61,All,SVR,0.41
+62,10,Ridge,0.65
+62,10,Lasso,0.61
+62,10,ElasticNet,0.65
+62,10,Random Forest,0.59
+62,10,SVR,0.63
+62,52,Ridge,0.8
+62,52,Lasso,0.74
+62,52,ElasticNet,0.8
+62,52,Random Forest,0.69
+62,52,SVR,0.82
+62,100,Ridge,0.81
+62,100,Lasso,0.76
+62,100,ElasticNet,0.81
+62,100,Random Forest,0.77
+62,100,SVR,0.76
+62,500,Ridge,0.81
+62,500,Lasso,0.72
+62,500,ElasticNet,0.85
+62,500,Random Forest,0.76
+62,500,SVR,0.84
+62,2000,Ridge,0.73
+62,2000,Lasso,0.72
+62,2000,ElasticNet,0.87
+62,2000,Random Forest,0.73
+62,2000,SVR,0.88
+62,5000,Ridge,0.87
+62,5000,Lasso,0.64
+62,5000,ElasticNet,0.87
+62,5000,Random Forest,0.74
+62,5000,SVR,0.88
+62,10000,Ridge,0.89
+62,10000,Lasso,0.69
+62,10000,ElasticNet,0.91
+62,10000,Random Forest,0.76
+62,10000,SVR,0.91
+62,All,Ridge,0.51
+62,All,Lasso,0.52
+62,All,ElasticNet,0.52
+62,All,Random Forest,0.48
+62,All,SVR,0.5
+63,10,Ridge,0.74
+63,10,Lasso,0.74
+63,10,ElasticNet,0.74
+63,10,Random Forest,0.69
+63,10,SVR,0.74
+63,52,Ridge,0.74
+63,52,Lasso,0.74
+63,52,ElasticNet,0.75
+63,52,Random Forest,0.77
+63,52,SVR,0.74
+63,100,Ridge,0.78
+63,100,Lasso,0.73
+63,100,ElasticNet,0.78
+63,100,Random Forest,0.79
+63,100,SVR,0.77
+63,500,Ridge,0.82
+63,500,Lasso,0.7
+63,500,ElasticNet,0.85
+63,500,Random Forest,0.76
+63,500,SVR,0.85
+63,2000,Ridge,0.71
+63,2000,Lasso,0.7
+63,2000,ElasticNet,0.84
+63,2000,Random Forest,0.76
+63,2000,SVR,0.87
+63,5000,Ridge,0.85
+63,5000,Lasso,0.6
+63,5000,ElasticNet,0.83
+63,5000,Random Forest,0.77
+63,5000,SVR,0.87
+63,10000,Ridge,0.88
+63,10000,Lasso,0.65
+63,10000,ElasticNet,0.87
+63,10000,Random Forest,0.79
+63,10000,SVR,0.91
+63,All,Ridge,0.41
+63,All,Lasso,0.53
+63,All,ElasticNet,0.63
+63,All,Random Forest,0.56
+63,All,SVR,0.45
+64,10,Ridge,0.67
+64,10,Lasso,0.66
+64,10,ElasticNet,0.67
+64,10,Random Forest,0.61
+64,10,SVR,0.68
+64,52,Ridge,0.81
+64,52,Lasso,0.72
+64,52,ElasticNet,0.8
+64,52,Random Forest,0.78
+64,52,SVR,0.76
+64,100,Ridge,0.9
+64,100,Lasso,0.74
+64,100,ElasticNet,0.89
+64,100,Random Forest,0.83
+64,100,SVR,0.85
+64,500,Ridge,0.77
+64,500,Lasso,0.7
+64,500,ElasticNet,0.85
+64,500,Random Forest,0.73
+64,500,SVR,0.82
+64,2000,Ridge,0.66
+64,2000,Lasso,0.67
+64,2000,ElasticNet,0.84
+64,2000,Random Forest,0.72
+64,2000,SVR,0.86
+64,5000,Ridge,0.8
+64,5000,Lasso,0.58
+64,5000,ElasticNet,0.81
+64,5000,Random Forest,0.76
+64,5000,SVR,0.87
+64,10000,Ridge,0.87
+64,10000,Lasso,0.59
+64,10000,ElasticNet,0.89
+64,10000,Random Forest,0.76
+64,10000,SVR,0.89
+64,All,Ridge,0.51
+64,All,Lasso,0.54
+64,All,ElasticNet,0.43
+64,All,Random Forest,0.52
+64,All,SVR,0.53
+65,10,Ridge,0.64
+65,10,Lasso,0.6
+65,10,ElasticNet,0.64
+65,10,Random Forest,0.6
+65,10,SVR,0.65
+65,52,Ridge,0.79
+65,52,Lasso,0.76
+65,52,ElasticNet,0.81
+65,52,Random Forest,0.74
+65,52,SVR,0.75
+65,100,Ridge,0.84
+65,100,Lasso,0.77
+65,100,ElasticNet,0.83
+65,100,Random Forest,0.79
+65,100,SVR,0.8
+65,500,Ridge,0.86
+65,500,Lasso,0.7
+65,500,ElasticNet,0.89
+65,500,Random Forest,0.8
+65,500,SVR,0.88
+65,2000,Ridge,0.71
+65,2000,Lasso,0.7
+65,2000,ElasticNet,0.88
+65,2000,Random Forest,0.82
+65,2000,SVR,0.92
+65,5000,Ridge,0.9
+65,5000,Lasso,0.67
+65,5000,ElasticNet,0.89
+65,5000,Random Forest,0.76
+65,5000,SVR,0.92
+65,10000,Ridge,0.9
+65,10000,Lasso,0.67
+65,10000,ElasticNet,0.89
+65,10000,Random Forest,0.78
+65,10000,SVR,0.92
+65,All,Ridge,0.52
+65,All,Lasso,0.53
+65,All,ElasticNet,0.47
+65,All,Random Forest,0.57
+65,All,SVR,0.56
+66,10,Ridge,0.74
+66,10,Lasso,0.68
+66,10,ElasticNet,0.74
+66,10,Random Forest,0.74
+66,10,SVR,0.71
+66,52,Ridge,0.87
+66,52,Lasso,0.73
+66,52,ElasticNet,0.86
+66,52,Random Forest,0.78
+66,52,SVR,0.85
+66,100,Ridge,0.89
+66,100,Lasso,0.73
+66,100,ElasticNet,0.89
+66,100,Random Forest,0.82
+66,100,SVR,0.84
+66,500,Ridge,0.83
+66,500,Lasso,0.73
+66,500,ElasticNet,0.86
+66,500,Random Forest,0.82
+66,500,SVR,0.9
+66,2000,Ridge,0.77
+66,2000,Lasso,0.74
+66,2000,ElasticNet,0.87
+66,2000,Random Forest,0.74
+66,2000,SVR,0.9
+66,5000,Ridge,0.81
+66,5000,Lasso,0.63
+66,5000,ElasticNet,0.85
+66,5000,Random Forest,0.8
+66,5000,SVR,0.89
+66,10000,Ridge,0.88
+66,10000,Lasso,0.67
+66,10000,ElasticNet,0.9
+66,10000,Random Forest,0.76
+66,10000,SVR,0.91
+66,All,Ridge,0.52
+66,All,Lasso,0.48
+66,All,ElasticNet,0.7
+66,All,Random Forest,0.49
+66,All,SVR,0.51
+67,10,Ridge,0.74
+67,10,Lasso,0.7
+67,10,ElasticNet,0.74
+67,10,Random Forest,0.68
+67,10,SVR,0.73
+67,52,Ridge,0.82
+67,52,Lasso,0.74
+67,52,ElasticNet,0.83
+67,52,Random Forest,0.77
+67,52,SVR,0.82
+67,100,Ridge,0.87
+67,100,Lasso,0.75
+67,100,ElasticNet,0.89
+67,100,Random Forest,0.83
+67,100,SVR,0.84
+67,500,Ridge,0.86
+67,500,Lasso,0.74
+67,500,ElasticNet,0.88
+67,500,Random Forest,0.81
+67,500,SVR,0.88
+67,2000,Ridge,0.77
+67,2000,Lasso,0.72
+67,2000,ElasticNet,0.89
+67,2000,Random Forest,0.79
+67,2000,SVR,0.9
+67,5000,Ridge,0.86
+67,5000,Lasso,0.64
+67,5000,ElasticNet,0.88
+67,5000,Random Forest,0.82
+67,5000,SVR,0.9
+67,10000,Ridge,0.89
+67,10000,Lasso,0.68
+67,10000,ElasticNet,0.88
+67,10000,Random Forest,0.81
+67,10000,SVR,0.91
+67,All,Ridge,0.53
+67,All,Lasso,0.49
+67,All,ElasticNet,0.64
+67,All,Random Forest,0.57
+67,All,SVR,0.54
+68,10,Ridge,0.51
+68,10,Lasso,0.43
+68,10,ElasticNet,0.51
+68,10,Random Forest,0.49
+68,10,SVR,0.52
+68,52,Ridge,0.73
+68,52,Lasso,0.53
+68,52,ElasticNet,0.72
+68,52,Random Forest,0.67
+68,52,SVR,0.71
+68,100,Ridge,0.77
+68,100,Lasso,0.54
+68,100,ElasticNet,0.74
+68,100,Random Forest,0.71
+68,100,SVR,0.74
+68,500,Ridge,0.78
+68,500,Lasso,0.54
+68,500,ElasticNet,0.8
+68,500,Random Forest,0.76
+68,500,SVR,0.79
+68,2000,Ridge,0.71
+68,2000,Lasso,0.6
+68,2000,ElasticNet,0.82
+68,2000,Random Forest,0.8
+68,2000,SVR,0.88
+68,5000,Ridge,0.9
+68,5000,Lasso,0.53
+68,5000,ElasticNet,0.87
+68,5000,Random Forest,0.76
+68,5000,SVR,0.91
+68,10000,Ridge,0.91
+68,10000,Lasso,0.48
+68,10000,ElasticNet,0.91
+68,10000,Random Forest,0.74
+68,10000,SVR,0.92
+68,All,Ridge,0.43
+68,All,Lasso,0.44
+68,All,ElasticNet,0.38
+68,All,Random Forest,0.5
+68,All,SVR,0.5
+69,10,Ridge,0.69
+69,10,Lasso,0.67
+69,10,ElasticNet,0.69
+69,10,Random Forest,0.66
+69,10,SVR,0.69
+69,52,Ridge,0.82
+69,52,Lasso,0.69
+69,52,ElasticNet,0.82
+69,52,Random Forest,0.78
+69,52,SVR,0.81
+69,100,Ridge,0.87
+69,100,Lasso,0.69
+69,100,ElasticNet,0.88
+69,100,Random Forest,0.81
+69,100,SVR,0.84
+69,500,Ridge,0.79
+69,500,Lasso,0.56
+69,500,ElasticNet,0.81
+69,500,Random Forest,0.68
+69,500,SVR,0.81
+69,2000,Ridge,0.73
+69,2000,Lasso,0.6
+69,2000,ElasticNet,0.85
+69,2000,Random Forest,0.72
+69,2000,SVR,0.88
+69,5000,Ridge,0.92
+69,5000,Lasso,0.55
+69,5000,ElasticNet,0.91
+69,5000,Random Forest,0.76
+69,5000,SVR,0.91
+69,10000,Ridge,0.92
+69,10000,Lasso,0.47
+69,10000,ElasticNet,0.91
+69,10000,Random Forest,0.75
+69,10000,SVR,0.92
+69,All,Ridge,0.33
+69,All,Lasso,0.3
+69,All,ElasticNet,0.52
+69,All,Random Forest,0.39
+69,All,SVR,0.41
+70,10,Ridge,0.79
+70,10,Lasso,0.77
+70,10,ElasticNet,0.79
+70,10,Random Forest,0.73
+70,10,SVR,0.79
+70,52,Ridge,0.88
+70,52,Lasso,0.78
+70,52,ElasticNet,0.88
+70,52,Random Forest,0.78
+70,52,SVR,0.84
+70,100,Ridge,0.92
+70,100,Lasso,0.77
+70,100,ElasticNet,0.9
+70,100,Random Forest,0.83
+70,100,SVR,0.91
+70,500,Ridge,0.8
+70,500,Lasso,0.67
+70,500,ElasticNet,0.87
+70,500,Random Forest,0.83
+70,500,SVR,0.89
+70,2000,Ridge,0.77
+70,2000,Lasso,0.73
+70,2000,ElasticNet,0.9
+70,2000,Random Forest,0.81
+70,2000,SVR,0.91
+70,5000,Ridge,0.9
+70,5000,Lasso,0.65
+70,5000,ElasticNet,0.9
+70,5000,Random Forest,0.78
+70,5000,SVR,0.93
+70,10000,Ridge,0.91
+70,10000,Lasso,0.69
+70,10000,ElasticNet,0.91
+70,10000,Random Forest,0.79
+70,10000,SVR,0.94
+70,All,Ridge,0.51
+70,All,Lasso,0.46
+70,All,ElasticNet,0.55
+70,All,Random Forest,0.51
+70,All,SVR,0.53
+71,10,Ridge,0.69
+71,10,Lasso,0.68
+71,10,ElasticNet,0.69
+71,10,Random Forest,0.67
+71,10,SVR,0.7
+71,52,Ridge,0.82
+71,52,Lasso,0.79
+71,52,ElasticNet,0.83
+71,52,Random Forest,0.81
+71,52,SVR,0.83
+71,100,Ridge,0.79
+71,100,Lasso,0.78
+71,100,ElasticNet,0.8
+71,100,Random Forest,0.82
+71,100,SVR,0.75
+71,500,Ridge,0.83
+71,500,Lasso,0.77
+71,500,ElasticNet,0.9
+71,500,Random Forest,0.83
+71,500,SVR,0.89
+71,2000,Ridge,0.63
+71,2000,Lasso,0.74
+71,2000,ElasticNet,0.86
+71,2000,Random Forest,0.83
+71,2000,SVR,0.88
+71,5000,Ridge,0.91
+71,5000,Lasso,0.68
+71,5000,ElasticNet,0.9
+71,5000,Random Forest,0.81
+71,5000,SVR,0.94
+71,10000,Ridge,0.88
+71,10000,Lasso,0.66
+71,10000,ElasticNet,0.87
+71,10000,Random Forest,0.79
+71,10000,SVR,0.92
+71,All,Ridge,0.41
+71,All,Lasso,0.46
+71,All,ElasticNet,0.39
+71,All,Random Forest,0.53
+71,All,SVR,0.47
+72,10,Ridge,0.6
+72,10,Lasso,0.57
+72,10,ElasticNet,0.6
+72,10,Random Forest,0.52
+72,10,SVR,0.6
+72,52,Ridge,0.82
+72,52,Lasso,0.67
+72,52,ElasticNet,0.81
+72,52,Random Forest,0.72
+72,52,SVR,0.8
+72,100,Ridge,0.84
+72,100,Lasso,0.67
+72,100,ElasticNet,0.82
+72,100,Random Forest,0.71
+72,100,SVR,0.8
+72,500,Ridge,0.82
+72,500,Lasso,0.71
+72,500,ElasticNet,0.88
+72,500,Random Forest,0.7
+72,500,SVR,0.88
+72,2000,Ridge,0.75
+72,2000,Lasso,0.71
+72,2000,ElasticNet,0.89
+72,2000,Random Forest,0.7
+72,2000,SVR,0.91
+72,5000,Ridge,0.9
+72,5000,Lasso,0.62
+72,5000,ElasticNet,0.88
+72,5000,Random Forest,0.7
+72,5000,SVR,0.91
+72,10000,Ridge,0.9
+72,10000,Lasso,0.63
+72,10000,ElasticNet,0.92
+72,10000,Random Forest,0.72
+72,10000,SVR,0.92
+72,All,Ridge,0.43
+72,All,Lasso,0.46
+72,All,ElasticNet,0.62
+72,All,Random Forest,0.42
+72,All,SVR,0.44
+73,10,Ridge,0.55
+73,10,Lasso,0.58
+73,10,ElasticNet,0.56
+73,10,Random Forest,0.5
+73,10,SVR,0.54
+73,52,Ridge,0.74
+73,52,Lasso,0.67
+73,52,ElasticNet,0.78
+73,52,Random Forest,0.69
+73,52,SVR,0.72
+73,100,Ridge,0.81
+73,100,Lasso,0.67
+73,100,ElasticNet,0.84
+73,100,Random Forest,0.75
+73,100,SVR,0.82
+73,500,Ridge,0.82
+73,500,Lasso,0.63
+73,500,ElasticNet,0.84
+73,500,Random Forest,0.81
+73,500,SVR,0.84
+73,2000,Ridge,0.79
+73,2000,Lasso,0.64
+73,2000,ElasticNet,0.85
+73,2000,Random Forest,0.79
+73,2000,SVR,0.88
+73,5000,Ridge,0.84
+73,5000,Lasso,0.57
+73,5000,ElasticNet,0.88
+73,5000,Random Forest,0.79
+73,5000,SVR,0.88
+73,10000,Ridge,0.86
+73,10000,Lasso,0.61
+73,10000,ElasticNet,0.86
+73,10000,Random Forest,0.8
+73,10000,SVR,0.89
+73,All,Ridge,0.43
+73,All,Lasso,0.46
+73,All,ElasticNet,0.45
+73,All,Random Forest,0.47
+73,All,SVR,0.47
+74,10,Ridge,0.66
+74,10,Lasso,0.65
+74,10,ElasticNet,0.66
+74,10,Random Forest,0.64
+74,10,SVR,0.65
+74,52,Ridge,0.76
+74,52,Lasso,0.7
+74,52,ElasticNet,0.76
+74,52,Random Forest,0.74
+74,52,SVR,0.76
+74,100,Ridge,0.83
+74,100,Lasso,0.71
+74,100,ElasticNet,0.82
+74,100,Random Forest,0.77
+74,100,SVR,0.84
+74,500,Ridge,0.81
+74,500,Lasso,0.66
+74,500,ElasticNet,0.88
+74,500,Random Forest,0.77
+74,500,SVR,0.87
+74,2000,Ridge,0.72
+74,2000,Lasso,0.66
+74,2000,ElasticNet,0.87
+74,2000,Random Forest,0.77
+74,2000,SVR,0.91
+74,5000,Ridge,0.86
+74,5000,Lasso,0.56
+74,5000,ElasticNet,0.89
+74,5000,Random Forest,0.76
+74,5000,SVR,0.88
+74,10000,Ridge,0.87
+74,10000,Lasso,0.6
+74,10000,ElasticNet,0.85
+74,10000,Random Forest,0.73
+74,10000,SVR,0.89
+74,All,Ridge,0.45
+74,All,Lasso,0.44
+74,All,ElasticNet,0.61
+74,All,Random Forest,0.51
+74,All,SVR,0.46
+75,10,Ridge,0.79
+75,10,Lasso,0.79
+75,10,ElasticNet,0.8
+75,10,Random Forest,0.76
+75,10,SVR,0.79
+75,52,Ridge,0.85
+75,52,Lasso,0.83
+75,52,ElasticNet,0.85
+75,52,Random Forest,0.85
+75,52,SVR,0.82
+75,100,Ridge,0.81
+75,100,Lasso,0.83
+75,100,ElasticNet,0.84
+75,100,Random Forest,0.86
+75,100,SVR,0.8
+75,500,Ridge,0.89
+75,500,Lasso,0.82
+75,500,ElasticNet,0.9
+75,500,Random Forest,0.87
+75,500,SVR,0.91
+75,2000,Ridge,0.77
+75,2000,Lasso,0.81
+75,2000,ElasticNet,0.9
+75,2000,Random Forest,0.85
+75,2000,SVR,0.92
+75,5000,Ridge,0.86
+75,5000,Lasso,0.75
+75,5000,ElasticNet,0.9
+75,5000,Random Forest,0.85
+75,5000,SVR,0.92
+75,10000,Ridge,0.91
+75,10000,Lasso,0.77
+75,10000,ElasticNet,0.89
+75,10000,Random Forest,0.86
+75,10000,SVR,0.94
+75,All,Ridge,0.57
+75,All,Lasso,0.63
+75,All,ElasticNet,0.49
+75,All,Random Forest,0.73
+75,All,SVR,0.65
+76,10,Ridge,0.82
+76,10,Lasso,0.83
+76,10,ElasticNet,0.82
+76,10,Random Forest,0.75
+76,10,SVR,0.81
+76,52,Ridge,0.85
+76,52,Lasso,0.75
+76,52,ElasticNet,0.85
+76,52,Random Forest,0.84
+76,52,SVR,0.85
+76,100,Ridge,0.87
+76,100,Lasso,0.75
+76,100,ElasticNet,0.89
+76,100,Random Forest,0.87
+76,100,SVR,0.83
+76,500,Ridge,0.9
+76,500,Lasso,0.79
+76,500,ElasticNet,0.91
+76,500,Random Forest,0.85
+76,500,SVR,0.92
+76,2000,Ridge,0.76
+76,2000,Lasso,0.81
+76,2000,ElasticNet,0.89
+76,2000,Random Forest,0.86
+76,2000,SVR,0.94
+76,5000,Ridge,0.9
+76,5000,Lasso,0.74
+76,5000,ElasticNet,0.89
+76,5000,Random Forest,0.86
+76,5000,SVR,0.94
+76,10000,Ridge,0.92
+76,10000,Lasso,0.76
+76,10000,ElasticNet,0.92
+76,10000,Random Forest,0.87
+76,10000,SVR,0.95
+76,All,Ridge,0.64
+76,All,Lasso,0.7
+76,All,ElasticNet,0.51
+76,All,Random Forest,0.7
+76,All,SVR,0.68
+77,10,Ridge,0.82
+77,10,Lasso,0.8
+77,10,ElasticNet,0.82
+77,10,Random Forest,0.74
+77,10,SVR,0.82
+77,52,Ridge,0.81
+77,52,Lasso,0.78
+77,52,ElasticNet,0.81
+77,52,Random Forest,0.79
+77,52,SVR,0.84
+77,100,Ridge,0.8
+77,100,Lasso,0.74
+77,100,ElasticNet,0.82
+77,100,Random Forest,0.82
+77,100,SVR,0.78
+77,500,Ridge,0.86
+77,500,Lasso,0.81
+77,500,ElasticNet,0.91
+77,500,Random Forest,0.88
+77,500,SVR,0.9
+77,2000,Ridge,0.76
+77,2000,Lasso,0.78
+77,2000,ElasticNet,0.87
+77,2000,Random Forest,0.86
+77,2000,SVR,0.93
+77,5000,Ridge,0.88
+77,5000,Lasso,0.68
+77,5000,ElasticNet,0.91
+77,5000,Random Forest,0.87
+77,5000,SVR,0.93
+77,10000,Ridge,0.94
+77,10000,Lasso,0.71
+77,10000,ElasticNet,0.92
+77,10000,Random Forest,0.83
+77,10000,SVR,0.94
+77,All,Ridge,0.53
+77,All,Lasso,0.61
+77,All,ElasticNet,0.57
+77,All,Random Forest,0.63
+77,All,SVR,0.57
+78,10,Ridge,0.69
+78,10,Lasso,0.69
+78,10,ElasticNet,0.69
+78,10,Random Forest,0.64
+78,10,SVR,0.7
+78,52,Ridge,0.79
+78,52,Lasso,0.74
+78,52,ElasticNet,0.78
+78,52,Random Forest,0.78
+78,52,SVR,0.76
+78,100,Ridge,0.84
+78,100,Lasso,0.75
+78,100,ElasticNet,0.84
+78,100,Random Forest,0.79
+78,100,SVR,0.83
+78,500,Ridge,0.77
+78,500,Lasso,0.7
+78,500,ElasticNet,0.86
+78,500,Random Forest,0.81
+78,500,SVR,0.86
+78,2000,Ridge,0.69
+78,2000,Lasso,0.69
+78,2000,ElasticNet,0.86
+78,2000,Random Forest,0.8
+78,2000,SVR,0.9
+78,5000,Ridge,0.88
+78,5000,Lasso,0.69
+78,5000,ElasticNet,0.89
+78,5000,Random Forest,0.81
+78,5000,SVR,0.92
+78,10000,Ridge,0.91
+78,10000,Lasso,0.65
+78,10000,ElasticNet,0.9
+78,10000,Random Forest,0.81
+78,10000,SVR,0.92
+78,All,Ridge,0.52
+78,All,Lasso,0.59
+78,All,ElasticNet,0.48
+78,All,Random Forest,0.53
+78,All,SVR,0.57
+79,10,Ridge,0.7
+79,10,Lasso,0.71
+79,10,ElasticNet,0.71
+79,10,Random Forest,0.61
+79,10,SVR,0.69
+79,52,Ridge,0.79
+79,52,Lasso,0.71
+79,52,ElasticNet,0.78
+79,52,Random Forest,0.77
+79,52,SVR,0.75
+79,100,Ridge,0.8
+79,100,Lasso,0.71
+79,100,ElasticNet,0.8
+79,100,Random Forest,0.76
+79,100,SVR,0.78
+79,500,Ridge,0.71
+79,500,Lasso,0.64
+79,500,ElasticNet,0.81
+79,500,Random Forest,0.75
+79,500,SVR,0.8
+79,2000,Ridge,0.61
+79,2000,Lasso,0.62
+79,2000,ElasticNet,0.81
+79,2000,Random Forest,0.74
+79,2000,SVR,0.85
+79,5000,Ridge,0.82
+79,5000,Lasso,0.61
+79,5000,ElasticNet,0.81
+79,5000,Random Forest,0.74
+79,5000,SVR,0.87
+79,10000,Ridge,0.87
+79,10000,Lasso,0.61
+79,10000,ElasticNet,0.87
+79,10000,Random Forest,0.74
+79,10000,SVR,0.89
+79,All,Ridge,0.53
+79,All,Lasso,0.53
+79,All,ElasticNet,0.53
+79,All,Random Forest,0.53
+79,All,SVR,0.56
+80,10,Ridge,0.6
+80,10,Lasso,0.61
+80,10,ElasticNet,0.61
+80,10,Random Forest,0.52
+80,10,SVR,0.63
+80,52,Ridge,0.76
+80,52,Lasso,0.62
+80,52,ElasticNet,0.78
+80,52,Random Forest,0.76
+80,52,SVR,0.73
+80,100,Ridge,0.79
+80,100,Lasso,0.62
+80,100,ElasticNet,0.81
+80,100,Random Forest,0.76
+80,100,SVR,0.77
+80,500,Ridge,0.81
+80,500,Lasso,0.61
+80,500,ElasticNet,0.83
+80,500,Random Forest,0.73
+80,500,SVR,0.85
+80,2000,Ridge,0.77
+80,2000,Lasso,0.56
+80,2000,ElasticNet,0.86
+80,2000,Random Forest,0.73
+80,2000,SVR,0.9
+80,5000,Ridge,0.9
+80,5000,Lasso,0.46
+80,5000,ElasticNet,0.88
+80,5000,Random Forest,0.73
+80,5000,SVR,0.9
+80,10000,Ridge,0.91
+80,10000,Lasso,0.54
+80,10000,ElasticNet,0.91
+80,10000,Random Forest,0.75
+80,10000,SVR,0.92
+80,All,Ridge,0.27
+80,All,Lasso,0.19
+80,All,ElasticNet,0.49
+80,All,Random Forest,0.27
+80,All,SVR,0.31
+81,10,Ridge,0.76
+81,10,Lasso,0.74
+81,10,ElasticNet,0.76
+81,10,Random Forest,0.73
+81,10,SVR,0.72
+81,52,Ridge,0.8
+81,52,Lasso,0.78
+81,52,ElasticNet,0.82
+81,52,Random Forest,0.72
+81,52,SVR,0.8
+81,100,Ridge,0.82
+81,100,Lasso,0.78
+81,100,ElasticNet,0.85
+81,100,Random Forest,0.76
+81,100,SVR,0.79
+81,500,Ridge,0.84
+81,500,Lasso,0.71
+81,500,ElasticNet,0.87
+81,500,Random Forest,0.78
+81,500,SVR,0.85
+81,2000,Ridge,0.7
+81,2000,Lasso,0.73
+81,2000,ElasticNet,0.86
+81,2000,Random Forest,0.8
+81,2000,SVR,0.89
+81,5000,Ridge,0.89
+81,5000,Lasso,0.68
+81,5000,ElasticNet,0.88
+81,5000,Random Forest,0.84
+81,5000,SVR,0.92
+81,10000,Ridge,0.89
+81,10000,Lasso,0.71
+81,10000,ElasticNet,0.88
+81,10000,Random Forest,0.82
+81,10000,SVR,0.91
+81,All,Ridge,0.63
+81,All,Lasso,0.61
+81,All,ElasticNet,0.62
+81,All,Random Forest,0.66
+81,All,SVR,0.67
+82,10,Ridge,0.75
+82,10,Lasso,0.75
+82,10,ElasticNet,0.75
+82,10,Random Forest,0.66
+82,10,SVR,0.74
+82,52,Ridge,0.78
+82,52,Lasso,0.69
+82,52,ElasticNet,0.79
+82,52,Random Forest,0.75
+82,52,SVR,0.72
+82,100,Ridge,0.81
+82,100,Lasso,0.7
+82,100,ElasticNet,0.82
+82,100,Random Forest,0.76
+82,100,SVR,0.79
+82,500,Ridge,0.84
+82,500,Lasso,0.71
+82,500,ElasticNet,0.89
+82,500,Random Forest,0.82
+82,500,SVR,0.88
+82,2000,Ridge,0.66
+82,2000,Lasso,0.74
+82,2000,ElasticNet,0.9
+82,2000,Random Forest,0.81
+82,2000,SVR,0.91
+82,5000,Ridge,0.87
+82,5000,Lasso,0.67
+82,5000,ElasticNet,0.86
+82,5000,Random Forest,0.83
+82,5000,SVR,0.9
+82,10000,Ridge,0.88
+82,10000,Lasso,0.67
+82,10000,ElasticNet,0.86
+82,10000,Random Forest,0.81
+82,10000,SVR,0.91
+82,All,Ridge,0.53
+82,All,Lasso,0.54
+82,All,ElasticNet,0.54
+82,All,Random Forest,0.55
+82,All,SVR,0.61
+83,10,Ridge,0.7
+83,10,Lasso,0.67
+83,10,ElasticNet,0.7
+83,10,Random Forest,0.69
+83,10,SVR,0.69
+83,52,Ridge,0.79
+83,52,Lasso,0.64
+83,52,ElasticNet,0.79
+83,52,Random Forest,0.71
+83,52,SVR,0.79
+83,100,Ridge,0.79
+83,100,Lasso,0.64
+83,100,ElasticNet,0.79
+83,100,Random Forest,0.71
+83,100,SVR,0.79
+83,500,Ridge,0.79
+83,500,Lasso,0.69
+83,500,ElasticNet,0.82
+83,500,Random Forest,0.74
+83,500,SVR,0.82
+83,2000,Ridge,0.71
+83,2000,Lasso,0.69
+83,2000,ElasticNet,0.84
+83,2000,Random Forest,0.72
+83,2000,SVR,0.86
+83,5000,Ridge,0.85
+83,5000,Lasso,0.59
+83,5000,ElasticNet,0.84
+83,5000,Random Forest,0.75
+83,5000,SVR,0.89
+83,10000,Ridge,0.88
+83,10000,Lasso,0.63
+83,10000,ElasticNet,0.89
+83,10000,Random Forest,0.73
+83,10000,SVR,0.91
+83,All,Ridge,0.39
+83,All,Lasso,0.44
+83,All,ElasticNet,0.55
+83,All,Random Forest,0.49
+83,All,SVR,0.49
+84,10,Ridge,0.78
+84,10,Lasso,0.77
+84,10,ElasticNet,0.78
+84,10,Random Forest,0.75
+84,10,SVR,0.78
+84,52,Ridge,0.81
+84,52,Lasso,0.73
+84,52,ElasticNet,0.8
+84,52,Random Forest,0.71
+84,52,SVR,0.81
+84,100,Ridge,0.81
+84,100,Lasso,0.73
+84,100,ElasticNet,0.81
+84,100,Random Forest,0.79
+84,100,SVR,0.78
+84,500,Ridge,0.83
+84,500,Lasso,0.69
+84,500,ElasticNet,0.85
+84,500,Random Forest,0.83
+84,500,SVR,0.86
+84,2000,Ridge,0.69
+84,2000,Lasso,0.69
+84,2000,ElasticNet,0.86
+84,2000,Random Forest,0.83
+84,2000,SVR,0.9
+84,5000,Ridge,0.86
+84,5000,Lasso,0.7
+84,5000,ElasticNet,0.86
+84,5000,Random Forest,0.85
+84,5000,SVR,0.9
+84,10000,Ridge,0.89
+84,10000,Lasso,0.66
+84,10000,ElasticNet,0.89
+84,10000,Random Forest,0.83
+84,10000,SVR,0.92
+84,All,Ridge,0.56
+84,All,Lasso,0.58
+84,All,ElasticNet,0.66
+84,All,Random Forest,0.62
+84,All,SVR,0.64
+85,10,Ridge,0.69
+85,10,Lasso,0.68
+85,10,ElasticNet,0.69
+85,10,Random Forest,0.52
+85,10,SVR,0.68
+85,52,Ridge,0.78
+85,52,Lasso,0.73
+85,52,ElasticNet,0.8
+85,52,Random Forest,0.79
+85,52,SVR,0.77
+85,100,Ridge,0.79
+85,100,Lasso,0.71
+85,100,ElasticNet,0.8
+85,100,Random Forest,0.82
+85,100,SVR,0.78
+85,500,Ridge,0.88
+85,500,Lasso,0.71
+85,500,ElasticNet,0.9
+85,500,Random Forest,0.84
+85,500,SVR,0.9
+85,2000,Ridge,0.68
+85,2000,Lasso,0.73
+85,2000,ElasticNet,0.87
+85,2000,Random Forest,0.8
+85,2000,SVR,0.9
+85,5000,Ridge,0.88
+85,5000,Lasso,0.64
+85,5000,ElasticNet,0.89
+85,5000,Random Forest,0.83
+85,5000,SVR,0.91
+85,10000,Ridge,0.9
+85,10000,Lasso,0.66
+85,10000,ElasticNet,0.9
+85,10000,Random Forest,0.79
+85,10000,SVR,0.92
+85,All,Ridge,0.56
+85,All,Lasso,0.59
+85,All,ElasticNet,0.55
+85,All,Random Forest,0.58
+85,All,SVR,0.58
+86,10,Ridge,0.77
+86,10,Lasso,0.76
+86,10,ElasticNet,0.77
+86,10,Random Forest,0.73
+86,10,SVR,0.77
+86,52,Ridge,0.79
+86,52,Lasso,0.68
+86,52,ElasticNet,0.8
+86,52,Random Forest,0.8
+86,52,SVR,0.79
+86,100,Ridge,0.8
+86,100,Lasso,0.67
+86,100,ElasticNet,0.82
+86,100,Random Forest,0.8
+86,100,SVR,0.8
+86,500,Ridge,0.81
+86,500,Lasso,0.71
+86,500,ElasticNet,0.88
+86,500,Random Forest,0.82
+86,500,SVR,0.85
+86,2000,Ridge,0.61
+86,2000,Lasso,0.72
+86,2000,ElasticNet,0.9
+86,2000,Random Forest,0.83
+86,2000,SVR,0.94
+86,5000,Ridge,0.87
+86,5000,Lasso,0.71
+86,5000,ElasticNet,0.91
+86,5000,Random Forest,0.82
+86,5000,SVR,0.92
+86,10000,Ridge,0.88
+86,10000,Lasso,0.67
+86,10000,ElasticNet,0.86
+86,10000,Random Forest,0.81
+86,10000,SVR,0.93
+86,All,Ridge,0.43
+86,All,Lasso,0.48
+86,All,ElasticNet,0.56
+86,All,Random Forest,0.54
+86,All,SVR,0.52
+87,10,Ridge,0.75
+87,10,Lasso,0.75
+87,10,ElasticNet,0.75
+87,10,Random Forest,0.68
+87,10,SVR,0.76
+87,52,Ridge,0.85
+87,52,Lasso,0.77
+87,52,ElasticNet,0.85
+87,52,Random Forest,0.76
+87,52,SVR,0.84
+87,100,Ridge,0.82
+87,100,Lasso,0.72
+87,100,ElasticNet,0.83
+87,100,Random Forest,0.77
+87,100,SVR,0.81
+87,500,Ridge,0.78
+87,500,Lasso,0.75
+87,500,ElasticNet,0.85
+87,500,Random Forest,0.81
+87,500,SVR,0.88
+87,2000,Ridge,0.71
+87,2000,Lasso,0.73
+87,2000,ElasticNet,0.87
+87,2000,Random Forest,0.79
+87,2000,SVR,0.89
+87,5000,Ridge,0.86
+87,5000,Lasso,0.72
+87,5000,ElasticNet,0.86
+87,5000,Random Forest,0.8
+87,5000,SVR,0.9
+87,10000,Ridge,0.89
+87,10000,Lasso,0.7
+87,10000,ElasticNet,0.84
+87,10000,Random Forest,0.75
+87,10000,SVR,0.91
+87,All,Ridge,0.56
+87,All,Lasso,0.54
+87,All,ElasticNet,0.61
+87,All,Random Forest,0.63
+87,All,SVR,0.58
+88,10,Ridge,0.81
+88,10,Lasso,0.81
+88,10,ElasticNet,0.81
+88,10,Random Forest,0.68
+88,10,SVR,0.81
+88,52,Ridge,0.82
+88,52,Lasso,0.86
+88,52,ElasticNet,0.82
+88,52,Random Forest,0.83
+88,52,SVR,0.77
+88,100,Ridge,0.82
+88,100,Lasso,0.85
+88,100,ElasticNet,0.84
+88,100,Random Forest,0.84
+88,100,SVR,0.81
+88,500,Ridge,0.74
+88,500,Lasso,0.82
+88,500,ElasticNet,0.83
+88,500,Random Forest,0.86
+88,500,SVR,0.81
+88,2000,Ridge,0.74
+88,2000,Lasso,0.84
+88,2000,ElasticNet,0.89
+88,2000,Random Forest,0.85
+88,2000,SVR,0.9
+88,5000,Ridge,0.87
+88,5000,Lasso,0.75
+88,5000,ElasticNet,0.9
+88,5000,Random Forest,0.84
+88,5000,SVR,0.91
+88,10000,Ridge,0.9
+88,10000,Lasso,0.77
+88,10000,ElasticNet,0.9
+88,10000,Random Forest,0.85
+88,10000,SVR,0.92
+88,All,Ridge,0.58
+88,All,Lasso,0.62
+88,All,ElasticNet,0.41
+88,All,Random Forest,0.73
+88,All,SVR,0.64
+89,10,Ridge,0.76
+89,10,Lasso,0.76
+89,10,ElasticNet,0.76
+89,10,Random Forest,0.73
+89,10,SVR,0.76
+89,52,Ridge,0.88
+89,52,Lasso,0.77
+89,52,ElasticNet,0.88
+89,52,Random Forest,0.75
+89,52,SVR,0.85
+89,100,Ridge,0.82
+89,100,Lasso,0.73
+89,100,ElasticNet,0.83
+89,100,Random Forest,0.77
+89,100,SVR,0.79
+89,500,Ridge,0.84
+89,500,Lasso,0.72
+89,500,ElasticNet,0.87
+89,500,Random Forest,0.8
+89,500,SVR,0.88
+89,2000,Ridge,0.64
+89,2000,Lasso,0.68
+89,2000,ElasticNet,0.86
+89,2000,Random Forest,0.77
+89,2000,SVR,0.89
+89,5000,Ridge,0.91
+89,5000,Lasso,0.7
+89,5000,ElasticNet,0.89
+89,5000,Random Forest,0.8
+89,5000,SVR,0.92
+89,10000,Ridge,0.91
+89,10000,Lasso,0.63
+89,10000,ElasticNet,0.88
+89,10000,Random Forest,0.81
+89,10000,SVR,0.92
+89,All,Ridge,0.47
+89,All,Lasso,0.49
+89,All,ElasticNet,0.51
+89,All,Random Forest,0.56
+89,All,SVR,0.56
+90,10,Ridge,0.63
+90,10,Lasso,0.63
+90,10,ElasticNet,0.63
+90,10,Random Forest,0.56
+90,10,SVR,0.64
+90,52,Ridge,0.78
+90,52,Lasso,0.72
+90,52,ElasticNet,0.79
+90,52,Random Forest,0.75
+90,52,SVR,0.74
+90,100,Ridge,0.8
+90,100,Lasso,0.71
+90,100,ElasticNet,0.81
+90,100,Random Forest,0.76
+90,100,SVR,0.74
+90,500,Ridge,0.72
+90,500,Lasso,0.68
+90,500,ElasticNet,0.87
+90,500,Random Forest,0.79
+90,500,SVR,0.84
+90,2000,Ridge,0.71
+90,2000,Lasso,0.69
+90,2000,ElasticNet,0.87
+90,2000,Random Forest,0.78
+90,2000,SVR,0.9
+90,5000,Ridge,0.86
+90,5000,Lasso,0.6
+90,5000,ElasticNet,0.89
+90,5000,Random Forest,0.75
+90,5000,SVR,0.92
+90,10000,Ridge,0.88
+90,10000,Lasso,0.59
+90,10000,ElasticNet,0.88
+90,10000,Random Forest,0.72
+90,10000,SVR,0.93
+90,All,Ridge,0.39
+90,All,Lasso,0.37
+90,All,ElasticNet,0.6
+90,All,Random Forest,0.37
+90,All,SVR,0.43
+91,10,Ridge,0.76
+91,10,Lasso,0.77
+91,10,ElasticNet,0.76
+91,10,Random Forest,0.64
+91,10,SVR,0.75
+91,52,Ridge,0.83
+91,52,Lasso,0.83
+91,52,ElasticNet,0.84
+91,52,Random Forest,0.8
+91,52,SVR,0.84
+91,100,Ridge,0.82
+91,100,Lasso,0.8
+91,100,ElasticNet,0.83
+91,100,Random Forest,0.76
+91,100,SVR,0.83
+91,500,Ridge,0.8
+91,500,Lasso,0.83
+91,500,ElasticNet,0.87
+91,500,Random Forest,0.8
+91,500,SVR,0.88
+91,2000,Ridge,0.75
+91,2000,Lasso,0.78
+91,2000,ElasticNet,0.88
+91,2000,Random Forest,0.8
+91,2000,SVR,0.9
+91,5000,Ridge,0.89
+91,5000,Lasso,0.72
+91,5000,ElasticNet,0.88
+91,5000,Random Forest,0.83
+91,5000,SVR,0.91
+91,10000,Ridge,0.89
+91,10000,Lasso,0.76
+91,10000,ElasticNet,0.89
+91,10000,Random Forest,0.83
+91,10000,SVR,0.93
+91,All,Ridge,0.62
+91,All,Lasso,0.63
+91,All,ElasticNet,0.54
+91,All,Random Forest,0.64
+91,All,SVR,0.65
+92,10,Ridge,0.64
+92,10,Lasso,0.64
+92,10,ElasticNet,0.66
+92,10,Random Forest,0.62
+92,10,SVR,0.64
+92,52,Ridge,0.78
+92,52,Lasso,0.71
+92,52,ElasticNet,0.79
+92,52,Random Forest,0.74
+92,52,SVR,0.79
+92,100,Ridge,0.82
+92,100,Lasso,0.72
+92,100,ElasticNet,0.83
+92,100,Random Forest,0.8
+92,100,SVR,0.79
+92,500,Ridge,0.8
+92,500,Lasso,0.72
+92,500,ElasticNet,0.83
+92,500,Random Forest,0.82
+92,500,SVR,0.81
+92,2000,Ridge,0.74
+92,2000,Lasso,0.68
+92,2000,ElasticNet,0.85
+92,2000,Random Forest,0.76
+92,2000,SVR,0.87
+92,5000,Ridge,0.86
+92,5000,Lasso,0.59
+92,5000,ElasticNet,0.88
+92,5000,Random Forest,0.77
+92,5000,SVR,0.89
+92,10000,Ridge,0.89
+92,10000,Lasso,0.62
+92,10000,ElasticNet,0.87
+92,10000,Random Forest,0.73
+92,10000,SVR,0.9
+92,All,Ridge,0.35
+92,All,Lasso,0.4
+92,All,ElasticNet,0.51
+92,All,Random Forest,0.46
+92,All,SVR,0.43
+93,10,Ridge,0.62
+93,10,Lasso,0.63
+93,10,ElasticNet,0.63
+93,10,Random Forest,0.58
+93,10,SVR,0.65
+93,52,Ridge,0.79
+93,52,Lasso,0.75
+93,52,ElasticNet,0.79
+93,52,Random Forest,0.73
+93,52,SVR,0.78
+93,100,Ridge,0.77
+93,100,Lasso,0.74
+93,100,ElasticNet,0.78
+93,100,Random Forest,0.76
+93,100,SVR,0.77
+93,500,Ridge,0.85
+93,500,Lasso,0.7
+93,500,ElasticNet,0.86
+93,500,Random Forest,0.71
+93,500,SVR,0.87
+93,2000,Ridge,0.79
+93,2000,Lasso,0.7
+93,2000,ElasticNet,0.9
+93,2000,Random Forest,0.74
+93,2000,SVR,0.92
+93,5000,Ridge,0.91
+93,5000,Lasso,0.62
+93,5000,ElasticNet,0.9
+93,5000,Random Forest,0.73
+93,5000,SVR,0.93
+93,10000,Ridge,0.93
+93,10000,Lasso,0.67
+93,10000,ElasticNet,0.9
+93,10000,Random Forest,0.73
+93,10000,SVR,0.95
+93,All,Ridge,0.45
+93,All,Lasso,0.45
+93,All,ElasticNet,0.39
+93,All,Random Forest,0.43
+93,All,SVR,0.46
+94,10,Ridge,0.68
+94,10,Lasso,0.7
+94,10,ElasticNet,0.69
+94,10,Random Forest,0.61
+94,10,SVR,0.65
+94,52,Ridge,0.78
+94,52,Lasso,0.75
+94,52,ElasticNet,0.79
+94,52,Random Forest,0.71
+94,52,SVR,0.75
+94,100,Ridge,0.8
+94,100,Lasso,0.76
+94,100,ElasticNet,0.84
+94,100,Random Forest,0.8
+94,100,SVR,0.79
+94,500,Ridge,0.79
+94,500,Lasso,0.69
+94,500,ElasticNet,0.83
+94,500,Random Forest,0.74
+94,500,SVR,0.85
+94,2000,Ridge,0.68
+94,2000,Lasso,0.72
+94,2000,ElasticNet,0.84
+94,2000,Random Forest,0.78
+94,2000,SVR,0.87
+94,5000,Ridge,0.81
+94,5000,Lasso,0.61
+94,5000,ElasticNet,0.82
+94,5000,Random Forest,0.79
+94,5000,SVR,0.87
+94,10000,Ridge,0.84
+94,10000,Lasso,0.65
+94,10000,ElasticNet,0.84
+94,10000,Random Forest,0.76
+94,10000,SVR,0.89
+94,All,Ridge,0.45
+94,All,Lasso,0.56
+94,All,ElasticNet,0.66
+94,All,Random Forest,0.61
+94,All,SVR,0.56
+95,10,Ridge,0.71
+95,10,Lasso,0.7
+95,10,ElasticNet,0.71
+95,10,Random Forest,0.69
+95,10,SVR,0.71
+95,52,Ridge,0.83
+95,52,Lasso,0.75
+95,52,ElasticNet,0.82
+95,52,Random Forest,0.78
+95,52,SVR,0.81
+95,100,Ridge,0.82
+95,100,Lasso,0.75
+95,100,ElasticNet,0.81
+95,100,Random Forest,0.78
+95,100,SVR,0.81
+95,500,Ridge,0.81
+95,500,Lasso,0.65
+95,500,ElasticNet,0.85
+95,500,Random Forest,0.78
+95,500,SVR,0.84
+95,2000,Ridge,0.77
+95,2000,Lasso,0.61
+95,2000,ElasticNet,0.86
+95,2000,Random Forest,0.75
+95,2000,SVR,0.89
+95,5000,Ridge,0.89
+95,5000,Lasso,0.57
+95,5000,ElasticNet,0.87
+95,5000,Random Forest,0.75
+95,5000,SVR,0.9
+95,10000,Ridge,0.9
+95,10000,Lasso,0.62
+95,10000,ElasticNet,0.89
+95,10000,Random Forest,0.74
+95,10000,SVR,0.91
+95,All,Ridge,0.54
+95,All,Lasso,0.53
+95,All,ElasticNet,0.57
+95,All,Random Forest,0.53
+95,All,SVR,0.57
+96,10,Ridge,0.68
+96,10,Lasso,0.66
+96,10,ElasticNet,0.69
+96,10,Random Forest,0.63
+96,10,SVR,0.66
+96,52,Ridge,0.76
+96,52,Lasso,0.67
+96,52,ElasticNet,0.8
+96,52,Random Forest,0.71
+96,52,SVR,0.75
+96,100,Ridge,0.81
+96,100,Lasso,0.66
+96,100,ElasticNet,0.86
+96,100,Random Forest,0.72
+96,100,SVR,0.79
+96,500,Ridge,0.87
+96,500,Lasso,0.72
+96,500,ElasticNet,0.9
+96,500,Random Forest,0.76
+96,500,SVR,0.86
+96,2000,Ridge,0.76
+96,2000,Lasso,0.71
+96,2000,ElasticNet,0.85
+96,2000,Random Forest,0.74
+96,2000,SVR,0.86
+96,5000,Ridge,0.82
+96,5000,Lasso,0.61
+96,5000,ElasticNet,0.83
+96,5000,Random Forest,0.73
+96,5000,SVR,0.86
+96,10000,Ridge,0.86
+96,10000,Lasso,0.57
+96,10000,ElasticNet,0.83
+96,10000,Random Forest,0.75
+96,10000,SVR,0.88
+96,All,Ridge,0.52
+96,All,Lasso,0.49
+96,All,ElasticNet,0.62
+96,All,Random Forest,0.55
+96,All,SVR,0.6
+97,10,Ridge,0.85
+97,10,Lasso,0.83
+97,10,ElasticNet,0.84
+97,10,Random Forest,0.81
+97,10,SVR,0.84
+97,52,Ridge,0.92
+97,52,Lasso,0.86
+97,52,ElasticNet,0.93
+97,52,Random Forest,0.9
+97,52,SVR,0.92
+97,100,Ridge,0.9
+97,100,Lasso,0.86
+97,100,ElasticNet,0.92
+97,100,Random Forest,0.93
+97,100,SVR,0.89
+97,500,Ridge,0.91
+97,500,Lasso,0.91
+97,500,ElasticNet,0.92
+97,500,Random Forest,0.93
+97,500,SVR,0.93
+97,2000,Ridge,0.78
+97,2000,Lasso,0.84
+97,2000,ElasticNet,0.94
+97,2000,Random Forest,0.91
+97,2000,SVR,0.96
+97,5000,Ridge,0.94
+97,5000,Lasso,0.77
+97,5000,ElasticNet,0.94
+97,5000,Random Forest,0.94
+97,5000,SVR,0.96
+97,10000,Ridge,0.93
+97,10000,Lasso,0.8
+97,10000,ElasticNet,0.93
+97,10000,Random Forest,0.94
+97,10000,SVR,0.97
+97,All,Ridge,0.7
+97,All,Lasso,0.7
+97,All,ElasticNet,0.54
+97,All,Random Forest,0.77
+97,All,SVR,0.73
+98,10,Ridge,0.74
+98,10,Lasso,0.72
+98,10,ElasticNet,0.74
+98,10,Random Forest,0.67
+98,10,SVR,0.75
+98,52,Ridge,0.83
+98,52,Lasso,0.79
+98,52,ElasticNet,0.83
+98,52,Random Forest,0.76
+98,52,SVR,0.82
+98,100,Ridge,0.88
+98,100,Lasso,0.8
+98,100,ElasticNet,0.88
+98,100,Random Forest,0.84
+98,100,SVR,0.87
+98,500,Ridge,0.83
+98,500,Lasso,0.78
+98,500,ElasticNet,0.89
+98,500,Random Forest,0.85
+98,500,SVR,0.9
+98,2000,Ridge,0.74
+98,2000,Lasso,0.65
+98,2000,ElasticNet,0.88
+98,2000,Random Forest,0.81
+98,2000,SVR,0.9
+98,5000,Ridge,0.89
+98,5000,Lasso,0.64
+98,5000,ElasticNet,0.9
+98,5000,Random Forest,0.84
+98,5000,SVR,0.92
+98,10000,Ridge,0.91
+98,10000,Lasso,0.64
+98,10000,ElasticNet,0.9
+98,10000,Random Forest,0.82
+98,10000,SVR,0.93
+98,All,Ridge,0.48
+98,All,Lasso,0.46
+98,All,ElasticNet,0.53
+98,All,Random Forest,0.56
+98,All,SVR,0.53
+99,10,Ridge,0.65
+99,10,Lasso,0.62
+99,10,ElasticNet,0.65
+99,10,Random Forest,0.57
+99,10,SVR,0.66
+99,52,Ridge,0.77
+99,52,Lasso,0.69
+99,52,ElasticNet,0.76
+99,52,Random Forest,0.78
+99,52,SVR,0.76
+99,100,Ridge,0.84
+99,100,Lasso,0.68
+99,100,ElasticNet,0.83
+99,100,Random Forest,0.78
+99,100,SVR,0.82
+99,500,Ridge,0.78
+99,500,Lasso,0.72
+99,500,ElasticNet,0.85
+99,500,Random Forest,0.8
+99,500,SVR,0.86
+99,2000,Ridge,0.75
+99,2000,Lasso,0.71
+99,2000,ElasticNet,0.89
+99,2000,Random Forest,0.8
+99,2000,SVR,0.91
+99,5000,Ridge,0.86
+99,5000,Lasso,0.62
+99,5000,ElasticNet,0.88
+99,5000,Random Forest,0.82
+99,5000,SVR,0.9
+99,10000,Ridge,0.89
+99,10000,Lasso,0.62
+99,10000,ElasticNet,0.9
+99,10000,Random Forest,0.81
+99,10000,SVR,0.91
+99,All,Ridge,0.5
+99,All,Lasso,0.57
+99,All,ElasticNet,0.59
+99,All,Random Forest,0.53
+99,All,SVR,0.57
+100,10,Ridge,0.63
+100,10,Lasso,0.64
+100,10,ElasticNet,0.64
+100,10,Random Forest,0.56
+100,10,SVR,0.63
+100,52,Ridge,0.72
+100,52,Lasso,0.59
+100,52,ElasticNet,0.74
+100,52,Random Forest,0.71
+100,52,SVR,0.74
+100,100,Ridge,0.75
+100,100,Lasso,0.6
+100,100,ElasticNet,0.76
+100,100,Random Forest,0.7
+100,100,SVR,0.74
+100,500,Ridge,0.66
+100,500,Lasso,0.53
+100,500,ElasticNet,0.77
+100,500,Random Forest,0.63
+100,500,SVR,0.78
+100,2000,Ridge,0.67
+100,2000,Lasso,0.57
+100,2000,ElasticNet,0.78
+100,2000,Random Forest,0.66
+100,2000,SVR,0.85
+100,5000,Ridge,0.85
+100,5000,Lasso,0.48
+100,5000,ElasticNet,0.85
+100,5000,Random Forest,0.61
+100,5000,SVR,0.86
+100,10000,Ridge,0.87
+100,10000,Lasso,0.53
+100,10000,ElasticNet,0.83
+100,10000,Random Forest,0.64
+100,10000,SVR,0.89
+100,All,Ridge,0.23
+100,All,Lasso,0.3
+100,All,ElasticNet,0.45
+100,All,Random Forest,0.32
+100,All,SVR,0.3

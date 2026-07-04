@@ -1,0 +1,3201 @@
+cv_fold,snp_count,model,score
+1,1,Logistic Regression,0.57
+1,1,Naive Bayes,0.6
+1,1,Random Forest,0.57
+1,1,SVC,0.57
+1,10,Logistic Regression,0.67
+1,10,Naive Bayes,0.69
+1,10,Random Forest,0.69
+1,10,SVC,0.69
+1,50,Logistic Regression,0.79
+1,50,Naive Bayes,0.74
+1,50,Random Forest,0.71
+1,50,SVC,0.76
+1,100,Logistic Regression,0.86
+1,100,Naive Bayes,0.76
+1,100,Random Forest,0.76
+1,100,SVC,0.81
+1,500,Logistic Regression,0.9
+1,500,Naive Bayes,0.76
+1,500,Random Forest,0.79
+1,500,SVC,0.86
+1,2000,Logistic Regression,0.93
+1,2000,Naive Bayes,0.83
+1,2000,Random Forest,0.79
+1,2000,SVC,0.9
+1,5000,Logistic Regression,0.88
+1,5000,Naive Bayes,0.81
+1,5000,Random Forest,0.74
+1,5000,SVC,0.88
+1,All,Logistic Regression,0.64
+1,All,Naive Bayes,0.71
+1,All,Random Forest,0.71
+1,All,SVC,0.67
+2,1,Logistic Regression,0.64
+2,1,Naive Bayes,0.64
+2,1,Random Forest,0.64
+2,1,SVC,0.64
+2,10,Logistic Regression,0.81
+2,10,Naive Bayes,0.74
+2,10,Random Forest,0.86
+2,10,SVC,0.88
+2,50,Logistic Regression,0.95
+2,50,Naive Bayes,0.81
+2,50,Random Forest,0.83
+2,50,SVC,0.93
+2,100,Logistic Regression,0.98
+2,100,Naive Bayes,0.79
+2,100,Random Forest,0.88
+2,100,SVC,0.93
+2,500,Logistic Regression,1.0
+2,500,Naive Bayes,0.79
+2,500,Random Forest,0.83
+2,500,SVC,0.98
+2,2000,Logistic Regression,1.0
+2,2000,Naive Bayes,0.86
+2,2000,Random Forest,0.83
+2,2000,SVC,0.95
+2,5000,Logistic Regression,0.98
+2,5000,Naive Bayes,0.88
+2,5000,Random Forest,0.83
+2,5000,SVC,1.0
+2,All,Logistic Regression,0.71
+2,All,Naive Bayes,0.79
+2,All,Random Forest,0.79
+2,All,SVC,0.69
+3,1,Logistic Regression,0.67
+3,1,Naive Bayes,0.57
+3,1,Random Forest,0.67
+3,1,SVC,0.67
+3,10,Logistic Regression,0.81
+3,10,Naive Bayes,0.71
+3,10,Random Forest,0.79
+3,10,SVC,0.81
+3,50,Logistic Regression,0.9
+3,50,Naive Bayes,0.76
+3,50,Random Forest,0.79
+3,50,SVC,0.88
+3,100,Logistic Regression,0.79
+3,100,Naive Bayes,0.71
+3,100,Random Forest,0.81
+3,100,SVC,0.79
+3,500,Logistic Regression,0.88
+3,500,Naive Bayes,0.74
+3,500,Random Forest,0.74
+3,500,SVC,0.95
+3,2000,Logistic Regression,0.95
+3,2000,Naive Bayes,0.79
+3,2000,Random Forest,0.86
+3,2000,SVC,0.93
+3,5000,Logistic Regression,0.93
+3,5000,Naive Bayes,0.83
+3,5000,Random Forest,0.81
+3,5000,SVC,0.93
+3,All,Logistic Regression,0.71
+3,All,Naive Bayes,0.74
+3,All,Random Forest,0.71
+3,All,SVC,0.71
+4,1,Logistic Regression,0.67
+4,1,Naive Bayes,0.67
+4,1,Random Forest,0.67
+4,1,SVC,0.67
+4,10,Logistic Regression,0.76
+4,10,Naive Bayes,0.76
+4,10,Random Forest,0.81
+4,10,SVC,0.79
+4,50,Logistic Regression,0.83
+4,50,Naive Bayes,0.81
+4,50,Random Forest,0.86
+4,50,SVC,0.86
+4,100,Logistic Regression,0.95
+4,100,Naive Bayes,0.86
+4,100,Random Forest,0.88
+4,100,SVC,0.93
+4,500,Logistic Regression,0.88
+4,500,Naive Bayes,0.83
+4,500,Random Forest,0.83
+4,500,SVC,0.9
+4,2000,Logistic Regression,0.95
+4,2000,Naive Bayes,0.88
+4,2000,Random Forest,0.9
+4,2000,SVC,0.9
+4,5000,Logistic Regression,0.98
+4,5000,Naive Bayes,0.88
+4,5000,Random Forest,0.88
+4,5000,SVC,0.98
+4,All,Logistic Regression,0.71
+4,All,Naive Bayes,0.79
+4,All,Random Forest,0.76
+4,All,SVC,0.74
+5,1,Logistic Regression,0.6
+5,1,Naive Bayes,0.57
+5,1,Random Forest,0.6
+5,1,SVC,0.6
+5,10,Logistic Regression,0.9
+5,10,Naive Bayes,0.9
+5,10,Random Forest,0.9
+5,10,SVC,0.95
+5,50,Logistic Regression,0.9
+5,50,Naive Bayes,0.9
+5,50,Random Forest,0.93
+5,50,SVC,0.9
+5,100,Logistic Regression,0.9
+5,100,Naive Bayes,0.9
+5,100,Random Forest,0.93
+5,100,SVC,0.9
+5,500,Logistic Regression,0.95
+5,500,Naive Bayes,0.9
+5,500,Random Forest,0.9
+5,500,SVC,0.98
+5,2000,Logistic Regression,1.0
+5,2000,Naive Bayes,0.93
+5,2000,Random Forest,0.93
+5,2000,SVC,1.0
+5,5000,Logistic Regression,0.95
+5,5000,Naive Bayes,0.95
+5,5000,Random Forest,0.93
+5,5000,SVC,0.95
+5,All,Logistic Regression,0.69
+5,All,Naive Bayes,0.83
+5,All,Random Forest,0.83
+5,All,SVC,0.79
+6,1,Logistic Regression,0.69
+6,1,Naive Bayes,0.69
+6,1,Random Forest,0.69
+6,1,SVC,0.69
+6,10,Logistic Regression,0.86
+6,10,Naive Bayes,0.81
+6,10,Random Forest,0.79
+6,10,SVC,0.86
+6,50,Logistic Regression,0.93
+6,50,Naive Bayes,0.83
+6,50,Random Forest,0.93
+6,50,SVC,0.93
+6,100,Logistic Regression,0.98
+6,100,Naive Bayes,0.83
+6,100,Random Forest,0.93
+6,100,SVC,0.93
+6,500,Logistic Regression,0.95
+6,500,Naive Bayes,0.81
+6,500,Random Forest,0.83
+6,500,SVC,0.93
+6,2000,Logistic Regression,0.98
+6,2000,Naive Bayes,0.93
+6,2000,Random Forest,0.86
+6,2000,SVC,0.98
+6,5000,Logistic Regression,0.98
+6,5000,Naive Bayes,0.88
+6,5000,Random Forest,0.88
+6,5000,SVC,0.98
+6,All,Logistic Regression,0.76
+6,All,Naive Bayes,0.76
+6,All,Random Forest,0.74
+6,All,SVC,0.74
+7,1,Logistic Regression,0.64
+7,1,Naive Bayes,0.71
+7,1,Random Forest,0.64
+7,1,SVC,0.64
+7,10,Logistic Regression,0.83
+7,10,Naive Bayes,0.81
+7,10,Random Forest,0.81
+7,10,SVC,0.88
+7,50,Logistic Regression,0.9
+7,50,Naive Bayes,0.86
+7,50,Random Forest,0.9
+7,50,SVC,0.9
+7,100,Logistic Regression,0.98
+7,100,Naive Bayes,0.88
+7,100,Random Forest,0.88
+7,100,SVC,0.86
+7,500,Logistic Regression,0.9
+7,500,Naive Bayes,0.88
+7,500,Random Forest,0.9
+7,500,SVC,1.0
+7,2000,Logistic Regression,0.93
+7,2000,Naive Bayes,0.88
+7,2000,Random Forest,0.93
+7,2000,SVC,0.88
+7,5000,Logistic Regression,0.93
+7,5000,Naive Bayes,0.93
+7,5000,Random Forest,0.93
+7,5000,SVC,0.95
+7,All,Logistic Regression,0.74
+7,All,Naive Bayes,0.83
+7,All,Random Forest,0.81
+7,All,SVC,0.76
+8,1,Logistic Regression,0.52
+8,1,Naive Bayes,0.48
+8,1,Random Forest,0.52
+8,1,SVC,0.52
+8,10,Logistic Regression,0.76
+8,10,Naive Bayes,0.79
+8,10,Random Forest,0.81
+8,10,SVC,0.79
+8,50,Logistic Regression,0.81
+8,50,Naive Bayes,0.83
+8,50,Random Forest,0.76
+8,50,SVC,0.71
+8,100,Logistic Regression,0.88
+8,100,Naive Bayes,0.83
+8,100,Random Forest,0.88
+8,100,SVC,0.83
+8,500,Logistic Regression,0.9
+8,500,Naive Bayes,0.81
+8,500,Random Forest,0.86
+8,500,SVC,0.88
+8,2000,Logistic Regression,0.9
+8,2000,Naive Bayes,0.83
+8,2000,Random Forest,0.88
+8,2000,SVC,0.9
+8,5000,Logistic Regression,0.9
+8,5000,Naive Bayes,0.86
+8,5000,Random Forest,0.86
+8,5000,SVC,0.88
+8,All,Logistic Regression,0.62
+8,All,Naive Bayes,0.76
+8,All,Random Forest,0.74
+8,All,SVC,0.67
+9,1,Logistic Regression,0.71
+9,1,Naive Bayes,0.6
+9,1,Random Forest,0.71
+9,1,SVC,0.71
+9,10,Logistic Regression,0.74
+9,10,Naive Bayes,0.64
+9,10,Random Forest,0.69
+9,10,SVC,0.79
+9,50,Logistic Regression,0.74
+9,50,Naive Bayes,0.62
+9,50,Random Forest,0.71
+9,50,SVC,0.74
+9,100,Logistic Regression,0.76
+9,100,Naive Bayes,0.57
+9,100,Random Forest,0.64
+9,100,SVC,0.76
+9,500,Logistic Regression,0.81
+9,500,Naive Bayes,0.6
+9,500,Random Forest,0.67
+9,500,SVC,0.88
+9,2000,Logistic Regression,0.88
+9,2000,Naive Bayes,0.76
+9,2000,Random Forest,0.71
+9,2000,SVC,0.88
+9,5000,Logistic Regression,0.86
+9,5000,Naive Bayes,0.81
+9,5000,Random Forest,0.67
+9,5000,SVC,0.86
+9,All,Logistic Regression,0.57
+9,All,Naive Bayes,0.57
+9,All,Random Forest,0.6
+9,All,SVC,0.6
+10,1,Logistic Regression,0.5
+10,1,Naive Bayes,0.48
+10,1,Random Forest,0.5
+10,1,SVC,0.5
+10,10,Logistic Regression,0.71
+10,10,Naive Bayes,0.79
+10,10,Random Forest,0.81
+10,10,SVC,0.74
+10,50,Logistic Regression,0.9
+10,50,Naive Bayes,0.79
+10,50,Random Forest,0.93
+10,50,SVC,0.88
+10,100,Logistic Regression,0.95
+10,100,Naive Bayes,0.81
+10,100,Random Forest,0.93
+10,100,SVC,0.86
+10,500,Logistic Regression,0.93
+10,500,Naive Bayes,0.79
+10,500,Random Forest,0.88
+10,500,SVC,0.9
+10,2000,Logistic Regression,0.98
+10,2000,Naive Bayes,0.88
+10,2000,Random Forest,0.88
+10,2000,SVC,0.95
+10,5000,Logistic Regression,0.98
+10,5000,Naive Bayes,0.93
+10,5000,Random Forest,0.86
+10,5000,SVC,0.98
+10,All,Logistic Regression,0.69
+10,All,Naive Bayes,0.79
+10,All,Random Forest,0.76
+10,All,SVC,0.69
+11,1,Logistic Regression,0.6
+11,1,Naive Bayes,0.62
+11,1,Random Forest,0.6
+11,1,SVC,0.6
+11,10,Logistic Regression,0.74
+11,10,Naive Bayes,0.76
+11,10,Random Forest,0.79
+11,10,SVC,0.79
+11,50,Logistic Regression,0.9
+11,50,Naive Bayes,0.81
+11,50,Random Forest,0.83
+11,50,SVC,0.9
+11,100,Logistic Regression,0.95
+11,100,Naive Bayes,0.79
+11,100,Random Forest,0.83
+11,100,SVC,0.93
+11,500,Logistic Regression,0.93
+11,500,Naive Bayes,0.81
+11,500,Random Forest,0.83
+11,500,SVC,0.93
+11,2000,Logistic Regression,1.0
+11,2000,Naive Bayes,0.9
+11,2000,Random Forest,0.86
+11,2000,SVC,0.98
+11,5000,Logistic Regression,0.98
+11,5000,Naive Bayes,0.86
+11,5000,Random Forest,0.83
+11,5000,SVC,0.98
+11,All,Logistic Regression,0.71
+11,All,Naive Bayes,0.74
+11,All,Random Forest,0.74
+11,All,SVC,0.71
+12,1,Logistic Regression,0.57
+12,1,Naive Bayes,0.62
+12,1,Random Forest,0.57
+12,1,SVC,0.57
+12,10,Logistic Regression,0.86
+12,10,Naive Bayes,0.74
+12,10,Random Forest,0.86
+12,10,SVC,0.86
+12,50,Logistic Regression,0.88
+12,50,Naive Bayes,0.86
+12,50,Random Forest,0.83
+12,50,SVC,0.86
+12,100,Logistic Regression,0.9
+12,100,Naive Bayes,0.86
+12,100,Random Forest,0.88
+12,100,SVC,0.93
+12,500,Logistic Regression,1.0
+12,500,Naive Bayes,0.9
+12,500,Random Forest,0.98
+12,500,SVC,0.98
+12,2000,Logistic Regression,0.98
+12,2000,Naive Bayes,0.93
+12,2000,Random Forest,1.0
+12,2000,SVC,0.98
+12,5000,Logistic Regression,0.98
+12,5000,Naive Bayes,0.95
+12,5000,Random Forest,1.0
+12,5000,SVC,0.95
+12,All,Logistic Regression,0.76
+12,All,Naive Bayes,0.86
+12,All,Random Forest,0.83
+12,All,SVC,0.81
+13,1,Logistic Regression,0.55
+13,1,Naive Bayes,0.62
+13,1,Random Forest,0.55
+13,1,SVC,0.55
+13,10,Logistic Regression,0.79
+13,10,Naive Bayes,0.83
+13,10,Random Forest,0.74
+13,10,SVC,0.83
+13,50,Logistic Regression,0.76
+13,50,Naive Bayes,0.76
+13,50,Random Forest,0.74
+13,50,SVC,0.71
+13,100,Logistic Regression,0.83
+13,100,Naive Bayes,0.81
+13,100,Random Forest,0.79
+13,100,SVC,0.81
+13,500,Logistic Regression,0.88
+13,500,Naive Bayes,0.83
+13,500,Random Forest,0.81
+13,500,SVC,0.86
+13,2000,Logistic Regression,0.88
+13,2000,Naive Bayes,0.83
+13,2000,Random Forest,0.81
+13,2000,SVC,0.86
+13,5000,Logistic Regression,0.86
+13,5000,Naive Bayes,0.83
+13,5000,Random Forest,0.81
+13,5000,SVC,0.86
+13,All,Logistic Regression,0.71
+13,All,Naive Bayes,0.81
+13,All,Random Forest,0.74
+13,All,SVC,0.69
+14,1,Logistic Regression,0.71
+14,1,Naive Bayes,0.69
+14,1,Random Forest,0.71
+14,1,SVC,0.71
+14,10,Logistic Regression,0.79
+14,10,Naive Bayes,0.69
+14,10,Random Forest,0.79
+14,10,SVC,0.79
+14,50,Logistic Regression,0.9
+14,50,Naive Bayes,0.79
+14,50,Random Forest,0.81
+14,50,SVC,0.95
+14,100,Logistic Regression,0.93
+14,100,Naive Bayes,0.79
+14,100,Random Forest,0.86
+14,100,SVC,0.83
+14,500,Logistic Regression,0.93
+14,500,Naive Bayes,0.79
+14,500,Random Forest,0.76
+14,500,SVC,0.93
+14,2000,Logistic Regression,0.93
+14,2000,Naive Bayes,0.88
+14,2000,Random Forest,0.81
+14,2000,SVC,0.9
+14,5000,Logistic Regression,0.95
+14,5000,Naive Bayes,0.88
+14,5000,Random Forest,0.83
+14,5000,SVC,0.95
+14,All,Logistic Regression,0.62
+14,All,Naive Bayes,0.71
+14,All,Random Forest,0.74
+14,All,SVC,0.64
+15,1,Logistic Regression,0.57
+15,1,Naive Bayes,0.55
+15,1,Random Forest,0.57
+15,1,SVC,0.57
+15,10,Logistic Regression,0.81
+15,10,Naive Bayes,0.79
+15,10,Random Forest,0.81
+15,10,SVC,0.86
+15,50,Logistic Regression,0.93
+15,50,Naive Bayes,0.76
+15,50,Random Forest,0.88
+15,50,SVC,0.9
+15,100,Logistic Regression,0.9
+15,100,Naive Bayes,0.81
+15,100,Random Forest,0.9
+15,100,SVC,0.9
+15,500,Logistic Regression,0.98
+15,500,Naive Bayes,0.81
+15,500,Random Forest,0.88
+15,500,SVC,0.98
+15,2000,Logistic Regression,0.98
+15,2000,Naive Bayes,0.86
+15,2000,Random Forest,0.86
+15,2000,SVC,0.98
+15,5000,Logistic Regression,0.95
+15,5000,Naive Bayes,0.88
+15,5000,Random Forest,0.86
+15,5000,SVC,0.95
+15,All,Logistic Regression,0.79
+15,All,Naive Bayes,0.79
+15,All,Random Forest,0.79
+15,All,SVC,0.76
+16,1,Logistic Regression,0.57
+16,1,Naive Bayes,0.55
+16,1,Random Forest,0.57
+16,1,SVC,0.57
+16,10,Logistic Regression,0.74
+16,10,Naive Bayes,0.79
+16,10,Random Forest,0.81
+16,10,SVC,0.74
+16,50,Logistic Regression,0.9
+16,50,Naive Bayes,0.79
+16,50,Random Forest,0.83
+16,50,SVC,0.93
+16,100,Logistic Regression,0.9
+16,100,Naive Bayes,0.83
+16,100,Random Forest,0.88
+16,100,SVC,0.81
+16,500,Logistic Regression,0.9
+16,500,Naive Bayes,0.86
+16,500,Random Forest,0.86
+16,500,SVC,0.9
+16,2000,Logistic Regression,0.9
+16,2000,Naive Bayes,0.88
+16,2000,Random Forest,0.88
+16,2000,SVC,0.9
+16,5000,Logistic Regression,0.9
+16,5000,Naive Bayes,0.88
+16,5000,Random Forest,0.86
+16,5000,SVC,0.9
+16,All,Logistic Regression,0.71
+16,All,Naive Bayes,0.79
+16,All,Random Forest,0.74
+16,All,SVC,0.71
+17,1,Logistic Regression,0.64
+17,1,Naive Bayes,0.52
+17,1,Random Forest,0.52
+17,1,SVC,0.64
+17,10,Logistic Regression,0.81
+17,10,Naive Bayes,0.67
+17,10,Random Forest,0.83
+17,10,SVC,0.79
+17,50,Logistic Regression,0.88
+17,50,Naive Bayes,0.74
+17,50,Random Forest,0.74
+17,50,SVC,0.86
+17,100,Logistic Regression,0.9
+17,100,Naive Bayes,0.79
+17,100,Random Forest,0.81
+17,100,SVC,0.79
+17,500,Logistic Regression,0.93
+17,500,Naive Bayes,0.76
+17,500,Random Forest,0.86
+17,500,SVC,0.9
+17,2000,Logistic Regression,0.95
+17,2000,Naive Bayes,0.86
+17,2000,Random Forest,0.76
+17,2000,SVC,0.93
+17,5000,Logistic Regression,0.95
+17,5000,Naive Bayes,0.88
+17,5000,Random Forest,0.74
+17,5000,SVC,0.95
+17,All,Logistic Regression,0.6
+17,All,Naive Bayes,0.67
+17,All,Random Forest,0.69
+17,All,SVC,0.64
+18,1,Logistic Regression,0.67
+18,1,Naive Bayes,0.57
+18,1,Random Forest,0.67
+18,1,SVC,0.67
+18,10,Logistic Regression,0.76
+18,10,Naive Bayes,0.67
+18,10,Random Forest,0.69
+18,10,SVC,0.76
+18,50,Logistic Regression,0.81
+18,50,Naive Bayes,0.64
+18,50,Random Forest,0.74
+18,50,SVC,0.74
+18,100,Logistic Regression,0.9
+18,100,Naive Bayes,0.69
+18,100,Random Forest,0.79
+18,100,SVC,0.81
+18,500,Logistic Regression,0.9
+18,500,Naive Bayes,0.67
+18,500,Random Forest,0.81
+18,500,SVC,0.9
+18,2000,Logistic Regression,0.95
+18,2000,Naive Bayes,0.76
+18,2000,Random Forest,0.74
+18,2000,SVC,0.93
+18,5000,Logistic Regression,0.93
+18,5000,Naive Bayes,0.81
+18,5000,Random Forest,0.76
+18,5000,SVC,0.93
+18,All,Logistic Regression,0.55
+18,All,Naive Bayes,0.62
+18,All,Random Forest,0.62
+18,All,SVC,0.55
+19,1,Logistic Regression,0.69
+19,1,Naive Bayes,0.62
+19,1,Random Forest,0.69
+19,1,SVC,0.69
+19,10,Logistic Regression,0.71
+19,10,Naive Bayes,0.64
+19,10,Random Forest,0.74
+19,10,SVC,0.74
+19,50,Logistic Regression,0.76
+19,50,Naive Bayes,0.64
+19,50,Random Forest,0.69
+19,50,SVC,0.81
+19,100,Logistic Regression,0.86
+19,100,Naive Bayes,0.62
+19,100,Random Forest,0.71
+19,100,SVC,0.81
+19,500,Logistic Regression,0.86
+19,500,Naive Bayes,0.67
+19,500,Random Forest,0.71
+19,500,SVC,0.83
+19,2000,Logistic Regression,0.9
+19,2000,Naive Bayes,0.71
+19,2000,Random Forest,0.71
+19,2000,SVC,0.93
+19,5000,Logistic Regression,0.88
+19,5000,Naive Bayes,0.81
+19,5000,Random Forest,0.71
+19,5000,SVC,0.86
+19,All,Logistic Regression,0.6
+19,All,Naive Bayes,0.64
+19,All,Random Forest,0.67
+19,All,SVC,0.62
+20,1,Logistic Regression,0.52
+20,1,Naive Bayes,0.52
+20,1,Random Forest,0.52
+20,1,SVC,0.52
+20,10,Logistic Regression,0.76
+20,10,Naive Bayes,0.76
+20,10,Random Forest,0.76
+20,10,SVC,0.79
+20,50,Logistic Regression,0.93
+20,50,Naive Bayes,0.81
+20,50,Random Forest,0.83
+20,50,SVC,0.9
+20,100,Logistic Regression,0.98
+20,100,Naive Bayes,0.86
+20,100,Random Forest,0.86
+20,100,SVC,0.88
+20,500,Logistic Regression,0.95
+20,500,Naive Bayes,0.86
+20,500,Random Forest,0.83
+20,500,SVC,0.95
+20,2000,Logistic Regression,0.98
+20,2000,Naive Bayes,0.9
+20,2000,Random Forest,0.9
+20,2000,SVC,0.98
+20,5000,Logistic Regression,0.95
+20,5000,Naive Bayes,0.9
+20,5000,Random Forest,0.9
+20,5000,SVC,0.95
+20,All,Logistic Regression,0.74
+20,All,Naive Bayes,0.76
+20,All,Random Forest,0.76
+20,All,SVC,0.76
+21,1,Logistic Regression,0.55
+21,1,Naive Bayes,0.52
+21,1,Random Forest,0.55
+21,1,SVC,0.55
+21,10,Logistic Regression,0.76
+21,10,Naive Bayes,0.79
+21,10,Random Forest,0.74
+21,10,SVC,0.76
+21,50,Logistic Regression,0.83
+21,50,Naive Bayes,0.83
+21,50,Random Forest,0.81
+21,50,SVC,0.83
+21,100,Logistic Regression,0.9
+21,100,Naive Bayes,0.79
+21,100,Random Forest,0.79
+21,100,SVC,0.86
+21,500,Logistic Regression,0.88
+21,500,Naive Bayes,0.86
+21,500,Random Forest,0.81
+21,500,SVC,0.81
+21,2000,Logistic Regression,0.86
+21,2000,Naive Bayes,0.9
+21,2000,Random Forest,0.83
+21,2000,SVC,0.86
+21,5000,Logistic Regression,0.88
+21,5000,Naive Bayes,0.93
+21,5000,Random Forest,0.86
+21,5000,SVC,0.81
+21,All,Logistic Regression,0.64
+21,All,Naive Bayes,0.81
+21,All,Random Forest,0.74
+21,All,SVC,0.69
+22,1,Logistic Regression,0.45
+22,1,Naive Bayes,0.5
+22,1,Random Forest,0.45
+22,1,SVC,0.45
+22,10,Logistic Regression,0.76
+22,10,Naive Bayes,0.71
+22,10,Random Forest,0.74
+22,10,SVC,0.76
+22,50,Logistic Regression,0.81
+22,50,Naive Bayes,0.79
+22,50,Random Forest,0.74
+22,50,SVC,0.79
+22,100,Logistic Regression,0.88
+22,100,Naive Bayes,0.79
+22,100,Random Forest,0.76
+22,100,SVC,0.81
+22,500,Logistic Regression,0.88
+22,500,Naive Bayes,0.83
+22,500,Random Forest,0.83
+22,500,SVC,0.88
+22,2000,Logistic Regression,0.95
+22,2000,Naive Bayes,0.86
+22,2000,Random Forest,0.81
+22,2000,SVC,0.9
+22,5000,Logistic Regression,0.93
+22,5000,Naive Bayes,0.93
+22,5000,Random Forest,0.83
+22,5000,SVC,0.88
+22,All,Logistic Regression,0.64
+22,All,Naive Bayes,0.71
+22,All,Random Forest,0.74
+22,All,SVC,0.69
+23,1,Logistic Regression,0.64
+23,1,Naive Bayes,0.55
+23,1,Random Forest,0.64
+23,1,SVC,0.64
+23,10,Logistic Regression,0.79
+23,10,Naive Bayes,0.76
+23,10,Random Forest,0.81
+23,10,SVC,0.81
+23,50,Logistic Regression,0.81
+23,50,Naive Bayes,0.76
+23,50,Random Forest,0.83
+23,50,SVC,0.81
+23,100,Logistic Regression,0.9
+23,100,Naive Bayes,0.79
+23,100,Random Forest,0.86
+23,100,SVC,0.86
+23,500,Logistic Regression,0.88
+23,500,Naive Bayes,0.79
+23,500,Random Forest,0.81
+23,500,SVC,0.88
+23,2000,Logistic Regression,0.95
+23,2000,Naive Bayes,0.88
+23,2000,Random Forest,0.83
+23,2000,SVC,0.95
+23,5000,Logistic Regression,0.95
+23,5000,Naive Bayes,0.88
+23,5000,Random Forest,0.86
+23,5000,SVC,0.95
+23,All,Logistic Regression,0.71
+23,All,Naive Bayes,0.76
+23,All,Random Forest,0.74
+23,All,SVC,0.71
+24,1,Logistic Regression,0.52
+24,1,Naive Bayes,0.57
+24,1,Random Forest,0.52
+24,1,SVC,0.52
+24,10,Logistic Regression,0.79
+24,10,Naive Bayes,0.76
+24,10,Random Forest,0.76
+24,10,SVC,0.79
+24,50,Logistic Regression,0.9
+24,50,Naive Bayes,0.86
+24,50,Random Forest,0.86
+24,50,SVC,0.88
+24,100,Logistic Regression,0.93
+24,100,Naive Bayes,0.86
+24,100,Random Forest,0.88
+24,100,SVC,0.86
+24,500,Logistic Regression,0.95
+24,500,Naive Bayes,0.88
+24,500,Random Forest,0.9
+24,500,SVC,0.93
+24,2000,Logistic Regression,0.93
+24,2000,Naive Bayes,0.9
+24,2000,Random Forest,0.88
+24,2000,SVC,0.93
+24,5000,Logistic Regression,0.98
+24,5000,Naive Bayes,0.93
+24,5000,Random Forest,0.86
+24,5000,SVC,0.98
+24,All,Logistic Regression,0.81
+24,All,Naive Bayes,0.76
+24,All,Random Forest,0.76
+24,All,SVC,0.76
+25,1,Logistic Regression,0.64
+25,1,Naive Bayes,0.57
+25,1,Random Forest,0.64
+25,1,SVC,0.64
+25,10,Logistic Regression,0.79
+25,10,Naive Bayes,0.76
+25,10,Random Forest,0.67
+25,10,SVC,0.79
+25,50,Logistic Regression,0.9
+25,50,Naive Bayes,0.76
+25,50,Random Forest,0.79
+25,50,SVC,0.86
+25,100,Logistic Regression,0.9
+25,100,Naive Bayes,0.81
+25,100,Random Forest,0.83
+25,100,SVC,0.86
+25,500,Logistic Regression,0.93
+25,500,Naive Bayes,0.81
+25,500,Random Forest,0.81
+25,500,SVC,0.86
+25,2000,Logistic Regression,0.93
+25,2000,Naive Bayes,0.86
+25,2000,Random Forest,0.88
+25,2000,SVC,0.86
+25,5000,Logistic Regression,0.9
+25,5000,Naive Bayes,0.86
+25,5000,Random Forest,0.83
+25,5000,SVC,0.83
+25,All,Logistic Regression,0.62
+25,All,Naive Bayes,0.74
+25,All,Random Forest,0.69
+25,All,SVC,0.67
+26,1,Logistic Regression,0.55
+26,1,Naive Bayes,0.52
+26,1,Random Forest,0.55
+26,1,SVC,0.55
+26,10,Logistic Regression,0.71
+26,10,Naive Bayes,0.69
+26,10,Random Forest,0.83
+26,10,SVC,0.76
+26,50,Logistic Regression,0.86
+26,50,Naive Bayes,0.62
+26,50,Random Forest,0.9
+26,50,SVC,0.83
+26,100,Logistic Regression,0.93
+26,100,Naive Bayes,0.67
+26,100,Random Forest,0.83
+26,100,SVC,0.93
+26,500,Logistic Regression,0.95
+26,500,Naive Bayes,0.79
+26,500,Random Forest,0.83
+26,500,SVC,0.95
+26,2000,Logistic Regression,1.0
+26,2000,Naive Bayes,0.79
+26,2000,Random Forest,0.81
+26,2000,SVC,0.98
+26,5000,Logistic Regression,0.98
+26,5000,Naive Bayes,0.88
+26,5000,Random Forest,0.81
+26,5000,SVC,0.98
+26,All,Logistic Regression,0.69
+26,All,Naive Bayes,0.67
+26,All,Random Forest,0.67
+26,All,SVC,0.64
+27,1,Logistic Regression,0.57
+27,1,Naive Bayes,0.57
+27,1,Random Forest,0.57
+27,1,SVC,0.57
+27,10,Logistic Regression,0.79
+27,10,Naive Bayes,0.81
+27,10,Random Forest,0.86
+27,10,SVC,0.86
+27,50,Logistic Regression,0.9
+27,50,Naive Bayes,0.83
+27,50,Random Forest,0.88
+27,50,SVC,0.88
+27,100,Logistic Regression,0.93
+27,100,Naive Bayes,0.83
+27,100,Random Forest,0.83
+27,100,SVC,0.81
+27,500,Logistic Regression,0.86
+27,500,Naive Bayes,0.83
+27,500,Random Forest,0.86
+27,500,SVC,0.86
+27,2000,Logistic Regression,0.95
+27,2000,Naive Bayes,0.9
+27,2000,Random Forest,0.88
+27,2000,SVC,0.9
+27,5000,Logistic Regression,0.9
+27,5000,Naive Bayes,0.9
+27,5000,Random Forest,0.88
+27,5000,SVC,0.93
+27,All,Logistic Regression,0.64
+27,All,Naive Bayes,0.83
+27,All,Random Forest,0.74
+27,All,SVC,0.69
+28,1,Logistic Regression,0.5
+28,1,Naive Bayes,0.48
+28,1,Random Forest,0.48
+28,1,SVC,0.48
+28,10,Logistic Regression,0.74
+28,10,Naive Bayes,0.64
+28,10,Random Forest,0.71
+28,10,SVC,0.76
+28,50,Logistic Regression,0.71
+28,50,Naive Bayes,0.62
+28,50,Random Forest,0.71
+28,50,SVC,0.74
+28,100,Logistic Regression,0.76
+28,100,Naive Bayes,0.64
+28,100,Random Forest,0.76
+28,100,SVC,0.76
+28,500,Logistic Regression,0.83
+28,500,Naive Bayes,0.62
+28,500,Random Forest,0.71
+28,500,SVC,0.83
+28,2000,Logistic Regression,0.86
+28,2000,Naive Bayes,0.74
+28,2000,Random Forest,0.71
+28,2000,SVC,0.81
+28,5000,Logistic Regression,0.83
+28,5000,Naive Bayes,0.74
+28,5000,Random Forest,0.71
+28,5000,SVC,0.83
+28,All,Logistic Regression,0.62
+28,All,Naive Bayes,0.62
+28,All,Random Forest,0.6
+28,All,SVC,0.6
+29,1,Logistic Regression,0.62
+29,1,Naive Bayes,0.69
+29,1,Random Forest,0.62
+29,1,SVC,0.62
+29,10,Logistic Regression,0.76
+29,10,Naive Bayes,0.76
+29,10,Random Forest,0.74
+29,10,SVC,0.79
+29,50,Logistic Regression,0.88
+29,50,Naive Bayes,0.83
+29,50,Random Forest,0.86
+29,50,SVC,0.9
+29,100,Logistic Regression,0.98
+29,100,Naive Bayes,0.83
+29,100,Random Forest,0.86
+29,100,SVC,0.95
+29,500,Logistic Regression,0.9
+29,500,Naive Bayes,0.86
+29,500,Random Forest,0.88
+29,500,SVC,0.95
+29,2000,Logistic Regression,0.98
+29,2000,Naive Bayes,0.93
+29,2000,Random Forest,0.88
+29,2000,SVC,0.95
+29,5000,Logistic Regression,0.95
+29,5000,Naive Bayes,0.88
+29,5000,Random Forest,0.86
+29,5000,SVC,0.95
+29,All,Logistic Regression,0.69
+29,All,Naive Bayes,0.79
+29,All,Random Forest,0.76
+29,All,SVC,0.69
+30,1,Logistic Regression,0.5
+30,1,Naive Bayes,0.62
+30,1,Random Forest,0.5
+30,1,SVC,0.5
+30,10,Logistic Regression,0.74
+30,10,Naive Bayes,0.69
+30,10,Random Forest,0.74
+30,10,SVC,0.74
+30,50,Logistic Regression,0.81
+30,50,Naive Bayes,0.67
+30,50,Random Forest,0.76
+30,50,SVC,0.74
+30,100,Logistic Regression,0.83
+30,100,Naive Bayes,0.71
+30,100,Random Forest,0.76
+30,100,SVC,0.81
+30,500,Logistic Regression,0.93
+30,500,Naive Bayes,0.76
+30,500,Random Forest,0.74
+30,500,SVC,0.93
+30,2000,Logistic Regression,0.93
+30,2000,Naive Bayes,0.83
+30,2000,Random Forest,0.81
+30,2000,SVC,0.9
+30,5000,Logistic Regression,0.86
+30,5000,Naive Bayes,0.83
+30,5000,Random Forest,0.79
+30,5000,SVC,0.88
+30,All,Logistic Regression,0.6
+30,All,Naive Bayes,0.71
+30,All,Random Forest,0.67
+30,All,SVC,0.62
+31,1,Logistic Regression,0.55
+31,1,Naive Bayes,0.52
+31,1,Random Forest,0.55
+31,1,SVC,0.55
+31,10,Logistic Regression,0.69
+31,10,Naive Bayes,0.62
+31,10,Random Forest,0.71
+31,10,SVC,0.69
+31,50,Logistic Regression,0.83
+31,50,Naive Bayes,0.69
+31,50,Random Forest,0.79
+31,50,SVC,0.81
+31,100,Logistic Regression,0.86
+31,100,Naive Bayes,0.76
+31,100,Random Forest,0.79
+31,100,SVC,0.88
+31,500,Logistic Regression,0.86
+31,500,Naive Bayes,0.74
+31,500,Random Forest,0.81
+31,500,SVC,0.86
+31,2000,Logistic Regression,0.83
+31,2000,Naive Bayes,0.79
+31,2000,Random Forest,0.81
+31,2000,SVC,0.83
+31,5000,Logistic Regression,0.86
+31,5000,Naive Bayes,0.76
+31,5000,Random Forest,0.79
+31,5000,SVC,0.86
+31,All,Logistic Regression,0.69
+31,All,Naive Bayes,0.69
+31,All,Random Forest,0.69
+31,All,SVC,0.69
+32,1,Logistic Regression,0.5
+32,1,Naive Bayes,0.48
+32,1,Random Forest,0.5
+32,1,SVC,0.5
+32,10,Logistic Regression,0.9
+32,10,Naive Bayes,0.76
+32,10,Random Forest,0.83
+32,10,SVC,0.88
+32,50,Logistic Regression,0.88
+32,50,Naive Bayes,0.83
+32,50,Random Forest,0.88
+32,50,SVC,0.86
+32,100,Logistic Regression,0.98
+32,100,Naive Bayes,0.83
+32,100,Random Forest,0.9
+32,100,SVC,0.86
+32,500,Logistic Regression,0.93
+32,500,Naive Bayes,0.86
+32,500,Random Forest,0.88
+32,500,SVC,0.93
+32,2000,Logistic Regression,0.95
+32,2000,Naive Bayes,0.9
+32,2000,Random Forest,0.9
+32,2000,SVC,0.95
+32,5000,Logistic Regression,0.93
+32,5000,Naive Bayes,0.9
+32,5000,Random Forest,0.93
+32,5000,SVC,0.95
+32,All,Logistic Regression,0.76
+32,All,Naive Bayes,0.79
+32,All,Random Forest,0.76
+32,All,SVC,0.79
+33,1,Logistic Regression,0.52
+33,1,Naive Bayes,0.52
+33,1,Random Forest,0.52
+33,1,SVC,0.52
+33,10,Logistic Regression,0.67
+33,10,Naive Bayes,0.67
+33,10,Random Forest,0.67
+33,10,SVC,0.64
+33,50,Logistic Regression,0.83
+33,50,Naive Bayes,0.71
+33,50,Random Forest,0.74
+33,50,SVC,0.76
+33,100,Logistic Regression,0.86
+33,100,Naive Bayes,0.76
+33,100,Random Forest,0.76
+33,100,SVC,0.79
+33,500,Logistic Regression,0.86
+33,500,Naive Bayes,0.74
+33,500,Random Forest,0.74
+33,500,SVC,0.83
+33,2000,Logistic Regression,0.9
+33,2000,Naive Bayes,0.81
+33,2000,Random Forest,0.76
+33,2000,SVC,0.83
+33,5000,Logistic Regression,0.9
+33,5000,Naive Bayes,0.83
+33,5000,Random Forest,0.76
+33,5000,SVC,0.9
+33,All,Logistic Regression,0.57
+33,All,Naive Bayes,0.67
+33,All,Random Forest,0.64
+33,All,SVC,0.6
+34,1,Logistic Regression,0.55
+34,1,Naive Bayes,0.45
+34,1,Random Forest,0.55
+34,1,SVC,0.55
+34,10,Logistic Regression,0.74
+34,10,Naive Bayes,0.69
+34,10,Random Forest,0.79
+34,10,SVC,0.81
+34,50,Logistic Regression,0.86
+34,50,Naive Bayes,0.74
+34,50,Random Forest,0.76
+34,50,SVC,0.86
+34,100,Logistic Regression,0.93
+34,100,Naive Bayes,0.74
+34,100,Random Forest,0.88
+34,100,SVC,0.9
+34,500,Logistic Regression,0.9
+34,500,Naive Bayes,0.74
+34,500,Random Forest,0.81
+34,500,SVC,0.88
+34,2000,Logistic Regression,0.9
+34,2000,Naive Bayes,0.81
+34,2000,Random Forest,0.76
+34,2000,SVC,0.86
+34,5000,Logistic Regression,0.9
+34,5000,Naive Bayes,0.81
+34,5000,Random Forest,0.76
+34,5000,SVC,0.88
+34,All,Logistic Regression,0.69
+34,All,Naive Bayes,0.67
+34,All,Random Forest,0.64
+34,All,SVC,0.67
+35,1,Logistic Regression,0.67
+35,1,Naive Bayes,0.62
+35,1,Random Forest,0.67
+35,1,SVC,0.67
+35,10,Logistic Regression,0.9
+35,10,Naive Bayes,0.88
+35,10,Random Forest,0.86
+35,10,SVC,0.95
+35,50,Logistic Regression,0.98
+35,50,Naive Bayes,0.93
+35,50,Random Forest,0.88
+35,50,SVC,0.9
+35,100,Logistic Regression,0.95
+35,100,Naive Bayes,0.9
+35,100,Random Forest,0.9
+35,100,SVC,0.88
+35,500,Logistic Regression,0.88
+35,500,Naive Bayes,0.88
+35,500,Random Forest,0.9
+35,500,SVC,0.88
+35,2000,Logistic Regression,1.0
+35,2000,Naive Bayes,0.95
+35,2000,Random Forest,0.9
+35,2000,SVC,0.93
+35,5000,Logistic Regression,0.98
+35,5000,Naive Bayes,0.93
+35,5000,Random Forest,0.93
+35,5000,SVC,0.98
+35,All,Logistic Regression,0.64
+35,All,Naive Bayes,0.83
+35,All,Random Forest,0.79
+35,All,SVC,0.67
+36,1,Logistic Regression,0.6
+36,1,Naive Bayes,0.57
+36,1,Random Forest,0.6
+36,1,SVC,0.6
+36,10,Logistic Regression,0.83
+36,10,Naive Bayes,0.76
+36,10,Random Forest,0.83
+36,10,SVC,0.79
+36,50,Logistic Regression,0.93
+36,50,Naive Bayes,0.81
+36,50,Random Forest,0.9
+36,50,SVC,0.86
+36,100,Logistic Regression,0.9
+36,100,Naive Bayes,0.81
+36,100,Random Forest,0.93
+36,100,SVC,0.9
+36,500,Logistic Regression,0.98
+36,500,Naive Bayes,0.86
+36,500,Random Forest,0.9
+36,500,SVC,0.93
+36,2000,Logistic Regression,1.0
+36,2000,Naive Bayes,0.88
+36,2000,Random Forest,0.88
+36,2000,SVC,0.98
+36,5000,Logistic Regression,1.0
+36,5000,Naive Bayes,0.95
+36,5000,Random Forest,0.93
+36,5000,SVC,1.0
+36,All,Logistic Regression,0.76
+36,All,Naive Bayes,0.76
+36,All,Random Forest,0.76
+36,All,SVC,0.79
+37,1,Logistic Regression,0.69
+37,1,Naive Bayes,0.62
+37,1,Random Forest,0.69
+37,1,SVC,0.69
+37,10,Logistic Regression,0.79
+37,10,Naive Bayes,0.76
+37,10,Random Forest,0.81
+37,10,SVC,0.83
+37,50,Logistic Regression,0.86
+37,50,Naive Bayes,0.79
+37,50,Random Forest,0.81
+37,50,SVC,0.81
+37,100,Logistic Regression,0.86
+37,100,Naive Bayes,0.81
+37,100,Random Forest,0.83
+37,100,SVC,0.83
+37,500,Logistic Regression,0.93
+37,500,Naive Bayes,0.83
+37,500,Random Forest,0.86
+37,500,SVC,0.93
+37,2000,Logistic Regression,0.95
+37,2000,Naive Bayes,0.86
+37,2000,Random Forest,0.83
+37,2000,SVC,0.93
+37,5000,Logistic Regression,0.9
+37,5000,Naive Bayes,0.88
+37,5000,Random Forest,0.86
+37,5000,SVC,0.9
+37,All,Logistic Regression,0.74
+37,All,Naive Bayes,0.76
+37,All,Random Forest,0.76
+37,All,SVC,0.71
+38,1,Logistic Regression,0.55
+38,1,Naive Bayes,0.6
+38,1,Random Forest,0.55
+38,1,SVC,0.55
+38,10,Logistic Regression,0.71
+38,10,Naive Bayes,0.71
+38,10,Random Forest,0.83
+38,10,SVC,0.76
+38,50,Logistic Regression,0.81
+38,50,Naive Bayes,0.71
+38,50,Random Forest,0.81
+38,50,SVC,0.74
+38,100,Logistic Regression,0.93
+38,100,Naive Bayes,0.79
+38,100,Random Forest,0.81
+38,100,SVC,0.81
+38,500,Logistic Regression,0.88
+38,500,Naive Bayes,0.79
+38,500,Random Forest,0.86
+38,500,SVC,0.88
+38,2000,Logistic Regression,0.93
+38,2000,Naive Bayes,0.81
+38,2000,Random Forest,0.88
+38,2000,SVC,0.93
+38,5000,Logistic Regression,0.9
+38,5000,Naive Bayes,0.86
+38,5000,Random Forest,0.86
+38,5000,SVC,0.9
+38,All,Logistic Regression,0.64
+38,All,Naive Bayes,0.74
+38,All,Random Forest,0.69
+38,All,SVC,0.64
+39,1,Logistic Regression,0.62
+39,1,Naive Bayes,0.52
+39,1,Random Forest,0.62
+39,1,SVC,0.62
+39,10,Logistic Regression,0.81
+39,10,Naive Bayes,0.76
+39,10,Random Forest,0.81
+39,10,SVC,0.81
+39,50,Logistic Regression,0.9
+39,50,Naive Bayes,0.76
+39,50,Random Forest,0.86
+39,50,SVC,0.93
+39,100,Logistic Regression,0.88
+39,100,Naive Bayes,0.76
+39,100,Random Forest,0.83
+39,100,SVC,0.86
+39,500,Logistic Regression,0.9
+39,500,Naive Bayes,0.81
+39,500,Random Forest,0.86
+39,500,SVC,0.9
+39,2000,Logistic Regression,0.93
+39,2000,Naive Bayes,0.9
+39,2000,Random Forest,0.81
+39,2000,SVC,0.9
+39,5000,Logistic Regression,0.95
+39,5000,Naive Bayes,0.9
+39,5000,Random Forest,0.83
+39,5000,SVC,0.95
+39,All,Logistic Regression,0.64
+39,All,Naive Bayes,0.74
+39,All,Random Forest,0.74
+39,All,SVC,0.62
+40,1,Logistic Regression,0.55
+40,1,Naive Bayes,0.45
+40,1,Random Forest,0.45
+40,1,SVC,0.55
+40,10,Logistic Regression,0.71
+40,10,Naive Bayes,0.71
+40,10,Random Forest,0.74
+40,10,SVC,0.79
+40,50,Logistic Regression,0.81
+40,50,Naive Bayes,0.81
+40,50,Random Forest,0.83
+40,50,SVC,0.86
+40,100,Logistic Regression,0.88
+40,100,Naive Bayes,0.81
+40,100,Random Forest,0.83
+40,100,SVC,0.86
+40,500,Logistic Regression,0.98
+40,500,Naive Bayes,0.81
+40,500,Random Forest,0.88
+40,500,SVC,0.93
+40,2000,Logistic Regression,1.0
+40,2000,Naive Bayes,0.9
+40,2000,Random Forest,0.9
+40,2000,SVC,0.98
+40,5000,Logistic Regression,1.0
+40,5000,Naive Bayes,0.9
+40,5000,Random Forest,0.86
+40,5000,SVC,1.0
+40,All,Logistic Regression,0.81
+40,All,Naive Bayes,0.76
+40,All,Random Forest,0.74
+40,All,SVC,0.74
+41,1,Logistic Regression,0.64
+41,1,Naive Bayes,0.67
+41,1,Random Forest,0.64
+41,1,SVC,0.64
+41,10,Logistic Regression,0.76
+41,10,Naive Bayes,0.74
+41,10,Random Forest,0.69
+41,10,SVC,0.79
+41,50,Logistic Regression,0.81
+41,50,Naive Bayes,0.81
+41,50,Random Forest,0.79
+41,50,SVC,0.81
+41,100,Logistic Regression,0.86
+41,100,Naive Bayes,0.83
+41,100,Random Forest,0.83
+41,100,SVC,0.86
+41,500,Logistic Regression,0.93
+41,500,Naive Bayes,0.79
+41,500,Random Forest,0.86
+41,500,SVC,0.9
+41,2000,Logistic Regression,0.93
+41,2000,Naive Bayes,0.88
+41,2000,Random Forest,0.83
+41,2000,SVC,0.93
+41,5000,Logistic Regression,0.93
+41,5000,Naive Bayes,0.88
+41,5000,Random Forest,0.88
+41,5000,SVC,0.93
+41,All,Logistic Regression,0.6
+41,All,Naive Bayes,0.69
+41,All,Random Forest,0.64
+41,All,SVC,0.64
+42,1,Logistic Regression,0.64
+42,1,Naive Bayes,0.6
+42,1,Random Forest,0.64
+42,1,SVC,0.64
+42,10,Logistic Regression,0.81
+42,10,Naive Bayes,0.69
+42,10,Random Forest,0.79
+42,10,SVC,0.76
+42,50,Logistic Regression,0.81
+42,50,Naive Bayes,0.76
+42,50,Random Forest,0.76
+42,50,SVC,0.81
+42,100,Logistic Regression,0.86
+42,100,Naive Bayes,0.79
+42,100,Random Forest,0.86
+42,100,SVC,0.83
+42,500,Logistic Regression,0.86
+42,500,Naive Bayes,0.81
+42,500,Random Forest,0.86
+42,500,SVC,0.9
+42,2000,Logistic Regression,0.95
+42,2000,Naive Bayes,0.86
+42,2000,Random Forest,0.88
+42,2000,SVC,0.95
+42,5000,Logistic Regression,0.9
+42,5000,Naive Bayes,0.88
+42,5000,Random Forest,0.81
+42,5000,SVC,0.9
+42,All,Logistic Regression,0.64
+42,All,Naive Bayes,0.69
+42,All,Random Forest,0.69
+42,All,SVC,0.69
+43,1,Logistic Regression,0.67
+43,1,Naive Bayes,0.67
+43,1,Random Forest,0.67
+43,1,SVC,0.67
+43,10,Logistic Regression,0.81
+43,10,Naive Bayes,0.79
+43,10,Random Forest,0.79
+43,10,SVC,0.83
+43,50,Logistic Regression,0.93
+43,50,Naive Bayes,0.83
+43,50,Random Forest,0.86
+43,50,SVC,0.9
+43,100,Logistic Regression,0.95
+43,100,Naive Bayes,0.83
+43,100,Random Forest,0.81
+43,100,SVC,0.88
+43,500,Logistic Regression,0.95
+43,500,Naive Bayes,0.86
+43,500,Random Forest,0.9
+43,500,SVC,0.88
+43,2000,Logistic Regression,0.95
+43,2000,Naive Bayes,0.88
+43,2000,Random Forest,0.88
+43,2000,SVC,0.9
+43,5000,Logistic Regression,0.98
+43,5000,Naive Bayes,0.88
+43,5000,Random Forest,0.88
+43,5000,SVC,0.98
+43,All,Logistic Regression,0.62
+43,All,Naive Bayes,0.83
+43,All,Random Forest,0.74
+43,All,SVC,0.67
+44,1,Logistic Regression,0.67
+44,1,Naive Bayes,0.67
+44,1,Random Forest,0.67
+44,1,SVC,0.67
+44,10,Logistic Regression,0.76
+44,10,Naive Bayes,0.71
+44,10,Random Forest,0.74
+44,10,SVC,0.74
+44,50,Logistic Regression,0.88
+44,50,Naive Bayes,0.81
+44,50,Random Forest,0.86
+44,50,SVC,0.83
+44,100,Logistic Regression,0.88
+44,100,Naive Bayes,0.79
+44,100,Random Forest,0.86
+44,100,SVC,0.83
+44,500,Logistic Regression,0.93
+44,500,Naive Bayes,0.81
+44,500,Random Forest,0.81
+44,500,SVC,0.93
+44,2000,Logistic Regression,0.93
+44,2000,Naive Bayes,0.9
+44,2000,Random Forest,0.83
+44,2000,SVC,0.93
+44,5000,Logistic Regression,0.95
+44,5000,Naive Bayes,0.9
+44,5000,Random Forest,0.88
+44,5000,SVC,0.95
+44,All,Logistic Regression,0.69
+44,All,Naive Bayes,0.74
+44,All,Random Forest,0.74
+44,All,SVC,0.71
+45,1,Logistic Regression,0.6
+45,1,Naive Bayes,0.52
+45,1,Random Forest,0.6
+45,1,SVC,0.6
+45,10,Logistic Regression,0.81
+45,10,Naive Bayes,0.74
+45,10,Random Forest,0.83
+45,10,SVC,0.83
+45,50,Logistic Regression,0.9
+45,50,Naive Bayes,0.74
+45,50,Random Forest,0.76
+45,50,SVC,0.9
+45,100,Logistic Regression,0.83
+45,100,Naive Bayes,0.81
+45,100,Random Forest,0.79
+45,100,SVC,0.81
+45,500,Logistic Regression,0.9
+45,500,Naive Bayes,0.81
+45,500,Random Forest,0.83
+45,500,SVC,0.88
+45,2000,Logistic Regression,0.9
+45,2000,Naive Bayes,0.88
+45,2000,Random Forest,0.83
+45,2000,SVC,0.9
+45,5000,Logistic Regression,0.9
+45,5000,Naive Bayes,0.88
+45,5000,Random Forest,0.81
+45,5000,SVC,0.9
+45,All,Logistic Regression,0.64
+45,All,Naive Bayes,0.71
+45,All,Random Forest,0.67
+45,All,SVC,0.69
+46,1,Logistic Regression,0.69
+46,1,Naive Bayes,0.57
+46,1,Random Forest,0.69
+46,1,SVC,0.69
+46,10,Logistic Regression,0.76
+46,10,Naive Bayes,0.76
+46,10,Random Forest,0.76
+46,10,SVC,0.86
+46,50,Logistic Regression,0.86
+46,50,Naive Bayes,0.79
+46,50,Random Forest,0.83
+46,50,SVC,0.88
+46,100,Logistic Regression,0.93
+46,100,Naive Bayes,0.81
+46,100,Random Forest,0.83
+46,100,SVC,0.86
+46,500,Logistic Regression,0.95
+46,500,Naive Bayes,0.81
+46,500,Random Forest,0.83
+46,500,SVC,0.88
+46,2000,Logistic Regression,0.93
+46,2000,Naive Bayes,0.83
+46,2000,Random Forest,0.86
+46,2000,SVC,0.86
+46,5000,Logistic Regression,0.93
+46,5000,Naive Bayes,0.9
+46,5000,Random Forest,0.83
+46,5000,SVC,0.95
+46,All,Logistic Regression,0.67
+46,All,Naive Bayes,0.76
+46,All,Random Forest,0.76
+46,All,SVC,0.69
+47,1,Logistic Regression,0.71
+47,1,Naive Bayes,0.69
+47,1,Random Forest,0.71
+47,1,SVC,0.71
+47,10,Logistic Regression,0.93
+47,10,Naive Bayes,0.83
+47,10,Random Forest,0.93
+47,10,SVC,0.9
+47,50,Logistic Regression,0.93
+47,50,Naive Bayes,0.83
+47,50,Random Forest,0.86
+47,50,SVC,0.9
+47,100,Logistic Regression,0.88
+47,100,Naive Bayes,0.83
+47,100,Random Forest,0.9
+47,100,SVC,0.86
+47,500,Logistic Regression,0.9
+47,500,Naive Bayes,0.9
+47,500,Random Forest,0.95
+47,500,SVC,0.88
+47,2000,Logistic Regression,0.98
+47,2000,Naive Bayes,0.95
+47,2000,Random Forest,0.95
+47,2000,SVC,0.95
+47,5000,Logistic Regression,0.98
+47,5000,Naive Bayes,0.93
+47,5000,Random Forest,0.9
+47,5000,SVC,0.95
+47,All,Logistic Regression,0.67
+47,All,Naive Bayes,0.86
+47,All,Random Forest,0.76
+47,All,SVC,0.69
+48,1,Logistic Regression,0.6
+48,1,Naive Bayes,0.6
+48,1,Random Forest,0.6
+48,1,SVC,0.6
+48,10,Logistic Regression,0.86
+48,10,Naive Bayes,0.83
+48,10,Random Forest,0.81
+48,10,SVC,0.83
+48,50,Logistic Regression,0.86
+48,50,Naive Bayes,0.88
+48,50,Random Forest,0.88
+48,50,SVC,0.86
+48,100,Logistic Regression,0.95
+48,100,Naive Bayes,0.88
+48,100,Random Forest,0.9
+48,100,SVC,0.88
+48,500,Logistic Regression,0.9
+48,500,Naive Bayes,0.93
+48,500,Random Forest,0.98
+48,500,SVC,0.93
+48,2000,Logistic Regression,0.95
+48,2000,Naive Bayes,0.95
+48,2000,Random Forest,0.98
+48,2000,SVC,0.95
+48,5000,Logistic Regression,0.93
+48,5000,Naive Bayes,0.95
+48,5000,Random Forest,0.93
+48,5000,SVC,0.93
+48,All,Logistic Regression,0.76
+48,All,Naive Bayes,0.83
+48,All,Random Forest,0.79
+48,All,SVC,0.74
+49,1,Logistic Regression,0.62
+49,1,Naive Bayes,0.62
+49,1,Random Forest,0.62
+49,1,SVC,0.62
+49,10,Logistic Regression,0.81
+49,10,Naive Bayes,0.79
+49,10,Random Forest,0.83
+49,10,SVC,0.81
+49,50,Logistic Regression,0.95
+49,50,Naive Bayes,0.81
+49,50,Random Forest,0.93
+49,50,SVC,0.86
+49,100,Logistic Regression,0.93
+49,100,Naive Bayes,0.81
+49,100,Random Forest,0.93
+49,100,SVC,0.9
+49,500,Logistic Regression,0.98
+49,500,Naive Bayes,0.83
+49,500,Random Forest,0.9
+49,500,SVC,0.95
+49,2000,Logistic Regression,1.0
+49,2000,Naive Bayes,0.88
+49,2000,Random Forest,0.88
+49,2000,SVC,0.98
+49,5000,Logistic Regression,1.0
+49,5000,Naive Bayes,0.95
+49,5000,Random Forest,0.95
+49,5000,SVC,1.0
+49,All,Logistic Regression,0.81
+49,All,Naive Bayes,0.79
+49,All,Random Forest,0.79
+49,All,SVC,0.79
+50,1,Logistic Regression,0.5
+50,1,Naive Bayes,0.48
+50,1,Random Forest,0.5
+50,1,SVC,0.5
+50,10,Logistic Regression,0.67
+50,10,Naive Bayes,0.69
+50,10,Random Forest,0.64
+50,10,SVC,0.69
+50,50,Logistic Regression,0.79
+50,50,Naive Bayes,0.76
+50,50,Random Forest,0.71
+50,50,SVC,0.79
+50,100,Logistic Regression,0.76
+50,100,Naive Bayes,0.81
+50,100,Random Forest,0.69
+50,100,SVC,0.74
+50,500,Logistic Regression,0.93
+50,500,Naive Bayes,0.76
+50,500,Random Forest,0.76
+50,500,SVC,0.86
+50,2000,Logistic Regression,0.95
+50,2000,Naive Bayes,0.81
+50,2000,Random Forest,0.76
+50,2000,SVC,0.9
+50,5000,Logistic Regression,0.95
+50,5000,Naive Bayes,0.88
+50,5000,Random Forest,0.79
+50,5000,SVC,0.95
+50,All,Logistic Regression,0.6
+50,All,Naive Bayes,0.71
+50,All,Random Forest,0.67
+50,All,SVC,0.62
+51,1,Logistic Regression,0.55
+51,1,Naive Bayes,0.52
+51,1,Random Forest,0.55
+51,1,SVC,0.55
+51,10,Logistic Regression,0.79
+51,10,Naive Bayes,0.74
+51,10,Random Forest,0.81
+51,10,SVC,0.81
+51,50,Logistic Regression,0.95
+51,50,Naive Bayes,0.81
+51,50,Random Forest,0.88
+51,50,SVC,0.95
+51,100,Logistic Regression,0.9
+51,100,Naive Bayes,0.79
+51,100,Random Forest,0.86
+51,100,SVC,0.86
+51,500,Logistic Regression,0.93
+51,500,Naive Bayes,0.83
+51,500,Random Forest,0.83
+51,500,SVC,0.9
+51,2000,Logistic Regression,0.9
+51,2000,Naive Bayes,0.88
+51,2000,Random Forest,0.88
+51,2000,SVC,0.93
+51,5000,Logistic Regression,0.9
+51,5000,Naive Bayes,0.9
+51,5000,Random Forest,0.83
+51,5000,SVC,0.88
+51,All,Logistic Regression,0.69
+51,All,Naive Bayes,0.74
+51,All,Random Forest,0.74
+51,All,SVC,0.67
+52,1,Logistic Regression,0.45
+52,1,Naive Bayes,0.43
+52,1,Random Forest,0.55
+52,1,SVC,0.55
+52,10,Logistic Regression,0.69
+52,10,Naive Bayes,0.71
+52,10,Random Forest,0.74
+52,10,SVC,0.71
+52,50,Logistic Regression,0.88
+52,50,Naive Bayes,0.71
+52,50,Random Forest,0.71
+52,50,SVC,0.83
+52,100,Logistic Regression,0.83
+52,100,Naive Bayes,0.71
+52,100,Random Forest,0.71
+52,100,SVC,0.76
+52,500,Logistic Regression,0.83
+52,500,Naive Bayes,0.71
+52,500,Random Forest,0.69
+52,500,SVC,0.79
+52,2000,Logistic Regression,0.88
+52,2000,Naive Bayes,0.81
+52,2000,Random Forest,0.76
+52,2000,SVC,0.86
+52,5000,Logistic Regression,0.86
+52,5000,Naive Bayes,0.88
+52,5000,Random Forest,0.74
+52,5000,SVC,0.88
+52,All,Logistic Regression,0.6
+52,All,Naive Bayes,0.71
+52,All,Random Forest,0.64
+52,All,SVC,0.64
+53,1,Logistic Regression,0.64
+53,1,Naive Bayes,0.62
+53,1,Random Forest,0.64
+53,1,SVC,0.64
+53,10,Logistic Regression,0.86
+53,10,Naive Bayes,0.79
+53,10,Random Forest,0.83
+53,10,SVC,0.83
+53,50,Logistic Regression,0.86
+53,50,Naive Bayes,0.76
+53,50,Random Forest,0.79
+53,50,SVC,0.81
+53,100,Logistic Regression,0.9
+53,100,Naive Bayes,0.79
+53,100,Random Forest,0.81
+53,100,SVC,0.86
+53,500,Logistic Regression,0.9
+53,500,Naive Bayes,0.79
+53,500,Random Forest,0.81
+53,500,SVC,0.93
+53,2000,Logistic Regression,0.98
+53,2000,Naive Bayes,0.86
+53,2000,Random Forest,0.88
+53,2000,SVC,0.93
+53,5000,Logistic Regression,0.98
+53,5000,Naive Bayes,0.81
+53,5000,Random Forest,0.86
+53,5000,SVC,0.98
+53,All,Logistic Regression,0.67
+53,All,Naive Bayes,0.76
+53,All,Random Forest,0.74
+53,All,SVC,0.69
+54,1,Logistic Regression,0.71
+54,1,Naive Bayes,0.69
+54,1,Random Forest,0.71
+54,1,SVC,0.71
+54,10,Logistic Regression,0.71
+54,10,Naive Bayes,0.69
+54,10,Random Forest,0.79
+54,10,SVC,0.74
+54,50,Logistic Regression,0.86
+54,50,Naive Bayes,0.74
+54,50,Random Forest,0.79
+54,50,SVC,0.81
+54,100,Logistic Regression,0.9
+54,100,Naive Bayes,0.81
+54,100,Random Forest,0.81
+54,100,SVC,0.86
+54,500,Logistic Regression,0.9
+54,500,Naive Bayes,0.79
+54,500,Random Forest,0.88
+54,500,SVC,0.88
+54,2000,Logistic Regression,0.98
+54,2000,Naive Bayes,0.88
+54,2000,Random Forest,0.86
+54,2000,SVC,0.95
+54,5000,Logistic Regression,0.95
+54,5000,Naive Bayes,0.9
+54,5000,Random Forest,0.83
+54,5000,SVC,0.95
+54,All,Logistic Regression,0.71
+54,All,Naive Bayes,0.74
+54,All,Random Forest,0.71
+54,All,SVC,0.71
+55,1,Logistic Regression,0.57
+55,1,Naive Bayes,0.57
+55,1,Random Forest,0.57
+55,1,SVC,0.57
+55,10,Logistic Regression,0.76
+55,10,Naive Bayes,0.71
+55,10,Random Forest,0.79
+55,10,SVC,0.79
+55,50,Logistic Regression,0.88
+55,50,Naive Bayes,0.83
+55,50,Random Forest,0.86
+55,50,SVC,0.86
+55,100,Logistic Regression,0.95
+55,100,Naive Bayes,0.86
+55,100,Random Forest,0.83
+55,100,SVC,0.9
+55,500,Logistic Regression,0.98
+55,500,Naive Bayes,0.86
+55,500,Random Forest,0.88
+55,500,SVC,0.93
+55,2000,Logistic Regression,0.98
+55,2000,Naive Bayes,0.88
+55,2000,Random Forest,0.9
+55,2000,SVC,0.95
+55,5000,Logistic Regression,0.98
+55,5000,Naive Bayes,0.88
+55,5000,Random Forest,0.9
+55,5000,SVC,0.95
+55,All,Logistic Regression,0.69
+55,All,Naive Bayes,0.79
+55,All,Random Forest,0.79
+55,All,SVC,0.69
+56,1,Logistic Regression,0.5
+56,1,Naive Bayes,0.5
+56,1,Random Forest,0.5
+56,1,SVC,0.5
+56,10,Logistic Regression,0.81
+56,10,Naive Bayes,0.64
+56,10,Random Forest,0.83
+56,10,SVC,0.79
+56,50,Logistic Regression,0.88
+56,50,Naive Bayes,0.71
+56,50,Random Forest,0.76
+56,50,SVC,0.88
+56,100,Logistic Regression,0.88
+56,100,Naive Bayes,0.74
+56,100,Random Forest,0.81
+56,100,SVC,0.79
+56,500,Logistic Regression,0.9
+56,500,Naive Bayes,0.76
+56,500,Random Forest,0.88
+56,500,SVC,0.9
+56,2000,Logistic Regression,1.0
+56,2000,Naive Bayes,0.79
+56,2000,Random Forest,0.83
+56,2000,SVC,1.0
+56,5000,Logistic Regression,0.95
+56,5000,Naive Bayes,0.83
+56,5000,Random Forest,0.76
+56,5000,SVC,0.93
+56,All,Logistic Regression,0.69
+56,All,Naive Bayes,0.67
+56,All,Random Forest,0.67
+56,All,SVC,0.62
+57,1,Logistic Regression,0.57
+57,1,Naive Bayes,0.55
+57,1,Random Forest,0.57
+57,1,SVC,0.57
+57,10,Logistic Regression,0.71
+57,10,Naive Bayes,0.69
+57,10,Random Forest,0.71
+57,10,SVC,0.69
+57,50,Logistic Regression,0.86
+57,50,Naive Bayes,0.69
+57,50,Random Forest,0.79
+57,50,SVC,0.88
+57,100,Logistic Regression,0.9
+57,100,Naive Bayes,0.67
+57,100,Random Forest,0.79
+57,100,SVC,0.81
+57,500,Logistic Regression,0.93
+57,500,Naive Bayes,0.67
+57,500,Random Forest,0.74
+57,500,SVC,0.95
+57,2000,Logistic Regression,0.9
+57,2000,Naive Bayes,0.79
+57,2000,Random Forest,0.81
+57,2000,SVC,0.9
+57,5000,Logistic Regression,0.86
+57,5000,Naive Bayes,0.79
+57,5000,Random Forest,0.71
+57,5000,SVC,0.86
+57,All,Logistic Regression,0.62
+57,All,Naive Bayes,0.64
+57,All,Random Forest,0.64
+57,All,SVC,0.62
+58,1,Logistic Regression,0.62
+58,1,Naive Bayes,0.6
+58,1,Random Forest,0.62
+58,1,SVC,0.62
+58,10,Logistic Regression,0.83
+58,10,Naive Bayes,0.76
+58,10,Random Forest,0.83
+58,10,SVC,0.81
+58,50,Logistic Regression,0.86
+58,50,Naive Bayes,0.76
+58,50,Random Forest,0.86
+58,50,SVC,0.88
+58,100,Logistic Regression,0.95
+58,100,Naive Bayes,0.81
+58,100,Random Forest,0.88
+58,100,SVC,0.88
+58,500,Logistic Regression,0.88
+58,500,Naive Bayes,0.83
+58,500,Random Forest,0.88
+58,500,SVC,0.9
+58,2000,Logistic Regression,0.9
+58,2000,Naive Bayes,0.86
+58,2000,Random Forest,0.81
+58,2000,SVC,0.9
+58,5000,Logistic Regression,0.95
+58,5000,Naive Bayes,0.86
+58,5000,Random Forest,0.88
+58,5000,SVC,0.93
+58,All,Logistic Regression,0.64
+58,All,Naive Bayes,0.76
+58,All,Random Forest,0.74
+58,All,SVC,0.71
+59,1,Logistic Regression,0.38
+59,1,Naive Bayes,0.4
+59,1,Random Forest,0.38
+59,1,SVC,0.38
+59,10,Logistic Regression,0.79
+59,10,Naive Bayes,0.69
+59,10,Random Forest,0.74
+59,10,SVC,0.79
+59,50,Logistic Regression,0.88
+59,50,Naive Bayes,0.76
+59,50,Random Forest,0.83
+59,50,SVC,0.86
+59,100,Logistic Regression,0.93
+59,100,Naive Bayes,0.76
+59,100,Random Forest,0.81
+59,100,SVC,0.88
+59,500,Logistic Regression,0.88
+59,500,Naive Bayes,0.79
+59,500,Random Forest,0.79
+59,500,SVC,0.86
+59,2000,Logistic Regression,0.95
+59,2000,Naive Bayes,0.9
+59,2000,Random Forest,0.83
+59,2000,SVC,0.93
+59,5000,Logistic Regression,0.93
+59,5000,Naive Bayes,0.88
+59,5000,Random Forest,0.79
+59,5000,SVC,0.88
+59,All,Logistic Regression,0.71
+59,All,Naive Bayes,0.74
+59,All,Random Forest,0.69
+59,All,SVC,0.69
+60,1,Logistic Regression,0.6
+60,1,Naive Bayes,0.62
+60,1,Random Forest,0.6
+60,1,SVC,0.6
+60,10,Logistic Regression,0.83
+60,10,Naive Bayes,0.81
+60,10,Random Forest,0.88
+60,10,SVC,0.83
+60,50,Logistic Regression,0.9
+60,50,Naive Bayes,0.86
+60,50,Random Forest,0.88
+60,50,SVC,0.86
+60,100,Logistic Regression,0.93
+60,100,Naive Bayes,0.88
+60,100,Random Forest,0.93
+60,100,SVC,0.9
+60,500,Logistic Regression,0.93
+60,500,Naive Bayes,0.9
+60,500,Random Forest,0.93
+60,500,SVC,0.95
+60,2000,Logistic Regression,0.98
+60,2000,Naive Bayes,0.98
+60,2000,Random Forest,0.93
+60,2000,SVC,0.93
+60,5000,Logistic Regression,0.95
+60,5000,Naive Bayes,0.95
+60,5000,Random Forest,0.88
+60,5000,SVC,0.98
+60,All,Logistic Regression,0.76
+60,All,Naive Bayes,0.88
+60,All,Random Forest,0.83
+60,All,SVC,0.74
+61,1,Logistic Regression,0.6
+61,1,Naive Bayes,0.6
+61,1,Random Forest,0.74
+61,1,SVC,0.6
+61,10,Logistic Regression,0.81
+61,10,Naive Bayes,0.76
+61,10,Random Forest,0.74
+61,10,SVC,0.83
+61,50,Logistic Regression,0.83
+61,50,Naive Bayes,0.81
+61,50,Random Forest,0.86
+61,50,SVC,0.83
+61,100,Logistic Regression,0.88
+61,100,Naive Bayes,0.79
+61,100,Random Forest,0.79
+61,100,SVC,0.86
+61,500,Logistic Regression,0.93
+61,500,Naive Bayes,0.81
+61,500,Random Forest,0.86
+61,500,SVC,0.88
+61,2000,Logistic Regression,0.93
+61,2000,Naive Bayes,0.88
+61,2000,Random Forest,0.83
+61,2000,SVC,0.93
+61,5000,Logistic Regression,0.98
+61,5000,Naive Bayes,0.88
+61,5000,Random Forest,0.86
+61,5000,SVC,0.98
+61,All,Logistic Regression,0.71
+61,All,Naive Bayes,0.74
+61,All,Random Forest,0.74
+61,All,SVC,0.71
+62,1,Logistic Regression,0.52
+62,1,Naive Bayes,0.43
+62,1,Random Forest,0.52
+62,1,SVC,0.52
+62,10,Logistic Regression,0.71
+62,10,Naive Bayes,0.62
+62,10,Random Forest,0.67
+62,10,SVC,0.79
+62,50,Logistic Regression,0.86
+62,50,Naive Bayes,0.69
+62,50,Random Forest,0.83
+62,50,SVC,0.83
+62,100,Logistic Regression,0.88
+62,100,Naive Bayes,0.67
+62,100,Random Forest,0.76
+62,100,SVC,0.79
+62,500,Logistic Regression,0.86
+62,500,Naive Bayes,0.69
+62,500,Random Forest,0.71
+62,500,SVC,0.81
+62,2000,Logistic Regression,0.95
+62,2000,Naive Bayes,0.83
+62,2000,Random Forest,0.71
+62,2000,SVC,0.88
+62,5000,Logistic Regression,0.9
+62,5000,Naive Bayes,0.81
+62,5000,Random Forest,0.69
+62,5000,SVC,0.88
+62,All,Logistic Regression,0.57
+62,All,Naive Bayes,0.64
+62,All,Random Forest,0.62
+62,All,SVC,0.57
+63,1,Logistic Regression,0.57
+63,1,Naive Bayes,0.55
+63,1,Random Forest,0.57
+63,1,SVC,0.57
+63,10,Logistic Regression,0.76
+63,10,Naive Bayes,0.86
+63,10,Random Forest,0.79
+63,10,SVC,0.81
+63,50,Logistic Regression,0.88
+63,50,Naive Bayes,0.86
+63,50,Random Forest,0.83
+63,50,SVC,0.9
+63,100,Logistic Regression,0.95
+63,100,Naive Bayes,0.83
+63,100,Random Forest,0.83
+63,100,SVC,0.88
+63,500,Logistic Regression,0.9
+63,500,Naive Bayes,0.86
+63,500,Random Forest,0.88
+63,500,SVC,0.9
+63,2000,Logistic Regression,0.95
+63,2000,Naive Bayes,0.93
+63,2000,Random Forest,0.83
+63,2000,SVC,0.9
+63,5000,Logistic Regression,0.95
+63,5000,Naive Bayes,0.9
+63,5000,Random Forest,0.88
+63,5000,SVC,0.88
+63,All,Logistic Regression,0.64
+63,All,Naive Bayes,0.81
+63,All,Random Forest,0.79
+63,All,SVC,0.69
+64,1,Logistic Regression,0.6
+64,1,Naive Bayes,0.48
+64,1,Random Forest,0.6
+64,1,SVC,0.6
+64,10,Logistic Regression,0.79
+64,10,Naive Bayes,0.74
+64,10,Random Forest,0.83
+64,10,SVC,0.83
+64,50,Logistic Regression,0.93
+64,50,Naive Bayes,0.81
+64,50,Random Forest,0.88
+64,50,SVC,0.83
+64,100,Logistic Regression,0.88
+64,100,Naive Bayes,0.83
+64,100,Random Forest,0.81
+64,100,SVC,0.79
+64,500,Logistic Regression,0.81
+64,500,Naive Bayes,0.76
+64,500,Random Forest,0.79
+64,500,SVC,0.86
+64,2000,Logistic Regression,0.98
+64,2000,Naive Bayes,0.86
+64,2000,Random Forest,0.79
+64,2000,SVC,0.98
+64,5000,Logistic Regression,0.95
+64,5000,Naive Bayes,0.86
+64,5000,Random Forest,0.83
+64,5000,SVC,0.95
+64,All,Logistic Regression,0.64
+64,All,Naive Bayes,0.71
+64,All,Random Forest,0.71
+64,All,SVC,0.64
+65,1,Logistic Regression,0.55
+65,1,Naive Bayes,0.52
+65,1,Random Forest,0.55
+65,1,SVC,0.55
+65,10,Logistic Regression,0.81
+65,10,Naive Bayes,0.79
+65,10,Random Forest,0.79
+65,10,SVC,0.81
+65,50,Logistic Regression,0.93
+65,50,Naive Bayes,0.81
+65,50,Random Forest,0.88
+65,50,SVC,0.88
+65,100,Logistic Regression,0.93
+65,100,Naive Bayes,0.86
+65,100,Random Forest,0.88
+65,100,SVC,0.88
+65,500,Logistic Regression,0.98
+65,500,Naive Bayes,0.86
+65,500,Random Forest,0.9
+65,500,SVC,0.95
+65,2000,Logistic Regression,0.98
+65,2000,Naive Bayes,0.93
+65,2000,Random Forest,0.86
+65,2000,SVC,0.95
+65,5000,Logistic Regression,0.93
+65,5000,Naive Bayes,0.9
+65,5000,Random Forest,0.9
+65,5000,SVC,0.93
+65,All,Logistic Regression,0.74
+65,All,Naive Bayes,0.83
+65,All,Random Forest,0.76
+65,All,SVC,0.76
+66,1,Logistic Regression,0.64
+66,1,Naive Bayes,0.57
+66,1,Random Forest,0.64
+66,1,SVC,0.64
+66,10,Logistic Regression,0.83
+66,10,Naive Bayes,0.86
+66,10,Random Forest,0.79
+66,10,SVC,0.86
+66,50,Logistic Regression,0.86
+66,50,Naive Bayes,0.74
+66,50,Random Forest,0.86
+66,50,SVC,0.88
+66,100,Logistic Regression,0.9
+66,100,Naive Bayes,0.81
+66,100,Random Forest,0.86
+66,100,SVC,0.86
+66,500,Logistic Regression,0.9
+66,500,Naive Bayes,0.79
+66,500,Random Forest,0.88
+66,500,SVC,0.9
+66,2000,Logistic Regression,0.93
+66,2000,Naive Bayes,0.88
+66,2000,Random Forest,0.83
+66,2000,SVC,0.88
+66,5000,Logistic Regression,0.95
+66,5000,Naive Bayes,0.93
+66,5000,Random Forest,0.88
+66,5000,SVC,0.93
+66,All,Logistic Regression,0.62
+66,All,Naive Bayes,0.76
+66,All,Random Forest,0.74
+66,All,SVC,0.69
+67,1,Logistic Regression,0.55
+67,1,Naive Bayes,0.71
+67,1,Random Forest,0.55
+67,1,SVC,0.55
+67,10,Logistic Regression,0.88
+67,10,Naive Bayes,0.88
+67,10,Random Forest,0.81
+67,10,SVC,0.88
+67,50,Logistic Regression,0.93
+67,50,Naive Bayes,0.88
+67,50,Random Forest,0.86
+67,50,SVC,0.9
+67,100,Logistic Regression,0.86
+67,100,Naive Bayes,0.83
+67,100,Random Forest,0.9
+67,100,SVC,0.86
+67,500,Logistic Regression,0.98
+67,500,Naive Bayes,0.88
+67,500,Random Forest,0.9
+67,500,SVC,0.95
+67,2000,Logistic Regression,0.95
+67,2000,Naive Bayes,0.9
+67,2000,Random Forest,0.88
+67,2000,SVC,0.93
+67,5000,Logistic Regression,0.95
+67,5000,Naive Bayes,0.93
+67,5000,Random Forest,0.93
+67,5000,SVC,0.95
+67,All,Logistic Regression,0.67
+67,All,Naive Bayes,0.81
+67,All,Random Forest,0.79
+67,All,SVC,0.64
+68,1,Logistic Regression,0.69
+68,1,Naive Bayes,0.69
+68,1,Random Forest,0.69
+68,1,SVC,0.69
+68,10,Logistic Regression,0.79
+68,10,Naive Bayes,0.76
+68,10,Random Forest,0.76
+68,10,SVC,0.81
+68,50,Logistic Regression,0.86
+68,50,Naive Bayes,0.81
+68,50,Random Forest,0.86
+68,50,SVC,0.83
+68,100,Logistic Regression,0.93
+68,100,Naive Bayes,0.88
+68,100,Random Forest,0.88
+68,100,SVC,0.83
+68,500,Logistic Regression,0.95
+68,500,Naive Bayes,0.86
+68,500,Random Forest,0.88
+68,500,SVC,0.95
+68,2000,Logistic Regression,0.98
+68,2000,Naive Bayes,0.88
+68,2000,Random Forest,0.86
+68,2000,SVC,0.93
+68,5000,Logistic Regression,0.95
+68,5000,Naive Bayes,0.88
+68,5000,Random Forest,0.88
+68,5000,SVC,0.93
+68,All,Logistic Regression,0.64
+68,All,Naive Bayes,0.76
+68,All,Random Forest,0.76
+68,All,SVC,0.74
+69,1,Logistic Regression,0.67
+69,1,Naive Bayes,0.6
+69,1,Random Forest,0.67
+69,1,SVC,0.67
+69,10,Logistic Regression,0.9
+69,10,Naive Bayes,0.67
+69,10,Random Forest,0.76
+69,10,SVC,0.83
+69,50,Logistic Regression,0.83
+69,50,Naive Bayes,0.74
+69,50,Random Forest,0.86
+69,50,SVC,0.83
+69,100,Logistic Regression,0.88
+69,100,Naive Bayes,0.79
+69,100,Random Forest,0.86
+69,100,SVC,0.88
+69,500,Logistic Regression,0.9
+69,500,Naive Bayes,0.79
+69,500,Random Forest,0.86
+69,500,SVC,0.9
+69,2000,Logistic Regression,0.93
+69,2000,Naive Bayes,0.86
+69,2000,Random Forest,0.83
+69,2000,SVC,0.93
+69,5000,Logistic Regression,0.95
+69,5000,Naive Bayes,0.86
+69,5000,Random Forest,0.79
+69,5000,SVC,0.95
+69,All,Logistic Regression,0.64
+69,All,Naive Bayes,0.69
+69,All,Random Forest,0.69
+69,All,SVC,0.67
+70,1,Logistic Regression,0.6
+70,1,Naive Bayes,0.64
+70,1,Random Forest,0.6
+70,1,SVC,0.6
+70,10,Logistic Regression,0.86
+70,10,Naive Bayes,0.74
+70,10,Random Forest,0.76
+70,10,SVC,0.79
+70,50,Logistic Regression,0.83
+70,50,Naive Bayes,0.74
+70,50,Random Forest,0.81
+70,50,SVC,0.86
+70,100,Logistic Regression,0.93
+70,100,Naive Bayes,0.81
+70,100,Random Forest,0.88
+70,100,SVC,0.93
+70,500,Logistic Regression,0.95
+70,500,Naive Bayes,0.76
+70,500,Random Forest,0.9
+70,500,SVC,0.98
+70,2000,Logistic Regression,0.95
+70,2000,Naive Bayes,0.86
+70,2000,Random Forest,0.81
+70,2000,SVC,0.93
+70,5000,Logistic Regression,0.95
+70,5000,Naive Bayes,0.9
+70,5000,Random Forest,0.88
+70,5000,SVC,0.95
+70,All,Logistic Regression,0.64
+70,All,Naive Bayes,0.71
+70,All,Random Forest,0.71
+70,All,SVC,0.64
+71,1,Logistic Regression,0.67
+71,1,Naive Bayes,0.69
+71,1,Random Forest,0.67
+71,1,SVC,0.67
+71,10,Logistic Regression,0.81
+71,10,Naive Bayes,0.76
+71,10,Random Forest,0.86
+71,10,SVC,0.83
+71,50,Logistic Regression,0.86
+71,50,Naive Bayes,0.83
+71,50,Random Forest,0.86
+71,50,SVC,0.81
+71,100,Logistic Regression,0.9
+71,100,Naive Bayes,0.88
+71,100,Random Forest,0.93
+71,100,SVC,0.86
+71,500,Logistic Regression,0.95
+71,500,Naive Bayes,0.86
+71,500,Random Forest,0.93
+71,500,SVC,1.0
+71,2000,Logistic Regression,1.0
+71,2000,Naive Bayes,0.86
+71,2000,Random Forest,0.93
+71,2000,SVC,0.98
+71,5000,Logistic Regression,0.98
+71,5000,Naive Bayes,0.93
+71,5000,Random Forest,0.9
+71,5000,SVC,0.98
+71,All,Logistic Regression,0.76
+71,All,Naive Bayes,0.79
+71,All,Random Forest,0.79
+71,All,SVC,0.74
+72,1,Logistic Regression,0.6
+72,1,Naive Bayes,0.52
+72,1,Random Forest,0.6
+72,1,SVC,0.6
+72,10,Logistic Regression,0.71
+72,10,Naive Bayes,0.67
+72,10,Random Forest,0.69
+72,10,SVC,0.76
+72,50,Logistic Regression,0.88
+72,50,Naive Bayes,0.69
+72,50,Random Forest,0.76
+72,50,SVC,0.86
+72,100,Logistic Regression,0.86
+72,100,Naive Bayes,0.76
+72,100,Random Forest,0.76
+72,100,SVC,0.79
+72,500,Logistic Regression,0.88
+72,500,Naive Bayes,0.71
+72,500,Random Forest,0.79
+72,500,SVC,0.86
+72,2000,Logistic Regression,0.88
+72,2000,Naive Bayes,0.79
+72,2000,Random Forest,0.76
+72,2000,SVC,0.86
+72,5000,Logistic Regression,0.9
+72,5000,Naive Bayes,0.74
+72,5000,Random Forest,0.74
+72,5000,SVC,0.93
+72,All,Logistic Regression,0.62
+72,All,Naive Bayes,0.64
+72,All,Random Forest,0.67
+72,All,SVC,0.67
+73,1,Logistic Regression,0.67
+73,1,Naive Bayes,0.67
+73,1,Random Forest,0.67
+73,1,SVC,0.67
+73,10,Logistic Regression,0.81
+73,10,Naive Bayes,0.76
+73,10,Random Forest,0.79
+73,10,SVC,0.83
+73,50,Logistic Regression,0.9
+73,50,Naive Bayes,0.86
+73,50,Random Forest,0.86
+73,50,SVC,0.86
+73,100,Logistic Regression,0.98
+73,100,Naive Bayes,0.86
+73,100,Random Forest,0.93
+73,100,SVC,0.9
+73,500,Logistic Regression,0.98
+73,500,Naive Bayes,0.88
+73,500,Random Forest,0.88
+73,500,SVC,0.98
+73,2000,Logistic Regression,0.9
+73,2000,Naive Bayes,0.9
+73,2000,Random Forest,0.93
+73,2000,SVC,0.9
+73,5000,Logistic Regression,0.93
+73,5000,Naive Bayes,0.9
+73,5000,Random Forest,0.93
+73,5000,SVC,0.93
+73,All,Logistic Regression,0.71
+73,All,Naive Bayes,0.81
+73,All,Random Forest,0.79
+73,All,SVC,0.74
+74,1,Logistic Regression,0.57
+74,1,Naive Bayes,0.55
+74,1,Random Forest,0.57
+74,1,SVC,0.57
+74,10,Logistic Regression,0.76
+74,10,Naive Bayes,0.69
+74,10,Random Forest,0.71
+74,10,SVC,0.74
+74,50,Logistic Regression,0.9
+74,50,Naive Bayes,0.74
+74,50,Random Forest,0.83
+74,50,SVC,0.86
+74,100,Logistic Regression,0.88
+74,100,Naive Bayes,0.81
+74,100,Random Forest,0.83
+74,100,SVC,0.83
+74,500,Logistic Regression,0.98
+74,500,Naive Bayes,0.76
+74,500,Random Forest,0.81
+74,500,SVC,0.98
+74,2000,Logistic Regression,0.95
+74,2000,Naive Bayes,0.83
+74,2000,Random Forest,0.79
+74,2000,SVC,0.93
+74,5000,Logistic Regression,0.93
+74,5000,Naive Bayes,0.86
+74,5000,Random Forest,0.79
+74,5000,SVC,0.9
+74,All,Logistic Regression,0.69
+74,All,Naive Bayes,0.71
+74,All,Random Forest,0.71
+74,All,SVC,0.67
+75,1,Logistic Regression,0.69
+75,1,Naive Bayes,0.6
+75,1,Random Forest,0.69
+75,1,SVC,0.69
+75,10,Logistic Regression,0.83
+75,10,Naive Bayes,0.81
+75,10,Random Forest,0.81
+75,10,SVC,0.88
+75,50,Logistic Regression,0.88
+75,50,Naive Bayes,0.83
+75,50,Random Forest,0.88
+75,50,SVC,0.88
+75,100,Logistic Regression,0.93
+75,100,Naive Bayes,0.83
+75,100,Random Forest,0.95
+75,100,SVC,0.95
+75,500,Logistic Regression,0.98
+75,500,Naive Bayes,0.83
+75,500,Random Forest,0.93
+75,500,SVC,0.95
+75,2000,Logistic Regression,0.98
+75,2000,Naive Bayes,0.88
+75,2000,Random Forest,0.86
+75,2000,SVC,0.93
+75,5000,Logistic Regression,0.98
+75,5000,Naive Bayes,0.9
+75,5000,Random Forest,0.83
+75,5000,SVC,0.95
+75,All,Logistic Regression,0.69
+75,All,Naive Bayes,0.83
+75,All,Random Forest,0.79
+75,All,SVC,0.74
+76,1,Logistic Regression,0.6
+76,1,Naive Bayes,0.52
+76,1,Random Forest,0.6
+76,1,SVC,0.6
+76,10,Logistic Regression,0.81
+76,10,Naive Bayes,0.71
+76,10,Random Forest,0.83
+76,10,SVC,0.81
+76,50,Logistic Regression,0.9
+76,50,Naive Bayes,0.76
+76,50,Random Forest,0.88
+76,50,SVC,0.95
+76,100,Logistic Regression,0.93
+76,100,Naive Bayes,0.74
+76,100,Random Forest,0.81
+76,100,SVC,0.83
+76,500,Logistic Regression,0.98
+76,500,Naive Bayes,0.83
+76,500,Random Forest,0.88
+76,500,SVC,0.98
+76,2000,Logistic Regression,0.98
+76,2000,Naive Bayes,0.93
+76,2000,Random Forest,0.88
+76,2000,SVC,0.98
+76,5000,Logistic Regression,0.98
+76,5000,Naive Bayes,0.88
+76,5000,Random Forest,0.88
+76,5000,SVC,0.95
+76,All,Logistic Regression,0.74
+76,All,Naive Bayes,0.71
+76,All,Random Forest,0.76
+76,All,SVC,0.76
+77,1,Logistic Regression,0.45
+77,1,Naive Bayes,0.5
+77,1,Random Forest,0.45
+77,1,SVC,0.45
+77,10,Logistic Regression,0.79
+77,10,Naive Bayes,0.81
+77,10,Random Forest,0.81
+77,10,SVC,0.88
+77,50,Logistic Regression,0.86
+77,50,Naive Bayes,0.83
+77,50,Random Forest,0.9
+77,50,SVC,0.83
+77,100,Logistic Regression,0.93
+77,100,Naive Bayes,0.83
+77,100,Random Forest,0.88
+77,100,SVC,0.9
+77,500,Logistic Regression,0.98
+77,500,Naive Bayes,0.9
+77,500,Random Forest,0.9
+77,500,SVC,1.0
+77,2000,Logistic Regression,0.98
+77,2000,Naive Bayes,0.93
+77,2000,Random Forest,0.93
+77,2000,SVC,0.98
+77,5000,Logistic Regression,0.98
+77,5000,Naive Bayes,0.9
+77,5000,Random Forest,0.95
+77,5000,SVC,0.98
+77,All,Logistic Regression,0.81
+77,All,Naive Bayes,0.81
+77,All,Random Forest,0.81
+77,All,SVC,0.79
+78,1,Logistic Regression,0.57
+78,1,Naive Bayes,0.55
+78,1,Random Forest,0.57
+78,1,SVC,0.57
+78,10,Logistic Regression,0.88
+78,10,Naive Bayes,0.76
+78,10,Random Forest,0.83
+78,10,SVC,0.88
+78,50,Logistic Regression,0.81
+78,50,Naive Bayes,0.81
+78,50,Random Forest,0.83
+78,50,SVC,0.79
+78,100,Logistic Regression,0.93
+78,100,Naive Bayes,0.83
+78,100,Random Forest,0.83
+78,100,SVC,0.81
+78,500,Logistic Regression,0.88
+78,500,Naive Bayes,0.83
+78,500,Random Forest,0.86
+78,500,SVC,0.88
+78,2000,Logistic Regression,0.95
+78,2000,Naive Bayes,0.9
+78,2000,Random Forest,0.86
+78,2000,SVC,0.93
+78,5000,Logistic Regression,0.93
+78,5000,Naive Bayes,0.86
+78,5000,Random Forest,0.83
+78,5000,SVC,0.93
+78,All,Logistic Regression,0.69
+78,All,Naive Bayes,0.74
+78,All,Random Forest,0.76
+78,All,SVC,0.71
+79,1,Logistic Regression,0.6
+79,1,Naive Bayes,0.48
+79,1,Random Forest,0.6
+79,1,SVC,0.6
+79,10,Logistic Regression,0.76
+79,10,Naive Bayes,0.69
+79,10,Random Forest,0.79
+79,10,SVC,0.79
+79,50,Logistic Regression,0.9
+79,50,Naive Bayes,0.71
+79,50,Random Forest,0.79
+79,50,SVC,0.83
+79,100,Logistic Regression,0.86
+79,100,Naive Bayes,0.74
+79,100,Random Forest,0.74
+79,100,SVC,0.83
+79,500,Logistic Regression,0.9
+79,500,Naive Bayes,0.74
+79,500,Random Forest,0.76
+79,500,SVC,0.83
+79,2000,Logistic Regression,0.93
+79,2000,Naive Bayes,0.83
+79,2000,Random Forest,0.83
+79,2000,SVC,0.88
+79,5000,Logistic Regression,0.95
+79,5000,Naive Bayes,0.86
+79,5000,Random Forest,0.74
+79,5000,SVC,0.98
+79,All,Logistic Regression,0.67
+79,All,Naive Bayes,0.71
+79,All,Random Forest,0.67
+79,All,SVC,0.67
+80,1,Logistic Regression,0.5
+80,1,Naive Bayes,0.5
+80,1,Random Forest,0.5
+80,1,SVC,0.5
+80,10,Logistic Regression,0.79
+80,10,Naive Bayes,0.64
+80,10,Random Forest,0.81
+80,10,SVC,0.81
+80,50,Logistic Regression,0.86
+80,50,Naive Bayes,0.69
+80,50,Random Forest,0.83
+80,50,SVC,0.76
+80,100,Logistic Regression,0.86
+80,100,Naive Bayes,0.71
+80,100,Random Forest,0.86
+80,100,SVC,0.86
+80,500,Logistic Regression,0.86
+80,500,Naive Bayes,0.74
+80,500,Random Forest,0.83
+80,500,SVC,0.93
+80,2000,Logistic Regression,0.93
+80,2000,Naive Bayes,0.81
+80,2000,Random Forest,0.81
+80,2000,SVC,0.9
+80,5000,Logistic Regression,0.95
+80,5000,Naive Bayes,0.81
+80,5000,Random Forest,0.86
+80,5000,SVC,0.93
+80,All,Logistic Regression,0.57
+80,All,Naive Bayes,0.64
+80,All,Random Forest,0.62
+80,All,SVC,0.55
+81,1,Logistic Regression,0.67
+81,1,Naive Bayes,0.64
+81,1,Random Forest,0.67
+81,1,SVC,0.67
+81,10,Logistic Regression,0.83
+81,10,Naive Bayes,0.79
+81,10,Random Forest,0.81
+81,10,SVC,0.81
+81,50,Logistic Regression,0.81
+81,50,Naive Bayes,0.79
+81,50,Random Forest,0.83
+81,50,SVC,0.9
+81,100,Logistic Regression,0.98
+81,100,Naive Bayes,0.81
+81,100,Random Forest,0.9
+81,100,SVC,0.9
+81,500,Logistic Regression,0.9
+81,500,Naive Bayes,0.81
+81,500,Random Forest,0.83
+81,500,SVC,0.93
+81,2000,Logistic Regression,0.9
+81,2000,Naive Bayes,0.81
+81,2000,Random Forest,0.83
+81,2000,SVC,0.93
+81,5000,Logistic Regression,0.93
+81,5000,Naive Bayes,0.83
+81,5000,Random Forest,0.83
+81,5000,SVC,0.93
+81,All,Logistic Regression,0.69
+81,All,Naive Bayes,0.76
+81,All,Random Forest,0.74
+81,All,SVC,0.67
+82,1,Logistic Regression,0.6
+82,1,Naive Bayes,0.57
+82,1,Random Forest,0.6
+82,1,SVC,0.6
+82,10,Logistic Regression,0.74
+82,10,Naive Bayes,0.79
+82,10,Random Forest,0.74
+82,10,SVC,0.74
+82,50,Logistic Regression,0.86
+82,50,Naive Bayes,0.81
+82,50,Random Forest,0.76
+82,50,SVC,0.86
+82,100,Logistic Regression,0.88
+82,100,Naive Bayes,0.83
+82,100,Random Forest,0.86
+82,100,SVC,0.79
+82,500,Logistic Regression,0.95
+82,500,Naive Bayes,0.81
+82,500,Random Forest,0.81
+82,500,SVC,0.9
+82,2000,Logistic Regression,0.95
+82,2000,Naive Bayes,0.83
+82,2000,Random Forest,0.86
+82,2000,SVC,0.93
+82,5000,Logistic Regression,1.0
+82,5000,Naive Bayes,0.9
+82,5000,Random Forest,0.86
+82,5000,SVC,1.0
+82,All,Logistic Regression,0.71
+82,All,Naive Bayes,0.79
+82,All,Random Forest,0.74
+82,All,SVC,0.71
+83,1,Logistic Regression,0.57
+83,1,Naive Bayes,0.6
+83,1,Random Forest,0.57
+83,1,SVC,0.57
+83,10,Logistic Regression,0.79
+83,10,Naive Bayes,0.79
+83,10,Random Forest,0.79
+83,10,SVC,0.79
+83,50,Logistic Regression,0.83
+83,50,Naive Bayes,0.83
+83,50,Random Forest,0.81
+83,50,SVC,0.88
+83,100,Logistic Regression,0.88
+83,100,Naive Bayes,0.79
+83,100,Random Forest,0.86
+83,100,SVC,0.88
+83,500,Logistic Regression,0.9
+83,500,Naive Bayes,0.86
+83,500,Random Forest,0.88
+83,500,SVC,0.93
+83,2000,Logistic Regression,0.95
+83,2000,Naive Bayes,0.88
+83,2000,Random Forest,0.9
+83,2000,SVC,0.93
+83,5000,Logistic Regression,0.9
+83,5000,Naive Bayes,0.9
+83,5000,Random Forest,0.88
+83,5000,SVC,0.9
+83,All,Logistic Regression,0.64
+83,All,Naive Bayes,0.79
+83,All,Random Forest,0.76
+83,All,SVC,0.67
+84,1,Logistic Regression,0.57
+84,1,Naive Bayes,0.55
+84,1,Random Forest,0.57
+84,1,SVC,0.57
+84,10,Logistic Regression,0.74
+84,10,Naive Bayes,0.76
+84,10,Random Forest,0.76
+84,10,SVC,0.79
+84,50,Logistic Regression,0.76
+84,50,Naive Bayes,0.79
+84,50,Random Forest,0.79
+84,50,SVC,0.74
+84,100,Logistic Regression,0.93
+84,100,Naive Bayes,0.81
+84,100,Random Forest,0.83
+84,100,SVC,0.86
+84,500,Logistic Regression,0.86
+84,500,Naive Bayes,0.81
+84,500,Random Forest,0.79
+84,500,SVC,0.86
+84,2000,Logistic Regression,0.95
+84,2000,Naive Bayes,0.9
+84,2000,Random Forest,0.81
+84,2000,SVC,0.93
+84,5000,Logistic Regression,0.93
+84,5000,Naive Bayes,0.9
+84,5000,Random Forest,0.81
+84,5000,SVC,0.9
+84,All,Logistic Regression,0.64
+84,All,Naive Bayes,0.79
+84,All,Random Forest,0.76
+84,All,SVC,0.67
+85,1,Logistic Regression,0.52
+85,1,Naive Bayes,0.57
+85,1,Random Forest,0.52
+85,1,SVC,0.52
+85,10,Logistic Regression,0.83
+85,10,Naive Bayes,0.81
+85,10,Random Forest,0.81
+85,10,SVC,0.86
+85,50,Logistic Regression,0.93
+85,50,Naive Bayes,0.81
+85,50,Random Forest,0.83
+85,50,SVC,0.9
+85,100,Logistic Regression,0.9
+85,100,Naive Bayes,0.79
+85,100,Random Forest,0.86
+85,100,SVC,0.86
+85,500,Logistic Regression,1.0
+85,500,Naive Bayes,0.81
+85,500,Random Forest,0.83
+85,500,SVC,0.98
+85,2000,Logistic Regression,0.95
+85,2000,Naive Bayes,0.83
+85,2000,Random Forest,0.86
+85,2000,SVC,0.95
+85,5000,Logistic Regression,0.93
+85,5000,Naive Bayes,0.86
+85,5000,Random Forest,0.86
+85,5000,SVC,0.95
+85,All,Logistic Regression,0.69
+85,All,Naive Bayes,0.76
+85,All,Random Forest,0.76
+85,All,SVC,0.74
+86,1,Logistic Regression,0.74
+86,1,Naive Bayes,0.74
+86,1,Random Forest,0.74
+86,1,SVC,0.74
+86,10,Logistic Regression,0.88
+86,10,Naive Bayes,0.83
+86,10,Random Forest,0.88
+86,10,SVC,0.9
+86,50,Logistic Regression,0.93
+86,50,Naive Bayes,0.81
+86,50,Random Forest,0.9
+86,50,SVC,0.93
+86,100,Logistic Regression,0.9
+86,100,Naive Bayes,0.83
+86,100,Random Forest,0.86
+86,100,SVC,0.88
+86,500,Logistic Regression,0.95
+86,500,Naive Bayes,0.86
+86,500,Random Forest,0.93
+86,500,SVC,0.93
+86,2000,Logistic Regression,0.98
+86,2000,Naive Bayes,0.9
+86,2000,Random Forest,0.9
+86,2000,SVC,0.98
+86,5000,Logistic Regression,0.95
+86,5000,Naive Bayes,0.93
+86,5000,Random Forest,0.93
+86,5000,SVC,0.98
+86,All,Logistic Regression,0.69
+86,All,Naive Bayes,0.83
+86,All,Random Forest,0.83
+86,All,SVC,0.79
+87,1,Logistic Regression,0.52
+87,1,Naive Bayes,0.52
+87,1,Random Forest,0.52
+87,1,SVC,0.52
+87,10,Logistic Regression,0.76
+87,10,Naive Bayes,0.74
+87,10,Random Forest,0.81
+87,10,SVC,0.81
+87,50,Logistic Regression,0.88
+87,50,Naive Bayes,0.76
+87,50,Random Forest,0.86
+87,50,SVC,0.88
+87,100,Logistic Regression,0.95
+87,100,Naive Bayes,0.76
+87,100,Random Forest,0.86
+87,100,SVC,0.86
+87,500,Logistic Regression,0.95
+87,500,Naive Bayes,0.83
+87,500,Random Forest,0.81
+87,500,SVC,1.0
+87,2000,Logistic Regression,0.98
+87,2000,Naive Bayes,0.86
+87,2000,Random Forest,0.86
+87,2000,SVC,0.98
+87,5000,Logistic Regression,0.95
+87,5000,Naive Bayes,0.86
+87,5000,Random Forest,0.81
+87,5000,SVC,0.95
+87,All,Logistic Regression,0.74
+87,All,Naive Bayes,0.76
+87,All,Random Forest,0.74
+87,All,SVC,0.69
+88,1,Logistic Regression,0.57
+88,1,Naive Bayes,0.52
+88,1,Random Forest,0.57
+88,1,SVC,0.57
+88,10,Logistic Regression,0.69
+88,10,Naive Bayes,0.67
+88,10,Random Forest,0.79
+88,10,SVC,0.79
+88,50,Logistic Regression,0.88
+88,50,Naive Bayes,0.83
+88,50,Random Forest,0.83
+88,50,SVC,0.88
+88,100,Logistic Regression,0.93
+88,100,Naive Bayes,0.79
+88,100,Random Forest,0.86
+88,100,SVC,0.9
+88,500,Logistic Regression,0.9
+88,500,Naive Bayes,0.81
+88,500,Random Forest,0.88
+88,500,SVC,0.88
+88,2000,Logistic Regression,0.95
+88,2000,Naive Bayes,0.88
+88,2000,Random Forest,0.83
+88,2000,SVC,0.9
+88,5000,Logistic Regression,0.93
+88,5000,Naive Bayes,0.88
+88,5000,Random Forest,0.81
+88,5000,SVC,0.9
+88,All,Logistic Regression,0.62
+88,All,Naive Bayes,0.76
+88,All,Random Forest,0.71
+88,All,SVC,0.69
+89,1,Logistic Regression,0.57
+89,1,Naive Bayes,0.64
+89,1,Random Forest,0.57
+89,1,SVC,0.57
+89,10,Logistic Regression,0.79
+89,10,Naive Bayes,0.76
+89,10,Random Forest,0.76
+89,10,SVC,0.83
+89,50,Logistic Regression,0.81
+89,50,Naive Bayes,0.79
+89,50,Random Forest,0.81
+89,50,SVC,0.71
+89,100,Logistic Regression,0.86
+89,100,Naive Bayes,0.81
+89,100,Random Forest,0.86
+89,100,SVC,0.86
+89,500,Logistic Regression,0.95
+89,500,Naive Bayes,0.83
+89,500,Random Forest,0.9
+89,500,SVC,0.93
+89,2000,Logistic Regression,0.9
+89,2000,Naive Bayes,0.83
+89,2000,Random Forest,0.86
+89,2000,SVC,0.9
+89,5000,Logistic Regression,0.9
+89,5000,Naive Bayes,0.86
+89,5000,Random Forest,0.86
+89,5000,SVC,0.93
+89,All,Logistic Regression,0.69
+89,All,Naive Bayes,0.79
+89,All,Random Forest,0.76
+89,All,SVC,0.76
+90,1,Logistic Regression,0.6
+90,1,Naive Bayes,0.6
+90,1,Random Forest,0.6
+90,1,SVC,0.6
+90,10,Logistic Regression,0.76
+90,10,Naive Bayes,0.69
+90,10,Random Forest,0.71
+90,10,SVC,0.79
+90,50,Logistic Regression,0.81
+90,50,Naive Bayes,0.69
+90,50,Random Forest,0.74
+90,50,SVC,0.81
+90,100,Logistic Regression,0.93
+90,100,Naive Bayes,0.81
+90,100,Random Forest,0.83
+90,100,SVC,0.79
+90,500,Logistic Regression,0.88
+90,500,Naive Bayes,0.79
+90,500,Random Forest,0.76
+90,500,SVC,0.9
+90,2000,Logistic Regression,0.95
+90,2000,Naive Bayes,0.83
+90,2000,Random Forest,0.81
+90,2000,SVC,0.95
+90,5000,Logistic Regression,0.98
+90,5000,Naive Bayes,0.86
+90,5000,Random Forest,0.83
+90,5000,SVC,0.98
+90,All,Logistic Regression,0.64
+90,All,Naive Bayes,0.67
+90,All,Random Forest,0.62
+90,All,SVC,0.6
+91,1,Logistic Regression,0.5
+91,1,Naive Bayes,0.45
+91,1,Random Forest,0.5
+91,1,SVC,0.5
+91,10,Logistic Regression,0.76
+91,10,Naive Bayes,0.83
+91,10,Random Forest,0.83
+91,10,SVC,0.76
+91,50,Logistic Regression,0.88
+91,50,Naive Bayes,0.88
+91,50,Random Forest,0.81
+91,50,SVC,0.86
+91,100,Logistic Regression,0.88
+91,100,Naive Bayes,0.9
+91,100,Random Forest,0.83
+91,100,SVC,0.83
+91,500,Logistic Regression,0.9
+91,500,Naive Bayes,0.93
+91,500,Random Forest,0.9
+91,500,SVC,0.93
+91,2000,Logistic Regression,0.93
+91,2000,Naive Bayes,0.95
+91,2000,Random Forest,0.88
+91,2000,SVC,0.9
+91,5000,Logistic Regression,0.9
+91,5000,Naive Bayes,0.93
+91,5000,Random Forest,0.88
+91,5000,SVC,0.88
+91,All,Logistic Regression,0.74
+91,All,Naive Bayes,0.83
+91,All,Random Forest,0.79
+91,All,SVC,0.74
+92,1,Logistic Regression,0.57
+92,1,Naive Bayes,0.5
+92,1,Random Forest,0.57
+92,1,SVC,0.57
+92,10,Logistic Regression,0.79
+92,10,Naive Bayes,0.67
+92,10,Random Forest,0.71
+92,10,SVC,0.74
+92,50,Logistic Regression,0.81
+92,50,Naive Bayes,0.69
+92,50,Random Forest,0.79
+92,50,SVC,0.79
+92,100,Logistic Regression,0.86
+92,100,Naive Bayes,0.76
+92,100,Random Forest,0.83
+92,100,SVC,0.86
+92,500,Logistic Regression,0.93
+92,500,Naive Bayes,0.79
+92,500,Random Forest,0.83
+92,500,SVC,0.9
+92,2000,Logistic Regression,0.95
+92,2000,Naive Bayes,0.83
+92,2000,Random Forest,0.83
+92,2000,SVC,0.93
+92,5000,Logistic Regression,0.9
+92,5000,Naive Bayes,0.88
+92,5000,Random Forest,0.79
+92,5000,SVC,0.9
+92,All,Logistic Regression,0.64
+92,All,Naive Bayes,0.69
+92,All,Random Forest,0.64
+92,All,SVC,0.62
+93,1,Logistic Regression,0.57
+93,1,Naive Bayes,0.48
+93,1,Random Forest,0.57
+93,1,SVC,0.57
+93,10,Logistic Regression,0.74
+93,10,Naive Bayes,0.64
+93,10,Random Forest,0.74
+93,10,SVC,0.74
+93,50,Logistic Regression,0.83
+93,50,Naive Bayes,0.69
+93,50,Random Forest,0.71
+93,50,SVC,0.74
+93,100,Logistic Regression,0.83
+93,100,Naive Bayes,0.71
+93,100,Random Forest,0.76
+93,100,SVC,0.76
+93,500,Logistic Regression,0.93
+93,500,Naive Bayes,0.71
+93,500,Random Forest,0.74
+93,500,SVC,0.9
+93,2000,Logistic Regression,0.95
+93,2000,Naive Bayes,0.81
+93,2000,Random Forest,0.81
+93,2000,SVC,0.95
+93,5000,Logistic Regression,0.95
+93,5000,Naive Bayes,0.81
+93,5000,Random Forest,0.74
+93,5000,SVC,0.95
+93,All,Logistic Regression,0.6
+93,All,Naive Bayes,0.64
+93,All,Random Forest,0.62
+93,All,SVC,0.6
+94,1,Logistic Regression,0.62
+94,1,Naive Bayes,0.55
+94,1,Random Forest,0.62
+94,1,SVC,0.62
+94,10,Logistic Regression,0.69
+94,10,Naive Bayes,0.67
+94,10,Random Forest,0.76
+94,10,SVC,0.76
+94,50,Logistic Regression,0.86
+94,50,Naive Bayes,0.79
+94,50,Random Forest,0.74
+94,50,SVC,0.86
+94,100,Logistic Regression,0.9
+94,100,Naive Bayes,0.81
+94,100,Random Forest,0.83
+94,100,SVC,0.79
+94,500,Logistic Regression,0.79
+94,500,Naive Bayes,0.79
+94,500,Random Forest,0.79
+94,500,SVC,0.76
+94,2000,Logistic Regression,0.88
+94,2000,Naive Bayes,0.86
+94,2000,Random Forest,0.79
+94,2000,SVC,0.86
+94,5000,Logistic Regression,0.86
+94,5000,Naive Bayes,0.88
+94,5000,Random Forest,0.86
+94,5000,SVC,0.86
+94,All,Logistic Regression,0.52
+94,All,Naive Bayes,0.74
+94,All,Random Forest,0.6
+94,All,SVC,0.55
+95,1,Logistic Regression,0.57
+95,1,Naive Bayes,0.55
+95,1,Random Forest,0.57
+95,1,SVC,0.57
+95,10,Logistic Regression,0.71
+95,10,Naive Bayes,0.62
+95,10,Random Forest,0.69
+95,10,SVC,0.69
+95,50,Logistic Regression,0.79
+95,50,Naive Bayes,0.69
+95,50,Random Forest,0.71
+95,50,SVC,0.79
+95,100,Logistic Regression,0.79
+95,100,Naive Bayes,0.71
+95,100,Random Forest,0.74
+95,100,SVC,0.74
+95,500,Logistic Regression,0.86
+95,500,Naive Bayes,0.67
+95,500,Random Forest,0.64
+95,500,SVC,0.86
+95,2000,Logistic Regression,0.88
+95,2000,Naive Bayes,0.79
+95,2000,Random Forest,0.79
+95,2000,SVC,0.88
+95,5000,Logistic Regression,0.86
+95,5000,Naive Bayes,0.81
+95,5000,Random Forest,0.71
+95,5000,SVC,0.86
+95,All,Logistic Regression,0.6
+95,All,Naive Bayes,0.64
+95,All,Random Forest,0.64
+95,All,SVC,0.6
+96,1,Logistic Regression,0.48
+96,1,Naive Bayes,0.45
+96,1,Random Forest,0.6
+96,1,SVC,0.45
+96,10,Logistic Regression,0.79
+96,10,Naive Bayes,0.71
+96,10,Random Forest,0.76
+96,10,SVC,0.81
+96,50,Logistic Regression,0.79
+96,50,Naive Bayes,0.71
+96,50,Random Forest,0.81
+96,50,SVC,0.79
+96,100,Logistic Regression,0.81
+96,100,Naive Bayes,0.74
+96,100,Random Forest,0.81
+96,100,SVC,0.76
+96,500,Logistic Regression,0.86
+96,500,Naive Bayes,0.74
+96,500,Random Forest,0.79
+96,500,SVC,0.86
+96,2000,Logistic Regression,0.93
+96,2000,Naive Bayes,0.81
+96,2000,Random Forest,0.79
+96,2000,SVC,0.9
+96,5000,Logistic Regression,0.83
+96,5000,Naive Bayes,0.79
+96,5000,Random Forest,0.79
+96,5000,SVC,0.88
+96,All,Logistic Regression,0.67
+96,All,Naive Bayes,0.74
+96,All,Random Forest,0.69
+96,All,SVC,0.69
+97,1,Logistic Regression,0.62
+97,1,Naive Bayes,0.62
+97,1,Random Forest,0.62
+97,1,SVC,0.62
+97,10,Logistic Regression,0.83
+97,10,Naive Bayes,0.86
+97,10,Random Forest,0.81
+97,10,SVC,0.88
+97,50,Logistic Regression,0.95
+97,50,Naive Bayes,0.9
+97,50,Random Forest,0.9
+97,50,SVC,0.95
+97,100,Logistic Regression,0.98
+97,100,Naive Bayes,0.88
+97,100,Random Forest,0.88
+97,100,SVC,0.93
+97,500,Logistic Regression,0.95
+97,500,Naive Bayes,0.93
+97,500,Random Forest,0.95
+97,500,SVC,0.95
+97,2000,Logistic Regression,0.98
+97,2000,Naive Bayes,0.98
+97,2000,Random Forest,0.93
+97,2000,SVC,0.95
+97,5000,Logistic Regression,0.98
+97,5000,Naive Bayes,0.93
+97,5000,Random Forest,0.9
+97,5000,SVC,0.95
+97,All,Logistic Regression,0.79
+97,All,Naive Bayes,0.86
+97,All,Random Forest,0.83
+97,All,SVC,0.83
+98,1,Logistic Regression,0.62
+98,1,Naive Bayes,0.5
+98,1,Random Forest,0.62
+98,1,SVC,0.62
+98,10,Logistic Regression,0.83
+98,10,Naive Bayes,0.76
+98,10,Random Forest,0.83
+98,10,SVC,0.83
+98,50,Logistic Regression,0.93
+98,50,Naive Bayes,0.79
+98,50,Random Forest,0.83
+98,50,SVC,0.88
+98,100,Logistic Regression,0.93
+98,100,Naive Bayes,0.81
+98,100,Random Forest,0.83
+98,100,SVC,0.83
+98,500,Logistic Regression,0.93
+98,500,Naive Bayes,0.76
+98,500,Random Forest,0.86
+98,500,SVC,0.93
+98,2000,Logistic Regression,0.98
+98,2000,Naive Bayes,0.9
+98,2000,Random Forest,0.81
+98,2000,SVC,0.95
+98,5000,Logistic Regression,0.98
+98,5000,Naive Bayes,0.9
+98,5000,Random Forest,0.81
+98,5000,SVC,0.98
+98,All,Logistic Regression,0.64
+98,All,Naive Bayes,0.71
+98,All,Random Forest,0.71
+98,All,SVC,0.64
+99,1,Logistic Regression,0.62
+99,1,Naive Bayes,0.5
+99,1,Random Forest,0.62
+99,1,SVC,0.62
+99,10,Logistic Regression,0.81
+99,10,Naive Bayes,0.64
+99,10,Random Forest,0.74
+99,10,SVC,0.76
+99,50,Logistic Regression,0.86
+99,50,Naive Bayes,0.74
+99,50,Random Forest,0.79
+99,50,SVC,0.83
+99,100,Logistic Regression,0.9
+99,100,Naive Bayes,0.76
+99,100,Random Forest,0.86
+99,100,SVC,0.9
+99,500,Logistic Regression,0.98
+99,500,Naive Bayes,0.79
+99,500,Random Forest,0.86
+99,500,SVC,0.93
+99,2000,Logistic Regression,0.98
+99,2000,Naive Bayes,0.88
+99,2000,Random Forest,0.79
+99,2000,SVC,0.93
+99,5000,Logistic Regression,0.93
+99,5000,Naive Bayes,0.88
+99,5000,Random Forest,0.86
+99,5000,SVC,0.95
+99,All,Logistic Regression,0.67
+99,All,Naive Bayes,0.67
+99,All,Random Forest,0.67
+99,All,SVC,0.64
+100,1,Logistic Regression,0.6
+100,1,Naive Bayes,0.52
+100,1,Random Forest,0.6
+100,1,SVC,0.6
+100,10,Logistic Regression,0.74
+100,10,Naive Bayes,0.67
+100,10,Random Forest,0.71
+100,10,SVC,0.81
+100,50,Logistic Regression,0.88
+100,50,Naive Bayes,0.71
+100,50,Random Forest,0.83
+100,50,SVC,0.88
+100,100,Logistic Regression,0.88
+100,100,Naive Bayes,0.71
+100,100,Random Forest,0.83
+100,100,SVC,0.86
+100,500,Logistic Regression,0.88
+100,500,Naive Bayes,0.76
+100,500,Random Forest,0.81
+100,500,SVC,0.88
+100,2000,Logistic Regression,0.9
+100,2000,Naive Bayes,0.81
+100,2000,Random Forest,0.83
+100,2000,SVC,0.88
+100,5000,Logistic Regression,0.9
+100,5000,Naive Bayes,0.86
+100,5000,Random Forest,0.83
+100,5000,SVC,0.93
+100,All,Logistic Regression,0.6
+100,All,Naive Bayes,0.67
+100,All,Random Forest,0.64
+100,All,SVC,0.62
