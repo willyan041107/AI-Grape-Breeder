@@ -16,7 +16,7 @@ st.set_page_config(
     page_title="AI Grape Breeder",
     page_icon="🍇",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="collapsed",
 )
 
 
@@ -28,9 +28,9 @@ st.markdown(
     """
     <style>
     :root {
-        --ink: #25313c;
-        --muted: #66737f;
-        --line: #e5e9ee;
+        --ink: #233240;
+        --muted: #6b7783;
+        --line: #e8ebef;
         --soft: #f7f9f8;
         --leaf: #4f7b5d;
         --grape: #6f5a8f;
@@ -38,44 +38,74 @@ st.markdown(
         --gold: #b18a45;
     }
 
-    .block-container {
-        padding-top: 1.6rem;
-        padding-bottom: 2.5rem;
-        max-width: 1500px;
+    html, body, [class*="css"] {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+            "Inter", Roboto, Helvetica, Arial, sans-serif;
     }
 
-    h1, h2, h3 {
-        color: var(--ink);
-        letter-spacing: -0.02em;
+    .block-container {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        max-width: 1280px;
     }
 
     h1 {
-        margin-bottom: 0.2rem;
+        font-weight: 800;
+        letter-spacing: -0.03em;
+        color: var(--ink);
+        margin-bottom: 0.15rem;
+    }
+
+    h2 {
+        font-weight: 750;
+        letter-spacing: -0.02em;
+        color: var(--ink);
+        margin-top: 0.4rem;
+    }
+
+    h3 {
+        font-weight: 700;
+        letter-spacing: -0.01em;
+        color: var(--ink);
+    }
+
+    p, li {
+        color: #3f4b56;
+        line-height: 1.6;
+    }
+
+    hr {
+        margin: 1.6rem 0;
+        border-color: var(--line);
     }
 
     .pipeline-grid {
         display: grid;
         grid-template-columns: repeat(
             auto-fit,
-            minmax(180px, 1fr)
+            minmax(190px, 1fr)
         );
-        gap: 12px;
-        margin: 14px 0 20px 0;
+        gap: 14px;
+        margin: 16px 0 22px 0;
     }
 
     .pipeline-card {
         border: 1px solid var(--line);
         border-radius: 16px;
-        padding: 16px;
-        background:
-            linear-gradient(
-                180deg,
-                #ffffff 0%,
-                #f9fbfa 100%
-            );
+        padding: 18px;
+        background: #ffffff;
         min-height: 150px;
         box-shadow:
-            0 5px 18px rgba(31, 41, 55, 0.045);
+            0 1px 2px rgba(31, 41, 55, 0.04),
+            0 6px 20px rgba(31, 41, 55, 0.05);
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .pipeline-card:hover {
+        transform: translateY(-2px);
+        box-shadow:
+            0 2px 4px rgba(31, 41, 55, 0.06),
+            0 12px 28px rgba(31, 41, 55, 0.08);
     }
 
     .step-badge {
@@ -84,11 +114,12 @@ st.markdown(
         justify-content: center;
         width: 30px;
         height: 30px;
-        border-radius: 50%;
-        background: #edf3ee;
+        border-radius: 9px;
+        background: #eef3ef;
         color: var(--leaf);
         font-weight: 800;
-        margin-bottom: 10px;
+        font-size: 0.9rem;
+        margin-bottom: 12px;
     }
 
     .pipeline-title {
@@ -100,38 +131,64 @@ st.markdown(
 
     .pipeline-body {
         font-size: 0.92rem;
-        color: #4d5964;
-        line-height: 1.42;
+        color: #54606b;
+        line-height: 1.5;
     }
 
     .gene-card {
         border: 1px solid var(--line);
         border-radius: 14px;
-        padding: 14px 16px;
+        padding: 15px 17px;
         background: #ffffff;
-        margin: 8px 0;
+        margin: 9px 0;
+        box-shadow: 0 1px 2px rgba(31, 41, 55, 0.03);
     }
 
     .gene-name {
         font-weight: 800;
         color: var(--grape);
-        margin-bottom: 4px;
+        letter-spacing: -0.01em;
+        margin-bottom: 5px;
+    }
+
+    .lead-in {
+        border-left: 3px solid var(--leaf);
+        background: #f3f7f4;
+        border-radius: 0 10px 10px 0;
+        padding: 12px 18px;
+        margin: 2px 0 20px 0;
+        color: #3d4a54;
+        font-size: 1.0rem;
+        line-height: 1.55;
+    }
+
+    .takeaway {
+        border-left: 3px solid var(--grape);
+        background: #f5f2fa;
+        border-radius: 0 10px 10px 0;
+        padding: 14px 18px;
+        margin: 14px 0 6px 0;
+        color: #3d4a54;
+        font-size: 1.0rem;
+        line-height: 1.55;
     }
 
     [data-testid="stMetric"] {
         background: #ffffff;
         border: 1px solid var(--line);
         border-radius: 14px;
-        padding: 10px 14px;
+        padding: 14px 16px;
+        box-shadow: 0 1px 2px rgba(31, 41, 55, 0.03);
     }
 
     [data-testid="stMetricLabel"] {
-        font-weight: 650;
+        font-weight: 600;
         color: var(--muted);
     }
 
     [data-testid="stMetricValue"] {
         color: var(--ink);
+        font-weight: 750;
     }
 
     [data-testid="stSidebar"] {
@@ -139,16 +196,22 @@ st.markdown(
     }
 
     div[data-baseweb="tab-list"] {
-        gap: 0.2rem;
+        gap: 0.35rem;
+        border-bottom: 1px solid var(--line);
     }
 
     button[data-baseweb="tab"] {
         font-weight: 650;
+        font-size: 0.98rem;
     }
 
     @media (max-width: 900px) {
         .pipeline-card {
             min-height: auto;
+        }
+        .block-container {
+            padding-left: 0.6rem;
+            padding-right: 0.6rem;
         }
     }
     </style>
@@ -328,6 +391,22 @@ GRID = "rgba(37,49,60,0.09)"
 # HELPERS
 # ============================================================
 
+def lead_in(text: str) -> None:
+    """A short orienting sentence at the top of each section."""
+    st.markdown(
+        f'<div class="lead-in">{text}</div>',
+        unsafe_allow_html=True,
+    )
+
+
+def takeaway(text: str) -> None:
+    """A highlighted 'what you should walk away with' box."""
+    st.markdown(
+        f'<div class="takeaway">{text}</div>',
+        unsafe_allow_html=True,
+    )
+
+
 def render_pipeline(
     steps: list[tuple[str, str]],
 ) -> None:
@@ -358,6 +437,51 @@ def render_pipeline(
     )
 
 
+def render_cascade(
+    steps: list[tuple[str, str]],
+    active_index: int | None = None,
+) -> None:
+    """Render the CRK3/ACA12 defense-signaling cascade as connected cards.
+
+    Passing an active_index highlights one step so the reader can walk
+    through the pathway one biological event at a time.
+    """
+    blocks: list[str] = []
+
+    for i, (title, _detail) in enumerate(steps):
+        is_active = active_index == i
+        border = "#6f5a8f" if is_active else "#e5e9ee"
+        bg = "#f3eff8" if is_active else "#ffffff"
+        weight = "800" if is_active else "700"
+
+        blocks.append(
+            '<div style="flex:1 1 150px;min-width:140px;'
+            f'border:1.6px solid {border};background:{bg};'
+            'border-radius:12px;padding:12px 14px;">'
+            '<div style="font-size:0.70rem;color:#8a94a0;'
+            'font-weight:700;letter-spacing:0.04em;'
+            f'margin-bottom:6px;">STEP {i + 1}</div>'
+            f'<div style="font-weight:{weight};color:#25313c;'
+            f'font-size:0.94rem;line-height:1.3;">{title}</div>'
+            '</div>'
+        )
+
+    arrow = (
+        '<div style="align-self:center;color:#b7bec7;'
+        'font-size:1.2rem;padding:0 2px;">&#8594;</div>'
+    )
+
+    row = arrow.join(blocks)
+
+    html = (
+        '<div style="display:flex;flex-wrap:wrap;'
+        'align-items:stretch;gap:4px;margin:10px 0 4px 0;">'
+        f'{row}</div>'
+    )
+
+    st.markdown(html, unsafe_allow_html=True)
+
+
 def render_gene_card(
     gene_id: str,
     short_name: str,
@@ -373,7 +497,7 @@ def render_gene_card(
     if why_highlighted:
         html += (
             '<div style="margin-top:8px;">'
-            '<b>Why highlighted:</b> '
+            '<b>Why highlighted.</b> '
             f'{why_highlighted}'
             '</div>'
         )
@@ -493,6 +617,25 @@ def add_region_width(
     return result
 
 
+def chart_note(
+    text: str,
+) -> None:
+    st.markdown(
+        f"""
+        <div style="
+            color: #4d5964;
+            font-size: 0.94rem;
+            line-height: 1.45;
+            margin-top: -0.35rem;
+            margin-bottom: 1.0rem;
+        ">
+            {text}
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
 def format_pct(
     value: float,
 ) -> str:
@@ -544,39 +687,52 @@ TOTAL_GWAS_REGIONS = (
 )
 
 
-# ============================================================
-# SIDEBAR
-# ============================================================
-
-with st.sidebar:
-    st.title(
-        "🍇 AI Grape Breeder"
-    )
-
-    st.divider()
-
-    st.metric(
-        "Grapevine accessions",
-        f"{len(phenotypes):,}",
-    )
-
-    st.metric(
-        "Candidate genes",
-        f"{len(candidate_genes):,}",
-    )
-
-    st.metric(
-        "GWAS regions",
-        f"{TOTAL_GWAS_REGIONS:,}",
-    )
-
-    st.divider()
-
-    st.caption(
-        "Primary-study data extracted from "
-        "Gan et al. (2025) and Supplementary Tables "
-        "S1, S3–S5, S8–S9, S12–S13."
-    )
+# The central defense-signaling cascade reconstructed in the paper
+# (Fig. 4E and the Discussion). Used by the "Finding the Genes" tab.
+CASCADE_STEPS: list[tuple[str, str]] = [
+    (
+        "Herbivore attack",
+        "A tobacco cutworm (<i>Spodoptera litura</i>) larva chews the leaf. "
+        "Mechanical wounding and chemical cues in the larva's oral secretions "
+        "are sensed at the plasma membrane within seconds, before any tissue is "
+        "visibly lost.",
+    ),
+    (
+        "Cytosolic Ca²⁺ spike",
+        "Wounding depolarizes the membrane and calcium ions (Ca²⁺) flood into the "
+        "cytosol. This Ca²⁺ rise is the earliest <b>second messenger</b> of the "
+        "defense response, the cell turning a physical wound into a biochemical "
+        "signal.",
+    ),
+    (
+        "ACA12 shapes the Ca²⁺ signal",
+        "<b>ACA12</b> is a plasma-membrane calcium-transporting ATPase, a Ca²⁺ "
+        "pump. It keeps the leaf electrically excitable and sculpts the shape and "
+        "duration of the Ca²⁺ spike. Knock out <i>ACA12</i> and this Ca²⁺ signal "
+        "collapses, intracellular Ca²⁺ drops, and the plant grows far more "
+        "susceptible to <i>Spodoptera</i> feeding.",
+    ),
+    (
+        "Ca²⁺/CaM switches on CRK3",
+        "Incoming Ca²⁺ binds calmodulin (CaM). This Ca²⁺/CaM complex flips "
+        "<b>CRK3</b>, a CDPK-related protein kinase, from its inactive to its "
+        "active form. Jasmonic acid (JA) and abscisic acid (ABA) signaling raise "
+        "<i>CRK3</i> transcription during herbivory.",
+    ),
+    (
+        "CRK3 phosphorylates WRKY14",
+        "Active CRK3 adds a phosphate group to the transcription factor "
+        "<b>WRKY14</b>, switching it on. This is the hand-off from a fast "
+        "cytoplasmic signal to a slower change in which genes the nucleus reads.",
+    ),
+    (
+        "Defense output PDF1.2",
+        "WRKY14 upregulates <b>PDF1.2</b>, a plant defensin, and the downstream "
+        "anti-herbivore program fires. This matches the fact that overexpressing "
+        "CRK3 strengthens defense against the cutworm while knocking it out "
+        "weakens it.",
+    ),
+]
 
 
 # ============================================================
@@ -587,6 +743,15 @@ st.title(
     "🍇 AI Grape Breeder"
 )
 
+st.markdown(
+    '<div style="color:#6b7783;font-size:1.03rem;margin-top:-0.2rem;">'
+    "How deep learning turns photos of chewed grape leaves into pest-resistance "
+    "genes and into a way to breed tougher grapevines without spraying more "
+    "pesticide."
+    "</div>",
+    unsafe_allow_html=True,
+)
+
 
 # ============================================================
 # TABS
@@ -594,21 +759,21 @@ st.title(
 
 tabs = st.tabs(
     [
-        "🧭 Overview",
-        "🌿 Plant Biology",
+        "🌿 The Challenge",
+        "🧪 Plant Biology",
+        "🍃 Teaching AI to See",
         "📊 231 Grapevines",
-        "🍃 Image Phenotyping",
-        "🧬 GWAS & Genes",
-        "🎯 Genomic Selection",
-        "🔭 Future Research",
+        "🧬 Finding the Genes",
+        "🎯 Predicting Resistance",
+        "🔭 Future Directions",
     ]
 )
 
 (
     tab_overview,
     tab_biology,
-    tab_phenotypes,
     tab_image,
+    tab_phenotypes,
     tab_gwas,
     tab_gs,
     tab_future,
@@ -616,50 +781,63 @@ tabs = st.tabs(
 
 
 # ============================================================
-# TAB 1 — OVERVIEW
+# TAB 1 — THE CHALLENGE (BACKGROUND, RQ, HYPOTHESIS)
 # ============================================================
 
 with tab_overview:
     st.header(
-        "Research Overview"
+        "Breeding a grapevine that fights back"
     )
 
-    render_pipeline(
-        [
-            (
-                "Herbivore damage",
-                "Tobacco cutworm larvae consume grape leaf mesophyll tissue.",
-            ),
-            (
-                "Leaf-damage phenotype",
-                "Images yield binary and continuous measures of visible damage.",
-            ),
-            (
-                "Accession variation",
-                "Damage phenotypes are compared across 231 grapevine accessions.",
-            ),
-            (
-                "Genetic association",
-                "GWAS links phenotypic variation to genomic regions.",
-            ),
-            (
-                "Genomic selection",
-                "Marker-based models predict pest-damage phenotypes for breeding.",
-            ),
-        ]
+    st.markdown(
+        """
+        The tobacco cutworm, *Spodoptera litura*, is one of the most damaging
+        pests in grape cultivation. Its larvae chew through grape leaves and
+        devour the **mesophyll**, the inner leaf tissue packed with chloroplasts
+        where the vine runs almost all of its photosynthesis. What remains is
+        perforated, lacy foliage.
+
+        The damage does not stop at the leaf. Outbreaks peak during ripening, so
+        heavy feeding disrupts grape coloring and sugar accumulation that season,
+        and it drains the stored carbon the vine needs for healthy **bud break
+        and flowering the next spring**. A pest problem in August becomes a yield
+        problem next year.
+        """
+    )
+
+    st.markdown(
+        """
+        The usual answer is to spray pesticides. But pesticides pollute, harm
+        nontarget organisms, and drive the rapid evolution of pesticide
+        resistance, so the chemicals slowly stop working. A more durable solution
+        already lives in the plants themselves, because some grapevine accessions
+        are naturally more resistant than others. This natural resistance has
+        never been bred systematically into commercial varieties.
+        """
+    )
+
+    st.markdown(
+        '<div class="takeaway"><b>The bottleneck this study attacks.</b> To breed '
+        "for resistance we first have to <i>measure</i> it in thousands of plants. "
+        "Breeders traditionally score leaf damage by eye into coarse buckets, mild, "
+        "moderate, or severe. Eyeballing is slow, subjective, needs years of "
+        "training, and discards information, and good genetics cannot come from "
+        "coarse hand-scored categories. This paper replaces the human eye with "
+        "deep learning.</div>",
+        unsafe_allow_html=True,
     )
 
     c1, c2, c3, c4 = st.columns(4)
 
     with c1:
         st.metric(
-            "Accessions",
+            "Grapevine accessions",
             len(phenotypes),
         )
 
     with c2:
         st.metric(
-            "Mild",
+            "Scored as mild",
             int(
                 phenotypes["binary_label"]
                 .eq("mild")
@@ -669,7 +847,7 @@ with tab_overview:
 
     with c3:
         st.metric(
-            "Severe",
+            "Scored as severe",
             int(
                 phenotypes["binary_label"]
                 .eq("severe")
@@ -679,85 +857,96 @@ with tab_overview:
 
     with c4:
         st.metric(
-            "GWAS regions",
-            TOTAL_GWAS_REGIONS,
-        )
-
-    st.divider()
-
-    q1, q2 = st.columns(2)
-
-    with q1:
-        st.subheader(
-            "Research question"
-        )
-
-        st.markdown(
-            """
-            Can image-based measurements of herbivore damage capture
-            biological differences in pest resistance among grapevine
-            accessions, and can those phenotypes be linked to genomic
-            regions associated with resistance?
-            """
-        )
-
-    with q2:
-        st.subheader(
-            "Hypothesis"
-        )
-
-        st.markdown(
-            """
-            If grapevine accessions differ genetically in herbivore
-            resistance, they should show consistent differences in
-            leaf-damage severity. Image-derived phenotypes should
-            capture this variation and support identification of
-            resistance-associated genomic regions and prediction
-            from genetic markers.
-            """
+            "Candidate genes found",
+            len(candidate_genes),
         )
 
     st.divider()
 
     st.subheader(
-        "Biological logic of the study"
+        "Research question"
     )
 
     st.markdown(
         """
-        Herbivore resistance can be expressed as variation in the
-        amount of tissue lost after feeding. In this system,
-        *Spodoptera litura* larvae consume grape leaf **mesophyll**,
-        producing visible perforation and loss of functional leaf area.
-
-        Differences in damage among grapevine accessions may reflect
-        variation in structural defenses, defensive metabolites,
-        inducible signaling, or other traits that alter herbivore
-        feeding and plant response. The study therefore treats visible
-        leaf damage as a **phenotype** and asks whether variation in
-        that phenotype is associated with genomic variation.
+        Can image-based deep learning turn visible herbivore damage into
+        phenotypes precise enough to (1) capture biologically real differences in
+        pest resistance among grapevine accessions, (2) map those differences to
+        specific regions of the genome, and (3) predict a vine's resistance from
+        its DNA markers before it is ever exposed to the pest?
         """
     )
 
     st.subheader(
-        "Why the findings matter"
+        "Hypothesis"
     )
 
     st.markdown(
         """
-        The study shows that visible herbivore damage can be converted
-        into quantitative phenotypes that preserve meaningful variation
-        among grapevine accessions.
+        Genetically diverse grapevine accessions should show **reproducible**
+        differences in leaf-damage severity after cutworm feeding. If those
+        differences are heritable, then image-derived damage phenotypes, both a
+        simple *binary* class (mild or severe) and a fine-grained *continuous*
+        score (0–5), will keep enough biological signal to pinpoint
+        resistance-associated loci by GWAS and to support marker-based prediction
+        of resistance. Crucially, the continuous score should resolve more than the
+        binary one, because it can detect small-effect genes that a coarse
+        two-category label hides.
+        """
+    )
 
-        Those phenotypes supported mapping of **69 QTLs** and
-        **139 nonredundant candidate genes**, including genes connected
-        to hormone and calcium-dependent defense signaling. The continuous
-        phenotype also retained variation that can be obscured by a simple
-        mild/severe category.
+    st.divider()
 
-        The significance is that high-throughput phenotyping can
-        connect observable plant damage to the genetic architecture of a
-        complex resistance trait and support breeding decisions.
+    st.subheader(
+        "Roadmap of the study"
+    )
+
+    render_pipeline(
+        [
+            (
+                "Plant biology",
+                "Why grapevines vary in resistance, and the defenses and signaling "
+                "pathways a plant deploys against a chewing insect. (Plant Biology "
+                "tab)",
+            ),
+            (
+                "Method",
+                "Teach convolutional neural networks to read leaf photos and output "
+                "objective damage phenotypes in ~0.03 s per leaf. (Teaching AI to "
+                "See tab)",
+            ),
+            (
+                "Result 1, variation",
+                "Apply the models to 231 accessions and quantify the natural spread "
+                "of resistance across the panel. (231 Grapevines tab)",
+            ),
+            (
+                "Result 2, genes",
+                "GWAS links damage phenotypes to 69 QTLs and 139 candidate genes in "
+                "real defense pathways. (Finding the Genes tab)",
+            ),
+            (
+                "Result 3, prediction",
+                "Genomic selection predicts resistance from DNA markers alone, "
+                "so breeders can act without waiting for an outbreak. (Predicting "
+                "Resistance tab)",
+            ),
+        ]
+    )
+
+    st.subheader(
+        "Why it is important"
+    )
+
+    st.markdown(
+        """
+        Deep learning in agriculture had mostly been used to *identify pests* from
+        photos of the insects. This study measures the **plant's response** to the
+        pest, objectively and on a continuous scale, then chains that measurement
+        to breeding-ready genetic predictions. It turns a slow, subjective human
+        task into a fast, scalable phenotyping platform, and shows that a better
+        phenotype yields better genetics. The same framework could point at other
+        crops and other pests.
         """
     )
 
@@ -768,15 +957,22 @@ with tab_overview:
 
 with tab_biology:
     st.header(
-        "Plant Biology of Herbivore Resistance"
+        "How a rooted plant defends itself"
+    )
+
+    lead_in(
+        "Before we measure resistance, we need to know what resistance actually "
+        "is at the cellular level."
     )
 
     st.markdown(
         """
-        The focal herbivore is the tobacco cutworm,
-        *Spodoptera litura*. Its larvae feed directly on grape leaves,
-        so resistance emerges from interactions between herbivore
-        feeding behavior and plant defense.
+        Plants and insects have shared the planet for over **350 million years**.
+        A rooted plant cannot run, hide, or swat, so it defends itself with
+        chemistry, structure, and signaling. The pest here is the tobacco cutworm,
+        *Spodoptera litura* (Lepidoptera, Noctuidae). Its larvae feed straight on
+        grape leaves, so resistance is the outcome of a constant negotiation
+        between the caterpillar's feeding and the vine's defenses.
         """
     )
 
@@ -784,20 +980,21 @@ with tab_biology:
 
     with left:
         st.subheader(
-            "From feeding to loss of leaf function"
+            "From a bite to a physiological cost"
         )
 
         st.markdown(
             """
-            Larvae consume **mesophyll tissue**, which contains many
-            chloroplast-rich cells responsible for photosynthetic carbon
-            assimilation. Feeding produces holes and loss of functional
-            leaf area.
+            Larvae eat **mesophyll tissue**, the palisade and spongy cell layers
+            packed with **chloroplasts**, the organelles that fix carbon in
+            photosynthesis. Every hole chewed is photosynthetic area removed for
+            good.
 
-            Extensive damage can reduce tissue available for photosynthesis
-            and alter carbon allocation to growth, fruit development, and
-            storage. In grapevine, damage during ripening may also affect
-            maturation and later nutrient translocation.
+            Lose enough leaf area and the vine has less carbon for growth, fruit,
+            and storage reserves. Feeding during ripening degrades **berry coloring
+            and maturation** that season, and drains the reserves the vine needs
+            for the **next** season's bud break and flowering. A leaf-eating pest
+            becomes a two-year yield problem.
             """
         )
 
@@ -807,514 +1004,120 @@ with tab_biology:
 
         st.markdown(
             """
-            Plants can reduce herbivore damage through several mechanisms:
+            **Direct defenses** act on the herbivore itself.
 
-            - **structural defenses** that make feeding more difficult,
-            - **secondary metabolites** that deter or intoxicate herbivores,
-            - **anti-nutritional proteins** that reduce herbivore performance,
-            - **induced defenses** activated after tissue damage,
-            - **volatile compounds** that influence herbivores or their enemies.
+            - **structural defenses** (toughened tissue, trichomes) that make
+              chewing physically harder,
+            - **secondary metabolites** that are toxic or repellent to the insect,
+            - **anti-nutritional proteins** (for example protease inhibitors) that
+              wreck the caterpillar's digestion and slow its growth,
+            - **induced defenses** switched on only after wounding, so the plant
+              does not pay the cost until it is attacked.
 
-            These mechanisms can differ among grapevine genotypes.
+            **Indirect defenses** recruit outside help. Wounded leaves release
+            **volatile organic compounds** that attract the herbivore's natural
+            enemies, parasitoid wasps and predators, to the plant.
             """
         )
 
     with right:
         st.subheader(
-            "Defense signaling after herbivory"
+            "The signaling network that decides the response"
         )
 
         st.markdown(
             """
-            Herbivore feeding causes both tissue injury and biochemical
-            signaling. Plant cells respond through interacting pathways.
+            Wounding is not just physical damage, it launches a wave of chemical
+            signaling. A network of **phytohormones** reads the alarm and decides
+            which defense genes to switch on. The three central hormones can act
+            alone, together, or against one another depending on the attacker.
 
-            **Jasmonic acid (JA)**  
-            A major regulator of many wound- and herbivore-induced defenses.
+            **Jasmonic acid (JA)** is the master regulator of anti-herbivore and
+            wound-induced defenses.
 
-            **Salicylic acid (SA)**  
-            Participates in defense signaling and interacts with JA pathways.
+            **Salicylic acid (SA)** cross-talks with the JA pathway and often
+            antagonizes it.
 
-            **Ethylene**  
-            Modulates stress-responsive gene expression and other hormone pathways.
+            **Ethylene** tunes stress-responsive gene expression and modulates the
+            other pathways.
+            """
+        )
 
-            **Calcium signaling**  
-            Rapid changes in cytosolic Ca²⁺ can transmit information from damaged
-            tissue and activate downstream kinases and defense responses.
+        st.markdown(
+            """
+            **Calcium (Ca²⁺) signaling** is the fastest layer of all. Within
+            seconds of a bite, cytosolic Ca²⁺ rises. Calcium-binding proteins and
+            Ca²⁺-dependent kinases read this spike and pass the wound signal
+            onward. Calcium bridges the physical wound and the hormone-driven
+            change in gene expression, and it is exactly where this study's
+            strongest candidate genes live.
             """
         )
 
         st.subheader(
-            "Why accessions differ"
+            "Why accessions differ genetically"
         )
 
         st.markdown(
             """
-            Herbivore resistance is a **complex, polygenic trait**.
-            Different alleles can alter receptors, signaling proteins,
-            transcriptional regulation, metabolite production, and other
-            components of defense.
-
-            As a result, genetically distinct grapevine accessions can show
-            different levels of leaf damage under herbivore pressure.
+            Herbivore resistance is a **quantitative, polygenic trait**, controlled
+            by many genes that each add a small amount. Different accessions carry
+            different **alleles** in receptors, signaling kinases, transcriptional
+            regulators, and metabolite biosynthesis. Summed together, these small
+            differences give genetically distinct vines measurably different leaf
+            damage under the same pest pressure. This variation is what the study
+            set out to detect and dissect.
             """
         )
 
 
 # ============================================================
-# TAB 3 — 231 GRAPEVINES
-# ============================================================
-
-with tab_phenotypes:
-    st.header(
-        "Phenotypic Variation Across 231 Accessions"
-    )
-
-    st.markdown(
-        """
-        Each **accession** is a distinct grapevine entry maintained as
-        plant material for research or breeding. Comparing 231 accessions
-        allows the study to examine naturally occurring variation in
-        herbivore-damage phenotype across diverse genotypes.
-
-        For each accession, the study summarized multiple leaf images into
-        two forms of phenotype:
-
-        - a **binary phenotype**: mild or severe damage,
-        - a **continuous phenotype**: a numerical estimate of damage severity.
-        """
-    )
-
-    st.caption(
-        "The study used 6–10 leaf images per accession to derive "
-        "accession-level phenotypes."
-    )
-
-    filter_col1, filter_col2 = st.columns(2)
-
-    with filter_col1:
-        usage_options = sorted(
-            phenotypes["usage"]
-            .dropna()
-            .unique()
-            .tolist()
-        )
-
-        selected_usage = st.multiselect(
-            "Usage",
-            options=usage_options,
-            default=usage_options,
-        )
-
-    with filter_col2:
-        population_options = sorted(
-            phenotypes["population_group"]
-            .dropna()
-            .unique()
-            .tolist()
-        )
-
-        selected_populations = st.multiselect(
-            "Population metadata",
-            options=population_options,
-            default=population_options,
-        )
-
-    filtered = phenotypes[
-        phenotypes["usage"].isin(selected_usage)
-        & phenotypes["population_group"].isin(selected_populations)
-    ].copy()
-
-    if filtered.empty:
-        st.warning(
-            "No accessions match the selected filters."
-        )
-
-    else:
-        m1, m2, m3, m4 = st.columns(4)
-
-        with m1:
-            st.metric(
-                "Accessions",
-                len(filtered),
-            )
-
-        with m2:
-            st.metric(
-                "Mean damage score",
-                f"{filtered['continuous_phenotype'].mean():.2f}",
-            )
-
-        with m3:
-            st.metric(
-                "Mild",
-                format_pct(
-                    filtered["binary_label"]
-                    .eq("mild")
-                    .mean()
-                ),
-            )
-
-        with m4:
-            st.metric(
-                "Severe",
-                format_pct(
-                    filtered["binary_label"]
-                    .eq("severe")
-                    .mean()
-                ),
-            )
-
-        st.divider()
-
-        chart_col1, chart_col2 = st.columns(2)
-
-        with chart_col1:
-            st.subheader(
-                "Continuous damage scores"
-            )
-
-            fig_hist = px.histogram(
-                filtered,
-                x="continuous_phenotype",
-                nbins=20,
-                labels={
-                    "continuous_phenotype":
-                        "Continuous damage score"
-                },
-                color_discrete_sequence=[GRAPE],
-            )
-
-            fig_hist.update_layout(
-                yaxis_title="Accessions",
-                bargap=0.06,
-            )
-
-            style_plotly(
-                fig_hist,
-                height=390,
-                show_legend=False,
-            )
-
-            st.plotly_chart(
-                fig_hist,
-                width="stretch",
-            )
-
-        with chart_col2:
-            st.subheader(
-                "Binary damage phenotype"
-            )
-
-            binary_counts = (
-                filtered["binary_label"]
-                .value_counts()
-                .reindex(["mild", "severe"])
-                .dropna()
-                .rename_axis("binary_label")
-                .reset_index(name="count")
-            )
-
-            fig_binary = px.bar(
-                binary_counts,
-                x="binary_label",
-                y="count",
-                color="binary_label",
-                text="count",
-                color_discrete_map={
-                    "mild": MILD,
-                    "severe": SEVERE,
-                },
-                category_orders={
-                    "binary_label": [
-                        "mild",
-                        "severe",
-                    ]
-                },
-                labels={
-                    "binary_label":
-                        "Binary phenotype",
-                    "count":
-                        "Accessions",
-                },
-            )
-
-            style_plotly(
-                fig_binary,
-                height=390,
-                show_legend=False,
-            )
-
-            fig_binary.update_traces(
-                textposition="outside",
-                cliponaxis=False,
-            )
-
-            st.plotly_chart(
-                fig_binary,
-                width="stretch",
-            )
-
-        st.divider()
-
-        st.subheader(
-            "Binary labels compress continuous variation"
-        )
-
-        st.markdown(
-            """
-            The binary and continuous phenotypes were generated by
-            different prediction tasks. The mild/severe label is therefore
-            **not** a direct thresholding of the continuous score.
-            """
-        )
-
-        fig_box = px.box(
-            filtered,
-            x="binary_label",
-            y="continuous_phenotype",
-            color="binary_label",
-            points="all",
-            hover_data=[
-                "accession_id",
-                "usage",
-                "population_group",
-            ],
-            color_discrete_map={
-                "mild": MILD,
-                "severe": SEVERE,
-            },
-            category_orders={
-                "binary_label": [
-                    "mild",
-                    "severe",
-                ]
-            },
-            labels={
-                "binary_label":
-                    "Binary phenotype",
-                "continuous_phenotype":
-                    "Continuous damage score",
-            },
-        )
-
-        style_plotly(
-            fig_box,
-            height=440,
-            show_legend=False,
-        )
-
-        fig_box.update_traces(
-            jitter=0.35,
-            marker=dict(
-                size=5,
-                opacity=0.55,
-            ),
-        )
-
-        st.plotly_chart(
-            fig_box,
-            width="stretch",
-        )
-
-        st.subheader(
-            "Explore variation within one binary class"
-        )
-
-        available_binary_labels = [
-            label
-            for label in ["mild", "severe"]
-            if label in filtered["binary_label"].unique()
-        ]
-
-        focus_binary_label = st.radio(
-            "Binary category",
-            options=available_binary_labels,
-            horizontal=True,
-            key="binary_variation_focus",
-            format_func=str.title,
-        )
-
-        same_label_data = (
-            filtered.loc[
-                filtered["binary_label"]
-                == focus_binary_label
-            ]
-            .copy()
-            .sort_values("continuous_phenotype")
-        )
-
-        low_row = same_label_data.iloc[0]
-        high_row = same_label_data.iloc[-1]
-
-        continuous_range = (
-            high_row["continuous_phenotype"]
-            - low_row["continuous_phenotype"]
-        )
-
-        e1, e2, e3, e4 = st.columns(4)
-
-        with e1:
-            st.metric(
-                "Accessions",
-                len(same_label_data),
-            )
-
-        with e2:
-            st.metric(
-                "Lowest score",
-                f"{low_row['continuous_phenotype']:.2f}",
-            )
-
-        with e3:
-            st.metric(
-                "Highest score",
-                f"{high_row['continuous_phenotype']:.2f}",
-            )
-
-        with e4:
-            st.metric(
-                "Range",
-                f"{continuous_range:.2f}",
-            )
-
-        fig_hidden = px.histogram(
-            same_label_data,
-            x="continuous_phenotype",
-            nbins=15,
-            hover_data=[
-                "accession_id",
-                "usage",
-                "population_group",
-            ],
-            labels={
-                "continuous_phenotype":
-                    "Continuous damage score"
-            },
-            color_discrete_sequence=[
-                MILD
-                if focus_binary_label == "mild"
-                else SEVERE
-            ],
-        )
-
-        fig_hidden.update_layout(
-            yaxis_title="Accessions",
-            bargap=0.06,
-        )
-
-        style_plotly(
-            fig_hidden,
-            height=390,
-            show_legend=False,
-        )
-
-        st.plotly_chart(
-            fig_hidden,
-            width="stretch",
-        )
-
-        st.divider()
-
-        st.subheader(
-            "Continuous phenotype by metadata"
-        )
-
-        group_variable = st.radio(
-            "Compare by",
-            options=[
-                "usage",
-                "population_group",
-            ],
-            horizontal=True,
-        )
-
-        fig_group = px.violin(
-            filtered,
-            x=group_variable,
-            y="continuous_phenotype",
-            box=True,
-            points="all",
-            hover_data=["accession_id"],
-            color=group_variable,
-            labels={
-                "continuous_phenotype":
-                    "Continuous damage score"
-            },
-        )
-
-        style_plotly(
-            fig_group,
-            height=450,
-            show_legend=False,
-        )
-
-        fig_group.update_traces(
-            meanline_visible=True,
-            opacity=0.78,
-        )
-
-        st.plotly_chart(
-            fig_group,
-            width="stretch",
-        )
-
-        with st.expander(
-            "Accession-level data"
-        ):
-            display_cols = [
-                "accession_id",
-                "usage",
-                "population_group",
-                "binary_label",
-                "continuous_phenotype",
-            ]
-
-            st.dataframe(
-                filtered[display_cols]
-                .sort_values(
-                    "continuous_phenotype",
-                    ascending=False,
-                ),
-                width="stretch",
-                hide_index=True,
-            )
-
-
-# ============================================================
-# TAB 4 — IMAGE PHENOTYPING
+# TAB 3 — TEACHING AI TO SEE DAMAGE (METHODS)
 # ============================================================
 
 with tab_image:
     st.header(
-        "Image-Based Pest-Damage Phenotyping"
+        "Teaching AI to see leaf damage"
+    )
+
+    lead_in(
+        "We cannot map resistance genes until we can measure damage on thousands "
+        "of leaves, objectively and fast. Here is how photographs become numbers."
     )
 
     st.markdown(
         """
-        Leaf images were used to generate two measurements of
-        visible herbivore damage: a **binary damage class** and a
-        **continuous pest-damage score**.
+        Every downstream result rests on one measurement, how badly is this leaf
+        chewed. Scoring damage by eye is slow and subjective, so the authors
+        trained **deep convolutional neural networks (DCNNs)**, image models that
+        learn visual features layer by layer, to read a leaf photograph and report
+        damage in two forms. One is a **binary class** (mild or severe). The other
+        is a **continuous pest-damage score, PDS** (0–5). A single leaf is scored
+        in about 0.03–0.04 seconds.
         """
     )
 
     render_pipeline(
         [
             (
-                "Leaf photograph",
-                "A damaged grape leaf is photographed.",
+                "1 · Photograph the leaf",
+                "6–10 leaves per accession are photographed after the cutworm "
+                "outbreak with a high-resolution camera.",
             ),
             (
-                "Leaf-region detection",
-                "The leaf is isolated from background image content.",
+                "2 · Detect the leaf (YOLO)",
+                "A YOLO object detector (mAP 0.91) finds the leaf and crops away "
+                "background so the model only sees plant tissue.",
             ),
             (
-                "Image standardization",
-                "The cropped image is resized and normalized for model input.",
+                "3 · Standardize the image",
+                "Each crop is resized to 224×224 pixels and pixel values normalized "
+                "to 0–1. Rotation, flips, and zoom augment the training set.",
             ),
             (
-                "Damage phenotype",
-                "The image yields a binary class or continuous damage score.",
+                "4 · Output a phenotype",
+                "One network returns a binary class (mild/severe). A second returns "
+                "a continuous 0–5 damage score for genetic analysis.",
             ),
         ]
     )
@@ -1322,32 +1125,42 @@ with tab_image:
     st.divider()
 
     st.subheader(
-        "How human observations became training labels"
+        "Where the training labels came from"
+    )
+
+    lead_in(
+        "A model can only learn to reproduce labels a human defined. The phenotype "
+        "is anchored to careful human scoring, and to cut bias, every image was "
+        "scored by three independent raters."
     )
 
     st.markdown(
         """
-        To train the models, visible damage first had to be converted
-        into reference labels. Human scoring therefore defines the
-        phenotype that the image model is trained to reproduce.
+        For the **binary** task, leaves with more than 25% of their area damaged
+        were labeled *severe* (1), and 25% or less *mild* (0). For the
+        **continuous** task, leaves were scored 1–5 in 20% damage bands (1 for up
+        to 20% damaged, adding 1 per additional 20%, up to 5 for over 80%). Try the
+        two labeling schemes below to see how raw human judgments become a single
+        training target.
         """
     )
 
     labeling_mode = st.radio(
         "Labeling task",
         options=[
-            "Binary label",
-            "Continuous PDS label",
+            "Binary label (majority vote)",
+            "Continuous PDS label (averaged)",
         ],
         horizontal=True,
         key="labeling_method_mode",
     )
 
-    if labeling_mode == "Binary label":
+    if labeling_mode == "Binary label (majority vote)":
         st.markdown(
             """
-            Three raters classify the leaf as **mild** or **severe**.
-            The majority vote becomes the training label.
+            Three raters each call the leaf **mild** or **severe**. The **majority
+            vote** becomes the training label, which averages out one rater's
+            idiosyncrasy.
             """
         )
 
@@ -1408,15 +1221,16 @@ with tab_image:
 
         with x3:
             st.metric(
-                "Final label",
+                "Training label",
                 final_binary_label,
             )
 
     else:
         st.markdown(
             """
-            Three numerical damage scores are averaged to form
-            the continuous PDS training target.
+            Three raters each assign a numerical damage score. **Averaging** them
+            gives the continuous training target, and the spread between raters
+            measures how ambiguous a leaf is.
             """
         )
 
@@ -1474,7 +1288,7 @@ with tab_image:
 
         with x1:
             st.metric(
-                "Mean PDS",
+                "Mean PDS (training label)",
                 f"{final_pds:.2f}",
             )
 
@@ -1486,19 +1300,26 @@ with tab_image:
 
         with x3:
             st.metric(
-                "Rater range",
+                "Rater disagreement",
                 f"{score_range:.1f}",
             )
 
         if score_range >= 1.5:
             st.warning(
-                "Large rater disagreement indicates label uncertainty."
+                "Large rater disagreement. This leaf sits near a boundary, and "
+                "its label carries real uncertainty."
             )
 
     st.divider()
 
     st.subheader(
-        "Binary classification: model comparison"
+        "Which network reads leaves best?"
+    )
+
+    lead_in(
+        "Six standard image architectures were trained on the same labeled leaves. "
+        "The question is which one most reliably reproduces the human damage call "
+        "on leaves it has never seen."
     )
 
     metric_choice = st.radio(
@@ -1565,6 +1386,13 @@ with tab_image:
         fig_models,
         width="stretch",
     )
+    chart_note(
+        "Each bar is one CNN architecture, taller is better. <b>How to read it.</b> "
+        "The height is the fraction of test leaves where the model's mild/severe "
+        "call matched the human label. VGG16 wins. That means the "
+        "machine reproduces expert scoring closely enough to replace it, at "
+        "thousands of leaves an hour."
+    )
 
     best_row = cnn.loc[
         cnn[metric_col].idxmax()
@@ -1591,7 +1419,7 @@ with tab_image:
         )
 
     with st.expander(
-        "Model complexity versus test accuracy"
+        "Does a bigger network mean a better one?"
     ):
         fig_complexity = px.scatter(
             cnn,
@@ -1627,6 +1455,14 @@ with tab_image:
             fig_complexity,
             width="stretch",
         )
+        chart_note(
+            "Parameters (model size, log scale) on the x-axis, accuracy on the "
+            "y-axis. <b>How to read it.</b> If bigger were always better, points "
+            "would climb to the right. They do not. The trend is slightly "
+            "<i>negative</i>, and VGG16 wins with modest complexity. The question "
+            "is not how deep the network is but how faithfully it captures the "
+            "visible damage phenotype."
+        )
 
     st.divider()
 
@@ -1634,7 +1470,7 @@ with tab_image:
 
     with cm_col:
         st.subheader(
-            "VGG16 test classification"
+            "How VGG16 does on unseen leaves"
         )
 
         confusion_matrix = pd.DataFrame(
@@ -1681,6 +1517,14 @@ with tab_image:
             fig_cm,
             width="stretch",
         )
+        chart_note(
+            "A <b>confusion matrix</b>. Rows are the true human label, columns the "
+            "model's prediction. <b>How to read it.</b> The two dark diagonal cells "
+            "(176 and 169) are correct calls. The two pale off-diagonal cells are "
+            "mistakes, 7 mild leaves called severe and 10 severe leaves called "
+            "mild. Almost everything sits on the diagonal, which is what agreement "
+            "between model and human looks like."
+        )
 
         cm_accuracy = (
             np.trace(
@@ -1690,13 +1534,21 @@ with tab_image:
         )
 
         st.metric(
-            "Reconstructed accuracy",
+            "Test-set accuracy",
             format_pct(cm_accuracy),
         )
 
     with score_col:
         st.subheader(
-            "Continuous damage scoring"
+            "The continuous scorer (DCNN-PDS)"
+        )
+
+        st.markdown(
+            """
+            The regression model, **DCNN-PDS**, is built on a VGG16 backbone with
+            four added residual blocks, a global average pooling layer, and three
+            fully connected layers ending in a single 0–5 output.
+            """
         )
 
         r1, r2, r3 = st.columns(3)
@@ -1721,8 +1573,9 @@ with tab_image:
 
         st.markdown(
             """
-            On 439 independent test images, predicted damage scores
-            closely tracked manual labels.
+            On 439 held-out test images, the predicted scores tracked the manual
+            scores tightly (r = 0.94, R² = 0.88). The average miss is about
+            one-third of a point on the 0–5 scale.
             """
         )
 
@@ -1748,28 +1601,502 @@ with tab_image:
             hide_index=True,
         )
 
+    takeaway(
+        "<b>Method result.</b> Two trained networks now turn any leaf photo into an "
+        "objective binary class (VGG16, 95.3% test accuracy) and a continuous 0–5 "
+        "score (DCNN-PDS, r = 0.94). We can finally phenotype resistance at scale. "
+        "Next we point them at 231 grapevines."
+    )
+
 
 # ============================================================
-# TAB 5 — GWAS & GENES
+# TAB 4 — 231 GRAPEVINES (RESULT 1)
 # ============================================================
 
-with tab_gwas:
+with tab_phenotypes:
     st.header(
-        "From Damage Phenotypes to Genomic Regions"
+        "How resistance varies across 231 grapevines"
+    )
+
+    lead_in(
+        "Now the trained models earn their keep. Applied to a diverse panel of "
+        "vines, they reveal the natural spread of pest resistance."
     )
 
     st.markdown(
         """
-        The 231 grapevine accessions differ both in pest-damage
-        phenotype and in DNA sequence. A genome-wide association
-        study (**GWAS**) tests whether particular genetic variants
-        occur more often in accessions with different damage phenotypes.
+        An **accession** is a distinct, catalogued grapevine line kept as living
+        material for research and breeding. This panel of 231 accessions spans
+        three groups with different evolutionary histories, European table grapes
+        (domesticated *Vitis vinifera*), East-Asian table grapes (*V. vinifera* ×
+        *V. labrusca* hybrids), and wine grapes. That spread is deliberate, since
+        it maximizes the genetic variation available to map.
 
-        A significant association identifies a genomic region where
-        variation is statistically linked to the phenotype. These regions
-        can be interpreted as **quantitative trait loci (QTLs)**.
-        Because pest resistance is polygenic, multiple QTLs can contribute
-        to variation in damage severity.
+        After a natural cutworm outbreak in the greenhouse, 6–10 leaves per
+        accession were photographed and run through the models, giving each vine
+        two phenotypes.
+
+        - a **binary phenotype**, mild or severe damage,
+        - a **continuous phenotype**, a 0–5 severity score.
+        """
+    )
+
+    filter_col1, filter_col2 = st.columns(2)
+
+    with filter_col1:
+        usage_options = sorted(
+            phenotypes["usage"]
+            .dropna()
+            .unique()
+            .tolist()
+        )
+
+        selected_usage = st.multiselect(
+            "Filter by usage",
+            options=usage_options,
+            default=usage_options,
+        )
+
+    with filter_col2:
+        population_options = sorted(
+            phenotypes["population_group"]
+            .dropna()
+            .unique()
+            .tolist()
+        )
+
+        selected_populations = st.multiselect(
+            "Filter by population background",
+            options=population_options,
+            default=population_options,
+        )
+
+    filtered = phenotypes[
+        phenotypes["usage"].isin(selected_usage)
+        & phenotypes["population_group"].isin(selected_populations)
+    ].copy()
+
+    if filtered.empty:
+        st.warning(
+            "No accessions match the selected filters."
+        )
+
+    else:
+        m1, m2, m3, m4 = st.columns(4)
+
+        with m1:
+            st.metric(
+                "Accessions shown",
+                len(filtered),
+            )
+
+        with m2:
+            st.metric(
+                "Mean damage score",
+                f"{filtered['continuous_phenotype'].mean():.2f}",
+            )
+
+        with m3:
+            st.metric(
+                "Mild",
+                format_pct(
+                    filtered["binary_label"]
+                    .eq("mild")
+                    .mean()
+                ),
+            )
+
+        with m4:
+            st.metric(
+                "Severe",
+                format_pct(
+                    filtered["binary_label"]
+                    .eq("severe")
+                    .mean()
+                ),
+            )
+
+        st.divider()
+
+        chart_col1, chart_col2 = st.columns(2)
+
+        with chart_col1:
+            st.subheader(
+                "The continuous phenotype"
+            )
+
+            fig_hist = px.histogram(
+                filtered,
+                x="continuous_phenotype",
+                nbins=20,
+                labels={
+                    "continuous_phenotype":
+                        "Continuous damage score (0–5)"
+                },
+                color_discrete_sequence=[GRAPE],
+            )
+
+            fig_hist.update_layout(
+                yaxis_title="Number of accessions",
+                bargap=0.06,
+            )
+
+            style_plotly(
+                fig_hist,
+                height=390,
+                show_legend=False,
+            )
+
+            st.plotly_chart(
+                fig_hist,
+                width="stretch",
+            )
+
+            chart_note(
+                "Each bar counts accessions in a damage-score range, further right "
+                "means more tissue lost. <b>How to read it.</b> The distribution is "
+                "broad and not bunched at either end, so resistance is a continuum, "
+                "not two tidy groups."
+            )
+
+        with chart_col2:
+            st.subheader(
+                "The binary phenotype"
+            )
+
+            binary_counts = (
+                filtered["binary_label"]
+                .value_counts()
+                .reindex(["mild", "severe"])
+                .dropna()
+                .rename_axis("binary_label")
+                .reset_index(name="count")
+            )
+
+            fig_binary = px.bar(
+                binary_counts,
+                x="binary_label",
+                y="count",
+                color="binary_label",
+                text="count",
+                color_discrete_map={
+                    "mild": MILD,
+                    "severe": SEVERE,
+                },
+                category_orders={
+                    "binary_label": [
+                        "mild",
+                        "severe",
+                    ]
+                },
+                labels={
+                    "binary_label":
+                        "Binary phenotype",
+                    "count":
+                        "Number of accessions",
+                },
+            )
+
+            style_plotly(
+                fig_binary,
+                height=390,
+                show_legend=False,
+            )
+
+            fig_binary.update_traces(
+                textposition="outside",
+                cliponaxis=False,
+            )
+
+            st.plotly_chart(
+                fig_binary,
+                width="stretch",
+            )
+
+            chart_note(
+                "The same vines collapsed into two buckets."
+                "132 accessions are severe, 99 mild."
+            )
+
+        st.divider()
+
+        st.subheader(
+            "But a binary label hides real variation"
+        )
+
+        lead_in(
+            "Watch what the two-bucket label throws away."
+        )
+
+        st.markdown(
+            """
+            The binary and continuous phenotypes come from **two separate models**,
+            so the mild/severe label is not the continuous score cut at a
+            threshold. That independence makes the next plot informative. It shows
+            how much continuous variation is packed inside each binary class.
+            """
+        )
+
+        fig_box = px.box(
+            filtered,
+            x="binary_label",
+            y="continuous_phenotype",
+            color="binary_label",
+            points="all",
+            hover_data=[
+                "accession_id",
+                "usage",
+                "population_group",
+            ],
+            color_discrete_map={
+                "mild": MILD,
+                "severe": SEVERE,
+            },
+            category_orders={
+                "binary_label": [
+                    "mild",
+                    "severe",
+                ]
+            },
+            labels={
+                "binary_label":
+                    "Binary phenotype",
+                "continuous_phenotype":
+                    "Continuous damage score (0–5)",
+            },
+        )
+
+        style_plotly(
+            fig_box,
+            height=440,
+            show_legend=False,
+        )
+
+        fig_box.update_traces(
+            jitter=0.35,
+            marker=dict(
+                size=5,
+                opacity=0.55,
+            ),
+        )
+
+        st.plotly_chart(
+            fig_box,
+            width="stretch",
+        )
+        chart_note(
+            "Every dot is one accession, and each box summarizes the continuous "
+            "scores inside one binary class. <b>How to read it.</b> Notice how tall "
+            "each box is and how the two clouds overlap. Two vines both labeled "
+            "severe can differ a lot in actual damage. For a polygenic trait built "
+            "from many small-effect genes, that hidden within-class spread is "
+            "exactly the signal a continuous phenotype keeps and a binary one "
+            "erases."
+        )
+
+        st.subheader(
+            "See the hidden spread inside a single class"
+        )
+
+        available_binary_labels = [
+            label
+            for label in ["mild", "severe"]
+            if label in filtered["binary_label"].unique()
+        ]
+
+        focus_binary_label = st.radio(
+            "Zoom into one binary category",
+            options=available_binary_labels,
+            horizontal=True,
+            key="binary_variation_focus",
+            format_func=str.title,
+        )
+
+        same_label_data = (
+            filtered.loc[
+                filtered["binary_label"]
+                == focus_binary_label
+            ]
+            .copy()
+            .sort_values("continuous_phenotype")
+        )
+
+        low_row = same_label_data.iloc[0]
+        high_row = same_label_data.iloc[-1]
+
+        continuous_range = (
+            high_row["continuous_phenotype"]
+            - low_row["continuous_phenotype"]
+        )
+
+        e1, e2, e3, e4 = st.columns(4)
+
+        with e1:
+            st.metric(
+                "Accessions in class",
+                len(same_label_data),
+            )
+
+        with e2:
+            st.metric(
+                "Lowest score",
+                f"{low_row['continuous_phenotype']:.2f}",
+            )
+
+        with e3:
+            st.metric(
+                "Highest score",
+                f"{high_row['continuous_phenotype']:.2f}",
+            )
+
+        with e4:
+            st.metric(
+                "Range within one label",
+                f"{continuous_range:.2f}",
+            )
+
+        fig_hidden = px.histogram(
+            same_label_data,
+            x="continuous_phenotype",
+            nbins=15,
+            hover_data=[
+                "accession_id",
+                "usage",
+                "population_group",
+            ],
+            labels={
+                "continuous_phenotype":
+                    "Continuous damage score (0–5)"
+            },
+            color_discrete_sequence=[
+                MILD
+                if focus_binary_label == "mild"
+                else SEVERE
+            ],
+        )
+
+        fig_hidden.update_layout(
+            yaxis_title="Number of accessions",
+            bargap=0.06,
+        )
+
+        style_plotly(
+            fig_hidden,
+            height=390,
+            show_legend=False,
+        )
+
+        st.plotly_chart(
+            fig_hidden,
+            width="stretch",
+        )
+        chart_note(
+            "All of these vines carry the <i>same</i> binary label, yet their "
+            "continuous scores span the range above. <b>How to read it.</b> If the "
+            "mild/severe label were the whole story, this histogram would be a "
+            "single spike. It is not. Every bit of width is biological information "
+            "the binary label discards, and small-effect resistance genes hide in "
+            "exactly this width."
+        )
+
+        st.divider()
+
+        st.subheader(
+            "Does resistance track a vine's background?"
+        )
+
+        group_variable = st.radio(
+            "Group the continuous score by",
+            options=[
+                "usage",
+                "population_group",
+            ],
+            horizontal=True,
+        )
+
+        fig_group = px.violin(
+            filtered,
+            x=group_variable,
+            y="continuous_phenotype",
+            box=True,
+            points="all",
+            hover_data=["accession_id"],
+            color=group_variable,
+            labels={
+                "continuous_phenotype":
+                    "Continuous damage score (0–5)"
+            },
+        )
+
+        style_plotly(
+            fig_group,
+            height=450,
+            show_legend=False,
+        )
+
+        fig_group.update_traces(
+            meanline_visible=True,
+            opacity=0.78,
+        )
+
+        st.plotly_chart(
+            fig_group,
+            width="stretch",
+        )
+        chart_note(
+            "A violin shows the full distribution of scores per group. Wider means "
+            "more vines at that score, and the inner box marks the middle 50%. "
+            "<b>How to read it.</b> In the paper, European table grapes were the "
+            "most resistant group with the lowest mean and median, while the "
+            "East-Asian hybrids took the most severe damage."
+        )
+
+        with st.expander(
+            "Browse the accession-level data"
+        ):
+            display_cols = [
+                "accession_id",
+                "usage",
+                "population_group",
+                "binary_label",
+                "continuous_phenotype",
+            ]
+
+            st.dataframe(
+                filtered[display_cols]
+                .sort_values(
+                    "continuous_phenotype",
+                    ascending=False,
+                ),
+                width="stretch",
+                hide_index=True,
+            )
+
+
+# ============================================================
+# TAB 5 — GWAS & GENES (RESULT 2)
+# ============================================================
+
+with tab_gwas:
+    st.header(
+        "From damage phenotypes to defense genes"
+    )
+
+    lead_in(
+        "We have a number for each vine's resistance and a genome for each vine. "
+        "This tab asks the payoff question. Which stretches of DNA explain why "
+        "some vines get chewed and others do not?"
+    )
+
+    st.markdown(
+        """
+        The 231 accessions differ in both their damage phenotype and their DNA. A
+        **genome-wide association study (GWAS)** scans millions of genetic variants
+        and asks, for each one, whether a particular version shows up more often in
+        vines with more damage or less. A significant hit marks a **quantitative
+        trait locus (QTL)**, a genomic region where variation is linked to the
+        trait. Because resistance is polygenic, we expect **many** QTLs scattered
+        across the genome, each explaining a slice of the variation.
         """
     )
 
@@ -1777,19 +2104,19 @@ with tab_gwas:
 
     with g1:
         st.metric(
-            "Binary-trait regions",
+            "QTLs (binary trait)",
             len(binary_gwas),
         )
 
     with g2:
         st.metric(
-            "Continuous-trait regions",
+            "QTLs (continuous trait)",
             len(continuous_gwas),
         )
 
     with g3:
         st.metric(
-            "Nonredundant candidate genes",
+            "Candidate genes",
             len(candidate_genes),
         )
 
@@ -1811,7 +2138,7 @@ with tab_gwas:
 
     with chart1:
         st.subheader(
-            "Significant regions by chromosome"
+            "Where the signals land"
         )
 
         chr_counts = (
@@ -1845,7 +2172,7 @@ with tab_gwas:
             labels={
                 "chromosome": "Chromosome",
                 "significant_regions":
-                    "Significant regions",
+                    "Number of significant QTLs",
                 "trait_type": "Phenotype",
             },
         )
@@ -1859,10 +2186,17 @@ with tab_gwas:
             fig_chr,
             width="stretch",
         )
+        chart_note(
+            "Counts of significant QTLs per chromosome, split by the phenotype that "
+            "found them. <b>How to read it.</b> The signals spread across many "
+            "chromosomes. That scatter is the genomic signature of a "
+            "<i>polygenic</i> trait. Resistance is built from many loci "
+            "genome-wide, just as the biology predicted."
+        )
 
     with chart2:
         st.subheader(
-            "Phenotypic variance explained"
+            "How much each region explains"
         )
 
         fig_pve = px.box(
@@ -1882,7 +2216,7 @@ with tab_gwas:
             },
             labels={
                 "trait_type": "GWAS phenotype",
-                "pve": "PVE",
+                "pve": "PVE (phenotypic variance explained)",
             },
         )
 
@@ -1896,23 +2230,32 @@ with tab_gwas:
             fig_pve,
             width="stretch",
         )
-
-    st.caption(
-        "PVE = phenotypic variance explained by an associated region."
-    )
+        chart_note(
+            "<b>PVE</b> means phenotypic variance explained, the share of trait "
+            "variation tied to one region. <b>How to read it.</b> Each dot is a "
+            "QTL, and the values are modest, roughly 6–8%. No single locus "
+            "dominates, which fits a trait built from many small contributors, and "
+            "PVE lets researchers rank which regions to chase first."
+        )
 
     st.markdown(
         """
-        A GWAS signal does not identify a resistance mechanism by itself.
-        Researchers examine genes located within or near an associated region
-        and ask whether their known functions are biologically consistent with
-        herbivore defense.
-
-        Across the binary and continuous phenotypes, the study reported
-        **69 QTLs** and **139 nonredundant candidate genes**. Candidate genes
-        were connected to pathways including jasmonic acid, salicylic acid,
-        ethylene, and calcium-dependent signaling.
+        A GWAS peak is a signpost, not a mechanism. The real work is reading the
+        genes inside each associated region and asking whether their known biology
+        makes sense as a herbivore defense. Across both phenotypes the study
+        reported **69 QTLs** and **139 non-redundant candidate genes**, and the
+        strongest candidates fall into the defense pathways from the *Plant
+        Biology* tab, jasmonic acid, salicylic acid, ethylene, and calcium
+        signaling.
         """
+    )
+
+    takeaway(
+        "<b>Why the continuous phenotype mattered here.</b> The binary trait "
+        "catches large-effect loci but is blind to subtle ones. The continuous "
+        "DCNN-PDS score recovered extra small-effect regions, and its candidate "
+        "genes were enriched for <b>calcium-ion binding</b>, pointing straight at "
+        "the calcium branch of defense signaling."
     )
 
     st.divider()
@@ -1921,11 +2264,16 @@ with tab_gwas:
         "Candidate Gene Explorer"
     )
 
+    lead_in(
+        "Browse the genes the GWAS nominated. Filter by which phenotype found the "
+        "gene and by chromosome, then pick a gene to see its role."
+    )
+
     gene_filter_col1, gene_filter_col2 = st.columns(2)
 
     with gene_filter_col1:
         trait_filter = st.selectbox(
-            "Phenotype source",
+            "Phenotype that found the gene",
             [
                 "All genes",
                 "Binary phenotype",
@@ -2038,14 +2386,15 @@ with tab_gwas:
             )
 
         st.markdown(
-            f"**Phenotype source:** {gene_row['trait_sources']}"
+            f"**Found via** {gene_row['trait_sources']}"
         )
 
         if bool(
             gene_row["shared_between_traits"]
         ):
             st.success(
-                "Detected in both binary and continuous candidate sets."
+                "This gene was nominated by both the binary and the continuous "
+                "phenotype, independent evidence that strengthens the case for it."
             )
 
         curated_match = highlighted_genes[
@@ -2075,29 +2424,72 @@ with tab_gwas:
     st.divider()
 
     st.subheader(
-        "A calcium-signaling hypothesis"
+        "A calcium-triggered defense cascade"
+    )
+
+    lead_in(
+        "The two star genes, ACA12 and CRK3, are not just statistical hits. "
+        "Transcriptomics and earlier work let the authors assemble them into a "
+        "real signaling pathway. Walk through it one step at a time."
     )
 
     st.markdown(
         """
-        Two highlighted candidates suggest a possible role for
-        calcium-dependent defense signaling.
+        Two of the strongest candidates converge on **calcium signaling**, the fast
+        early layer of defense. **ACA12** (a plasma-membrane Ca²⁺ pump, associated
+        with the continuous phenotype) and **CRK3** (a calcium/calmodulin-related
+        kinase, associated with *both* phenotypes) plug into a cascade that turns a
+        caterpillar's bite into switched-on defense genes. Use the selector to
+        highlight and read each step.
+        """
+    )
 
-        **ACA12** encodes a plasma-membrane calcium-transporting
-        ATPase and may influence cellular Ca²⁺ homeostasis.
+    cascade_labels = [title for title, _ in CASCADE_STEPS]
 
-        **CRK3** is associated with calcium/calmodulin-related kinase
-        signaling and was linked to both binary and continuous
-        phenotypes in the study.
+    cascade_choice = st.radio(
+        "Walk the cascade",
+        options=["Show whole pathway"] + cascade_labels,
+        horizontal=False,
+        key="cascade_step",
+    )
 
-        The authors propose that calcium dynamics could contribute to
-        activation of CRK3 or other defense-related proteins after
-        herbivore damage.
+    if cascade_choice == "Show whole pathway":
+        active_index = None
+    else:
+        active_index = cascade_labels.index(cascade_choice)
+
+    render_cascade(CASCADE_STEPS, active_index)
+
+    if active_index is None:
+        chart_note(
+            "The full ACA12 → CRK3 → WRKY14 → PDF1.2 pathway. Select a step above to "
+            "highlight it and read the biology. In short, a bite raises calcium, "
+            "ACA12 shapes that calcium signal, calcium/calmodulin activates the "
+            "kinase CRK3, CRK3 switches on the transcription factor WRKY14, and "
+            "WRKY14 turns up the defensin PDF1.2."
+        )
+    else:
+        st.markdown(
+            f'<div class="takeaway"><b>Step {active_index + 1}, '
+            f'{CASCADE_STEPS[active_index][0]}.</b><br>'
+            f'{CASCADE_STEPS[active_index][1]}</div>',
+            unsafe_allow_html=True,
+        )
+
+    st.markdown(
+        """
+        The elegance is that GWAS (which genes associate with the trait) and
+        transcriptomics (which genes change expression under herbivore attack)
+        point at the **same** genes. ACA12 mutants lose intracellular calcium and
+        turn hypersensitive to *Spodoptera*. CRK3 overexpression strengthens
+        defense while its knockout weakens it. The authors propose that ACA12
+        supplies the calcium-rich microenvironment CRK3 needs, a testable
+        hypothesis, not a settled fact.
         """
     )
 
     st.subheader(
-        "Defense-related genes highlighted in the paper"
+        "Other defense genes the study highlighted"
     )
 
     highlight_cols = st.columns(2)
@@ -2116,7 +2508,7 @@ with tab_gwas:
         "Strongest extracted GWAS regions"
     ):
         top_n = st.slider(
-            "Number of regions",
+            "Number of regions to show",
             min_value=5,
             max_value=25,
             value=10,
@@ -2152,38 +2544,38 @@ with tab_gwas:
 
 
 # ============================================================
-# TAB 6 — GENOMIC SELECTION
+# TAB 6 — GENOMIC SELECTION (RESULT 3)
 # ============================================================
 
 with tab_gs:
     st.header(
-        "Genomic Selection for Pest Resistance"
+        "Predicting resistance from DNA alone"
+    )
+
+    lead_in(
+        "Beyond asking which "
+        "single genes matter, we ask whether a machine-learning model, fed a "
+        "vine's DNA markers, can predict its resistance, so breeders can screen "
+        "seedlings without waiting for a pest outbreak."
     )
 
     st.markdown(
         """
-        Genome-wide SNP markers were used to predict binary or
-        continuous pest-damage phenotypes.
+        **GWAS and genomic selection answer different questions.** GWAS asks *which
+        regions* associate with resistance, one variant at a time. **Genomic
+        selection (GS)** asks something more practical, *can information spread
+        across many markers together predict a plant's phenotype?*
         """
-    )
-
-    st.subheader(
-        "How genomic selection differs from GWAS"
     )
 
     st.markdown(
         """
-        GWAS asks which genomic regions are associated with variation
-        in pest damage. **Genomic selection asks ** can information 
-        distributed across many genetic markers predict the phenotype of a plant?
-
-        This distinction matters for polygenic resistance. A grapevine
-        may carry many alleles, each contributing a small amount to
-        defense. Genomic selection combines information across markers.
-
-        The practical goal is to predict which accessions are more likely
-        to show favorable resistance phenotypes before every plant is
-        evaluated extensively under pest pressure.
+        That distinction is everything for a polygenic trait. A vine may carry
+        dozens of alleles, each nudging resistance a little. No single marker
+        predicts the outcome, but a model that **combines** them can. The payoff is
+        real. Screen a seedling's DNA and predict whether it will be resistant
+        *before* planting it out to the cutworm, turning years of field trials into
+        a lab prediction.
         """
     )
 
@@ -2213,8 +2605,9 @@ with tab_gs:
         y_title = "Mean CV accuracy"
 
         published_result = (
-            "Final optimized logistic regression: "
-            "95.7% test accuracy."
+            "Final model, optimized logistic regression on 2000 markers, reaches "
+            "95.7% accuracy on the held-out test set (predicted versus true "
+            "phenotype correlation r = 0.94)."
         )
 
     else:
@@ -2234,8 +2627,9 @@ with tab_gs:
         y_title = "Mean CV Pearson correlation"
 
         published_result = (
-            "Final optimized SVR: "
-            "r = 0.90 on the test set."
+            "Final model, optimized support vector regression (SVR) on 10 000 "
+            "markers, reaches r = 0.90 between predicted and true damage scores on "
+            "the held-out test set."
         )
 
     gs_summary["snp_count"] = (
@@ -2268,7 +2662,7 @@ with tab_gs:
         },
         labels={
             "snp_count":
-                "Number of genomic variants",
+                "Number of genomic markers used",
             "mean_score":
                 y_title,
             "model":
@@ -2289,6 +2683,15 @@ with tab_gs:
     st.plotly_chart(
         fig_gs,
         width="stretch",
+    )
+    chart_note(
+        "Each line is one machine-learning model. The x-axis is how many DNA "
+        "markers it was given, fewest to all, and the y-axis is prediction quality "
+        "in cross-validation. <b>How to read it.</b> Accuracy climbs steeply as the "
+        "first informative markers come in, then plateaus, showing that predictive "
+        "signal is <i>distributed</i> across many loci, the hallmark of a polygenic "
+        "trait. Adding every last marker can even hurt, since most carry noise not "
+        "signal, so the best models use a GWAS-filtered subset."
     )
 
     best_config = (
@@ -2312,7 +2715,7 @@ with tab_gs:
 
     with c2:
         st.metric(
-            "Variant count",
+            "Markers used",
             str(
                 best_config["snp_count"]
             ),
@@ -2327,7 +2730,6 @@ with tab_gs:
     st.info(
         published_result
     )
-
 
     with st.expander(
         "Cross-validation summary table"
@@ -2347,36 +2749,53 @@ with tab_gs:
             hide_index=True,
         )
 
-
 # ============================================================
 # TAB 7 — FUTURE RESEARCH
 # ============================================================
 
 with tab_future:
     st.header(
-        "Design the Next Experiment"
+        "What this study cannot yet answer"
+    )
+
+    lead_in(
+        "I think good science ends with a sharper question. The biggest one here is buried "
+        "in the phenotype itself, since 'low damage' can mean two very different "
+        "things."
     )
 
     st.subheader(
-        "A key unresolved biological question"
+        "Resistance versus tolerance"
     )
 
     st.markdown(
         """
-        Visible leaf damage does not fully distinguish
-        **resistance** from **tolerance**.
+        Visible leaf damage does not separate **resistance** from **tolerance**,
+        two biologically distinct strategies.
 
-        A resistant plant may reduce larval feeding, growth, or survival,
-        resulting in less tissue loss. A tolerant plant may experience
-        similar damage but maintain photosynthesis, growth, or reproduction
-        more effectively after injury.
+        - A **resistant** vine cuts the herbivore's feeding, growth, or survival,
+          so less tissue is eaten in the first place.
+        - A **tolerant** vine may be eaten just as much but shrugs it off, holding
+          onto photosynthesis, growth, and reproduction despite the injury.
 
-        A stronger follow-up experiment should therefore measure both
-        herbivore performance and plant recovery.
+        Both look like less impact, yet a breeder would treat them very
+        differently, and they likely rest on different genes. A leaf photo alone
+        cannot tell them apart. A stronger follow-up must measure **both the
+        herbivore's performance and the plant's recovery**, not just the hole in
+        the leaf.
         """
     )
 
     st.divider()
+
+    st.subheader(
+        "Design the next experiment"
+    )
+
+    lead_in(
+        "Set the conditions below to frame a testable follow-up question in the "
+        "language of the study."
+    )
 
     f1, f2, f3 = st.columns(3)
 
@@ -2435,49 +2854,55 @@ with tab_future:
         [
             (
                 "Standardize herbivory",
-                "Apply a controlled number and developmental stage of larvae.",
+                "Apply a controlled number and developmental stage of larvae so "
+                "every vine faces the same pressure.",
             ),
             (
                 "Track tissue loss",
-                "Measure consumed leaf area repeatedly through time.",
+                "Image consumed leaf area repeatedly through time, not just once at "
+                "the end.",
             ),
             (
                 "Measure herbivore performance",
-                "Record larval mass gain, survival, or development.",
+                "Record larval mass gain, survival, and development, the signature "
+                "of true resistance.",
             ),
             (
                 "Measure plant function",
-                "Pair damage with photosynthesis, growth, and recovery.",
+                "Pair damage with photosynthesis, growth, and recovery, the "
+                "signature of tolerance.",
             ),
             (
                 "Measure defense response",
-                "Test selected defense genes, hormones, or calcium signaling.",
+                "Assay defense genes (CRK3, ACA12, PDF1.2), hormones (JA/SA/"
+                "ethylene), and calcium signaling.",
             ),
         ]
     )
 
     st.subheader(
-        "Follow-up experiment"
+        "The follow-up experiment"
     )
 
     st.markdown(
         f"""
-        Expose genetically characterized grapevine accessions to a
-        standardized number and developmental stage of *S. litura*
-        larvae under **{stress}** in a **{environment}**.
+        Expose genetically characterized grapevine accessions to a standardized
+        number and developmental stage of *S. litura* larvae under **{stress}** in
+        a **{environment}**, and measure
 
-        Measure:
-
-        - consumed leaf area through repeated imaging,
-        - larval mass gain and survival,
-        - leaf gas exchange or photosynthetic performance,
+        - consumed leaf area through repeated imaging (the phenotype this study
+          already automated),
+        - larval mass gain and survival (does the plant hurt the insect?),
+        - leaf gas exchange and photosynthetic performance (does the plant keep
+          functioning?),
         - plant growth and recovery after feeding,
-        - expression of defense-related genes,
-        - selected hormone or calcium-signaling responses.
+        - expression of the nominated defense genes CRK3, ACA12, and PDF1.2, along
+          with their upstream hormone and calcium signals.
 
-        This design would test whether low visible damage reflects
-        reduced herbivore performance, stronger inducible defense,
-        greater tolerance of tissue loss, or a combination of these mechanisms.
+        Together these would show whether a low-damage vine is *resisting* the
+        cutworm through stronger inducible defense, *tolerating* it through
+        maintained physiology, or both, and would test the ACA12–CRK3 calcium
+        hypothesis directly, not by association.
         """
     )
 
@@ -2493,20 +2918,160 @@ with st.expander(
 ):
     st.markdown(
         """
-        **Primary research article**
+        ## Sources and data provenance
 
-        Gan, Y., et al. (2025).
-        *Deep learning empowers genomic selection of pest-resistant grapevine*.
-        **Horticulture Research, 12**, uhaf128.
+        This app is an educational companion to one primary research study.
+        The supplementary tables and supplementary figures are treated as part
+        of that same study, not as separate references.
 
-        https://doi.org/10.1093/hr/uhaf128
+        ### Annotated sources
 
-        **Study data used**
+        **1. Nanjing Agricultural University The Academy of Science. (2026, February 13).**
+        *From leaf images to genomes: Deep learning reshapes pest-resistant breeding.*
+        **EurekAlert!**
 
-        - S1: CNN model performance
-        - S3: 231 accession-level phenotypes
-        - S4–S5: GWAS regions
-        - S8–S9: candidate genes
-        - S12–S13: genomic-selection cross-validation
+        Link: https://www.eurekalert.org/news-releases/1116574
+
+        **Source type:** Secondary source / institutional science news release.
+
+        **How I use it:** I use this news article to introduce the research
+        problem and explain the broader significance of image-based
+        pest-damage phenotyping for genomic analysis and breeding. I rely on
+        the primary research paper for detailed methods and numerical results.
+
+        ---
+
+        **2. Gan, Y., Liu, Z., Zhang, F., Xu, Q., Wang, X., Xue, H., et al. (2025).**
+        *Deep learning empowers genomic selection of pest-resistant grapevine.*
+        **Horticulture Research, 12**(8), uhaf128.
+
+        Link: https://doi.org/10.1093/hr/uhaf128
+
+        **Source type:** Primary research article / peer-reviewed journal
+        article, including its official supplementary tables and figures.
+
+        **How I use it:** This is the central scientific source for the app.
+        I use it for the research question and hypothesis, the biology of
+        *Spodoptera litura* herbivory, image-based phenotyping, CNN model
+        evaluation, the 231-accession study design, GWAS results, candidate
+        genes, genomic selection, and future directions.
+
+        I also use the article's supplementary materials as data and visual
+        evidence from the same primary study:
+
+        - **Figure 1A:** used to explain CNN model comparison for binary
+          damage classification.
+        - **Figure 1B:** used to reconstruct and explain the VGG16 confusion
+          matrix.
+        - **Figure 1C:** used to explain the DCNN-PDS continuous scoring
+          workflow and model architecture.
+        - **Figure 1E:** used to explain the relationship between predicted
+          continuous damage scores and manual labels.
+        - **Figure 2:** used to interpret pest-damage variation across
+          grapevine groups and to frame the 231-accession phenotype analysis.
+        - **Figure 3:** used to explain how binary and continuous GWAS connect
+          pest-damage phenotypes to genomic regions.
+        - **Figure 4:** used to explain candidate defense genes and the
+          ACA12–CRK3 calcium-signaling hypothesis.
+        - **Figure 5:** used to explain genomic selection and prediction of
+          pest-resistance phenotypes from DNA markers.
+        - **Supplementary Table S1:** used for CNN model performance.
+        - **Supplementary Table S3:** used for 231 accession-level phenotypes.
+        - **Supplementary Tables S4–S5:** used for binary and continuous
+          GWAS loci.
+        - **Supplementary Tables S8–S9:** used for candidate genes.
+        - **Supplementary Tables S12–S13:** used for genomic-selection
+          cross-validation results.
+
+        ---
+
+        **3. Zhou Lab. (2025).**
+        *Pest-Resistance: Deep Learning based Genomic Breeding of
+        Pest-Resistant Grapevine* [Computer code repository]. GitHub.
+
+        Link: https://github.com/zhouyflab/Pest-Resistance
+
+        **Source type:** Code repository.
+
+        **How I use it:** I use this repository to better understand the
+        computational workflow reported by the authors, including binary
+        classification and DCNN-PDS continuous scoring. It helps me explain
+        image preprocessing, model architecture, and the connection between
+        leaf images and pest-damage phenotypes more accurately. My app does
+        not claim to fully reproduce the original model-training pipeline.
+
+        ---
+
+        **4. Mitchell, C., Brennan, R. M., Graham, J., & Karley, A. J. (2016).**
+        *Plant defense against herbivorous pests: Exploiting resistance and
+        tolerance traits for sustainable crop protection.*
+        **Frontiers in Plant Science, 7**, 1132.
+
+        Link: https://doi.org/10.3389/fpls.2016.01132
+
+        **Source type:** Peer-reviewed background source.
+
+        **How I use it:** I use this source to strengthen the plant-biology
+        background. It supports my explanation that plants can reduce
+        herbivore damage through structural traits, secondary metabolites,
+        anti-nutritional compounds, inducible defenses, and indirect
+        ecological defenses.
+
+        ---
+
+        **5. Stenberg, J. A., & Muola, A. (2017).**
+        *How should plant resistance to herbivores be measured?*
+        **Frontiers in Plant Science, 8**, 663.
+
+        Link: https://doi.org/10.3389/fpls.2017.00663
+
+        **Source type:** Peer-reviewed background source.
+
+        **How I use it:** I use this source to interpret visible leaf damage
+        as a phenotype. My app treats damage severity as an observable outcome
+        of the plant–herbivore interaction, but damage is not identical to a
+        molecular defense mechanism. This source helps justify why phenotype
+        measurement design matters.
+
+        ---
+
+        **6. Peterson, R. K. D., Varella, A. C., & Higley, L. G. (2017).**
+        *Tolerance: The forgotten child of plant resistance.*
+        **PeerJ, 5**, e3934.
+
+        Link: https://doi.org/10.7717/peerj.3934
+
+        **Source type:** Peer-reviewed background source.
+
+        **How I use it:** I use this source to develop the future-research
+        section. A plant can resist herbivory by reducing feeding or herbivore
+        performance, whereas a tolerant plant can maintain or recover growth
+        and reproduction after damage. This distinction motivates my proposed
+        follow-up experiment.
+
+        ---
+
+        ### Data provenance for this app
+
+        | App data file | Original source within Gan et al. (2025) | How it is used in the app |
+        |---|---|---|
+        | `cnn_model_performance.csv` | Supplementary Table S1 | Compares CNN model performance for binary image classification. |
+        | `grapevine_phenotypes.csv` | Supplementary Table S3 | Provides 231 accession-level binary and continuous pest-damage phenotypes. |
+        | `binary_gwas_loci.csv` | Supplementary Table S4 | Shows GWAS loci associated with the binary pest-damage phenotype. |
+        | `continuous_gwas_loci.csv` | Supplementary Table S5 | Shows GWAS loci associated with the continuous pest-damage phenotype. |
+        | `candidate_gene_summary.csv` | Supplementary Tables S8–S9 | Summarizes nonredundant candidate genes from binary and continuous GWAS results. |
+        | `highlighted_genes.csv` | Derived from Gan et al. (2025) candidate-gene interpretation | Highlights biologically important genes such as ACA12 and CRK3 for explanation. |
+        | `binary_gs_performance.csv` | Supplementary Table S12 | Visualizes cross-validation results for genomic selection using the binary phenotype. |
+        | `continuous_gs_performance.csv` | Supplementary Table S13 | Visualizes cross-validation results for genomic selection using the continuous phenotype. |
+
+        ### Important limitations
+
+        This app analyzes extracted published data from Gan et al. (2025).
+        It does not rerun the original deep-learning training, GWAS,
+        transcriptomic analysis, or genomic-selection pipeline. It is an
+        explanatory, interactive final project built to connect plant herbivory,
+        image-based phenotyping, genetic association, candidate genes, and
+        breeding prediction.
         """
     )
+    
